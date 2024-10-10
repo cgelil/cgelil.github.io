@@ -67,12 +67,6 @@
         <figure id="Location1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
 
-
-    <!-- Do you want to add more sections? -->
-        <!-- Try copying pasting the section above -->
-        <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
-        <!-- ... and add a new variable for the graph spec in the script at the bottom of the page -->
-
         <section>
             <div class="chart-description">
                 <h2>Section 2: Some descriptive generic charts</h2>
@@ -90,7 +84,7 @@
             <div class="chart-description">
                 <h2>Section 3: More experimenting with the website</h2>
             </div>
-            <figure id="Location5"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+            <figure id="Location5"></figure> 
         </section>
 
     <!-- This is a script, it's a way to run JavaScript code on the page -->
@@ -101,9 +95,9 @@
         let figure_2_spec = "chartLine3.json"; 
         let figure_3_spec = "visualization.vl-2.json"; 
         let figure_4_spec = "COTD_entitlement.json";
-        let figure_5_spec = "map_chart.json";
+        let figure_5_spec = "country_labor_participation_modeled_1564.json";
 
-        vegaEmbed('#Location1', figure_3_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
+        vegaEmbed('#Location1', figure_3_spec) 
         vegaEmbed('#Location2', figure_2_spec) 
         vegaEmbed('#Location3', figure_1_spec) 
         vegaEmbed('#Location4', figure_4_spec) 
