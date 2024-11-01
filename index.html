@@ -60,6 +60,7 @@
                     Now embed these two charts in your page.
                 </p>
             </div>
+            <div id="chartGrid">
             <figure id="Location3"></figure>
             <figure id="Location4"></figure>
 
@@ -68,8 +69,16 @@
     <section>
             <div class="chart-description">
                 <h2>Coding Challenge 3 – Using a visualisation in economic/policy commentary
+                    <p> 
+                        Produce two charts that support or refute (or are related to in some way) a topic discussed at the Festival of Economics.
+                        https://www.economicsobservatory.com/festival-of-economics-2024
+
+                        The first 100 days: Has the new government got its priorities right for kick-starting Britain?
+                        https://www.economicsobservatory.com/the-first-100-days-has-the-new-government-got-its-priorities-right-for-kick-starting-britain
+                    </p>
             </div>
             <figure id="Location5"></figure> 
+            <figure id="Location6"></figure> 
     </section>
 
     <!-- This is a script, it's a way to run JavaScript code on the page -->
@@ -78,15 +87,17 @@
 
         let figure_1_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartClassExample2_7.json"; 
         let figure_2_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartClassExample2_8.json"; 
-        let figure_3_spec = "CC2_fig1.json"; 
-        let figure_4_spec = "CC2_fig2.json";
-        let figure_5_spec = "country_labor_participation_modeled_1564.json";
+        let figure_3_spec = "https://github.com/cgelil/cgelil.github.io/blob/main/CC2_fig1.json"; 
+        let figure_4_spec = "https://github.com/cgelil/cgelil.github.io/blob/main/CC2_fig2.json";
+        let figure_5_spec = "CC3_fig1.json";
+        let figure_6_spec = "CC3_fig2.json";
 
         vegaEmbed('#Location1', figure_1_spec) 
         vegaEmbed('#Location2', figure_2_spec) 
         vegaEmbed('#Location3', figure_3_spec) 
         vegaEmbed('#Location4', figure_4_spec) 
         vegaEmbed('#Location5', figure_5_spec) 
+        vegaEmbed('#Location6', figure_6_spec) 
 
 
     </script>
