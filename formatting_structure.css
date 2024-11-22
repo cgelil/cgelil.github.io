@@ -4,8 +4,14 @@
 /* These are comments in CSS. Comments don't do anything except explain your working to make code easier to understand. */
 
 
-body { /* We can style any HTML element by using its name - here we're styling the body */
-  /* We want text that uses a clean sans-serif font, is usually 16px big and close to black */
+#chartGrid {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; 
+}
+
+
+body { 
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #333;
@@ -65,3 +71,14 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.chart-description {
+  color: #333;                /* Text color */
+  font-size: 16px;            /* Font size */
+  margin-bottom: 20px;        /* Space below the section */
+  background-color: #f9f9f9;  /* Light gray background */
+  padding: 15px;              /* Add space inside the box */
+  border-radius: 5px;         /* Optional: Rounded corners */
+  border: 1px solid #ccc;     /* Optional: Add a subtle border for emphasis */
+}
+

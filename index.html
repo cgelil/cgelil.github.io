@@ -1,12 +1,12 @@
 
-<!-- Main portfolio page -->
+
 
 <!DOCTYPE html>
 <html> 
 
 <head>    
 
-    <link rel="stylesheet" type="text/css" href="Example3.css">
+    <link rel="stylesheet" type="text/css" href="formatting_structure.css">
     <title>Portfolio Abdelgelil</title> 
 
     <!-- This is a link to the vega-lite which we're using to make graphs -->
@@ -14,14 +14,6 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
-    <style>
-        #chartGrid {
-            display: flex;
-            justify-content: space-between;
-            gap: 10px; 
-        }
-        
-    </style>
 </head>
 
 <body> 
@@ -68,17 +60,57 @@
 
     <section>
             <div class="chart-description">
-                <h2>Coding Challenge 3 – Using a visualisation in economic/policy commentary
-                    <p> 
-                        Produce two charts that support or refute (or are related to in some way) a topic discussed at the Festival of Economics.
-                        https://www.economicsobservatory.com/festival-of-economics-2024
+                <h2>Coding Challenge 3 – Using a visualisation in economic/policy commentary</h2>
+                <p> 
+                    <li>Produce two charts that support or refute (or are related to in some way) a topic discussed at the Festival of Economics.
+                    https://www.economicsobservatory.com/festival-of-economics-2024</li>
 
-                        The first 100 days: Has the new government got its priorities right for kick-starting Britain?
-                        https://www.economicsobservatory.com/the-first-100-days-has-the-new-government-got-its-priorities-right-for-kick-starting-britain
-                    </p>
+                    <li>The first 100 days: Has the new government got its priorities right for kick-starting Britain?
+                    https://www.economicsobservatory.com/the-first-100-days-has-the-new-government-got-its-priorities-right-for-kick-starting-britain</li>
+
+                    <li>Set out (not more than 25 words) a topic that was discussed.
+                        • Make two charts that support or refute it or a related to an argument on this topic. This could be two that support, two that refute, or a mixture.
+                        • Comment (not more than 25 words) on what you find. Your commentary should be placed near the chart in a way that makes it intuitive to your site’s users (i.e., above, below, or to the side).</li>
+                </p>
+                <p>
+                    <strong>Chosen Topic:</strong> Housing affordability and vacancy rates challenge the new government’s goal of making housing more accessible and affordable for UK residents.
+                </p>
+                
+                <figure id="Location5"></figure> 
+                <ul>
+                    <li> Rental prices in London and Northern Ireland continue to rise sharply, challenging housing affordability for residents.</li>
+                
+                <figure id="Location6"></figure>                    
+                    
+                    <li>The UK has a relatively low vacancy rate compared to other OECD nations, suggesting limited availability may contribute to higher rental prices.</li>
+                </ul>
+                
             </div>
-            <figure id="Location5"></figure> 
-            <figure id="Location6"></figure> 
+
+
+    </section>
+    <div class="chart-description">
+
+    <h2> Coding Challenge 4: Replication. Re-create, then improve, someone else’s chart.</h2>
+    <p>Find a chart that a journalist, think tank, television channel or company has used. Your challenge this week is to replicate it, and then improve on it. Refer back to our discussion of the do’s and don’ts of visualisation for guidance.</p>
+    <p> find something from https://www.reddit.com/r/dataisugly/</p>
+
+    <div class="chart-description">
+    <section>
+
+    </section>
+    <div class="chart-description">
+    <h2> Coding Challenge 5: Scraper. Implement a data scraper of your own.</h2>
+    <p>This week we have discussed the simple ways of scraping data from websites. Using a Google Colab python notebook, scrape a website through one of the presented methods in class (pandas read_html or beautifulsoup). This can be any source, any data.
+        Then clean and normalise the data and export into TIDY (long form) format.</p>
+    <p> 1. A link to the Google Collab python notebook where you conducted your data analysis (make sure you make it publicly accessible!)
+        2. A chart built with the data from the previous point. It is up to you what how do you reference and include the data in the Vega-lite chart specification.
+        3. Comment (not more than 25 words) why did you choose this site.</p>
+
+        <div class="chart-description">
+    <section>
+
+
     </section>
 
     <!-- This is a script, it's a way to run JavaScript code on the page -->
@@ -87,8 +119,8 @@
 
         let figure_1_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartClassExample2_7.json"; 
         let figure_2_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartClassExample2_8.json"; 
-        let figure_3_spec = "https://github.com/cgelil/cgelil.github.io/blob/main/CC2_fig1.json"; 
-        let figure_4_spec = "https://github.com/cgelil/cgelil.github.io/blob/main/CC2_fig2.json";
+        let figure_3_spec = "CC2_fig1.json"; 
+        let figure_4_spec = "CC2_fig2.json";
         let figure_5_spec = "CC3_fig1.json";
         let figure_6_spec = "CC3_fig2.json";
 
