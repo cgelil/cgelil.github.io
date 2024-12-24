@@ -1,84 +1,123 @@
-/* This is an example CSS file. If you include it in your portfolio, it'll provide some clean and basic styling */
-/* for your page. Feel free to experiment with the values, or copy them into a new file and use that instead. */
-
-/* These are comments in CSS. Comments don't do anything except explain your working to make code easier to understand. */
-
-
-#chartGrid {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px; 
+/* Base styles */
+body {
+  font-family: Georgia, serif;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 900px; /* Keeps the width not too wide */
+  font-size: 18px; /* Slightly larger base font size for better readability */
+  line-height: 1.6; /* Increases line height for readability */
 }
 
-
-body { 
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  color: #333;
-  line-height: 1.6;
-  /* we want a white page, that's centered and not too wide */
-  background-color: #fff;
-  margin:0 auto;
-  max-width: 800px;
-  padding-top: 60px;
-}
-
-
-/* Headings */
+/* Typography */
 h1, h2, h3, h4, h5, h6 {
-  color: #333;
-  margin-top: 24px;
-  margin-bottom: 16px;
-  font-weight: 600;
+  font-weight: bold;
+  color: #1a202c; /* dark gray for headings */
 }
 
-/* We want the headings to be a little bigger than the paragraph text */
-.big { /* This is the class we created in the HTML file, you can use it to style any element */
-  font-size: 2.5em;
+h1 {
+  font-size: 2.5rem; /* Larger font size for the main header */
 }
 
 h2 {
-  font-size: 1.75em;
+  font-size: 2rem; /* Larger sub-headings */
 }
 
-.small {
-  font-size: 1.25em;
+h3 {
+  font-size: 1.75rem; /* Slightly larger than default for smaller headings */
 }
 
-/* Paragraph */
+h4, h5, h6 {
+  font-size: 1.5rem; /* Adjust these smaller headings for consistency */
+}
+
 p {
-  margin-bottom: 1em;
-  font-weight: 300;
-}
-
-section {
-  margin-bottom: 2.5em;  /* We want a little more space between sections */
+  color: #4a5568; /* medium gray for body text */
+  font-size: 1.125rem; /* Larger font size for paragraphs */
+  line-height: 1.8; /* Slightly more line height for readability */
+  margin-bottom: 1rem; /* Adds space between paragraphs */
 }
 
 /* Links */
-/* We want the links to be a little more visible  and a different color */
 a {
-  color: #065f46;
+  color: #2b6cb0; /* blue for links */
   text-decoration: none;
 }
-
 a:hover {
-  text-decoration: underline;
+  color: #2c5282; /* darker blue on hover */
 }
+
+/* Buttons */
+.button {
+  background-color: #2f855a; /* green for buttons */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #276749;
+}
+
+/* Containers */
+.container {
+  padding: 20px;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.pt-4 {
+  padding-top: 1rem;
+}
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+/* Accent colors */
+.text-primary {
+  color: #2b6cb0;
+}
+.text-secondary {
+  color: #718096;
+}
+.text-accent {
+  color: #d69e2e;
+}
+.bg-primary {
+  background-color: #2b6cb0;
+}
+.bg-secondary {
+  background-color: #718096;
+}
+.bg-accent {
+  background-color: #d69e2e;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  body {
+    max-width: 100%;
+    padding: 10px;
+    font-size: 16px; /* Slightly smaller text on smaller screens */
+  }
   
-/* Images */
-img {
-  max-width: 100%;
-  height: auto;
-}
+  h1 {
+    font-size: 2rem; /* Smaller font size for the main header on smaller screens */
+  }
 
-.chart-description {
-  color: #333;                /* Text color */
-  font-size: 16px;            /* Font size */
-  margin-bottom: 20px;        /* Space below the section */
-  background-color: #f9f9f9;  /* Light gray background */
-  padding: 15px;              /* Add space inside the box */
-  border-radius: 5px;         /* Optional: Rounded corners */
-  border: 1px solid #ccc;     /* Optional: Add a subtle border for emphasis */
-}
+  h2 {
+    font-size: 1.75rem;
+  }
 
+  h3 {
+    font-size: 1.5rem;
+  }
+}
