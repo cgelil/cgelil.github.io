@@ -29,7 +29,7 @@
   },
   "encoding": {
     "tooltip": {
-      "field": "properties.shapeName",
+      "field": "properties.ADM1_EN",
       "type": "nominal",
       "title": "Governorate"
     }
