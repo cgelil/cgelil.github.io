@@ -1,16 +1,37 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "simple bar chart with embedded data",
-  "data": {
-    "values": [
-      {"a": "A","b": 28}, 
-      {"a": "B","b": 55}, 
-      {"a": "C","b": 43}
-    ]
+  "title": {
+    "text": "Administrative Regions of Egypt",
+    "subtitle": [
+      "Governorate Boundaries",
+      ""
+    ],
+    "anchor": "start",
+    "fontSize": 16,
+    "subtitleFontSize": 12,
+    "subtitleFontWeight": "lighter"
   },
-  "mark": "bar",
+  "width": 600,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/geoBoundaries-EGY-ADM1.geojson",
+    "format": {"property": "features"}
+  },
+  "projection": {
+    "type": "identity",
+    "reflectY": true
+  },
+  "mark": {
+    "type": "geoshape",
+    "fill": "steelblue",
+    "stroke": "white",
+    "strokeWidth": 0.5
+  },
   "encoding": {
-    "x": {"field": "a", "type": "ordinal"},
-    "y": {"field": "b", "type": "quantitative"}
+    "tooltip": {
+      "field": "properties.shapeName",
+      "type": "nominal",
+      "title": "Governorate"
+    }
   }
 }
