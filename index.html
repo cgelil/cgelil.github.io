@@ -1,164 +1,113 @@
-
-
-
 <!DOCTYPE html>
 <html> 
-
 <head>    
-
     <link rel="stylesheet" type="text/css" href="formatting_structure.css">
-    <title>Portfolio Abdelgelil</title> 
+    <title>Portfolio Page Abdelgelil</title> 
 
-    <!-- This is a link to the vega-lite which we're using to make graphs -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-
 </head>
 
 <body> 
-    <div class="container">
-
-    <h1 class="big" style="margin-bottom: 0px;"> <!--  margin to 0px so the header and authour name are close together -->
-        Portfolio for PP433
-    </h1>
-    <p style="margin-top: 0px;"> <!--  margin to 0px so the header and authour name are close together -->
-        
-        Camelia Abdelgelil | <a href="https://www.linkedin.com/in/camelia-abdelgelil/">LinkedIn</a> | <a
-            href="https://github.com/cgelil">GitHub</a>  | <a
-            href="projectpage.html">Project Page</a> 
-    </p>
-    <h3 class="small"> 
-        This is a compilation of all the portfolio challenges in PP433
-    </h3>
-
-    <section>
-        <div class="chart-description">
-            <h2>Coding challenge 1 – Hosting someone else’s visualisation</h2>
-            <p> 
-                Adding two charts using the vegaembed function.
-            </p>
+    <div class="header">
+        <div class="header-name">
+            PP434 Portfolio
         </div>
-        <div id="chartGrid">
-        <figure id="Location1"></figure> 
-        <figure id="Location2"></figure>
-    </section>
-
-    <section>
-            <div class="chart-description">
-                <h2>Coding challenge 2 – Building your own visualisation</h2>
-                <p> 
-                    Build two separate charts using the “create” tool in the Economics Observatory
-                    When you are happy with the charts, take the json code that generates them, and save this as two new .json files in your GitHub repo.
-                    Now embed these two charts in your page.
-                </p>
+        <div class="dropdown">
+            <div class="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
             </div>
-            <div id="chartGrid">
-            <figure id="Location3"></figure>
-            <figure id="Location4"></figure>
-
-    </section>
-
-    <section>
-            <div class="chart-description">
-                <h2>Coding Challenge 3 – Using a visualisation in economic/policy commentary</h2>
-                <p> 
-                    <li>Produce two charts that support or refute (or are related to in some way) a topic discussed at the Festival of Economics.
-                    https://www.economicsobservatory.com/festival-of-economics-2024</li>
-
-                    <li>The first 100 days: Has the new government got its priorities right for kick-starting Britain?
-                    https://www.economicsobservatory.com/the-first-100-days-has-the-new-government-got-its-priorities-right-for-kick-starting-britain</li>
-
-                    <li>Set out (not more than 25 words) a topic that was discussed.
-                        • Make two charts that support or refute it or a related to an argument on this topic. This could be two that support, two that refute, or a mixture.
-                        • Comment (not more than 25 words) on what you find. Your commentary should be placed near the chart in a way that makes it intuitive to your site’s users (i.e., above, below, or to the side).</li>
-                </p>
-                <p>
-                    <strong>Chosen Topic:</strong> Housing affordability and vacancy rates challenge the new government’s goal of making housing more accessible and affordable for UK residents.
-                </p>
-                
-                <figure id="Location5"></figure> 
-                <ul>
-                    <li> Rental prices in London and Northern Ireland continue to rise sharply, challenging housing affordability for residents.</li>
-                
-                <figure id="Location6"></figure>                    
-                    
-                    <li>The UK has a relatively low vacancy rate compared to other OECD nations, suggesting limited availability may contribute to higher rental prices.</li>
-                </ul>
-                
+            <div class="dropdown-content">
+                <a href="https://www.linkedin.com/in/camelia-abdelgelil/">LinkedIn</a>
+                <a href="https://github.com/cgelil">GitHub</a>
+                <a href="projectpage.html">Project Page</a>
             </div>
+        </div>
+    </div>
 
+    <div class="introduction">
+        <main>VISUAL OUTPUTS FROM PP434: Automated Data Visualisation for Policymaking</main>
+        <sub>AT 2024/25</sub>
+    </div>
 
-    </section>
+    <div class="container">
+        <section>
+            <h2>Coding challenge 1 – Hosting someone else’s visualisation</h2>
+            <p>Adding two charts using the vegaembed function.</p>
+            <div class="chart-grid">
+                <figure id="Location1"></figure> 
+                <figure id="Location2"></figure>
+            </div>
+        </section>
 
-    <div class="chart-description">
+        <section>
+            <h2>Coding challenge 2 – Building my own visualisation</h2>
+            <p>Embed two charts built using the "create" tool in the Economics Observatory.</p>
+            <div class="chart-grid">
+                <figure id="Location3"></figure>
+                <figure id="Location4"></figure>
+            </div>
+        </section>
 
-    <h2> Coding Challenge 4: Replication. Re-create, then improve, someone else’s chart.</h2>
-    <p>Find a chart that a journalist, think tank, television channel or company has used. Your challenge this week is to replicate it, and then improve on it. Refer back to our discussion of the do’s and don’ts of visualisation for guidance.</p>
-    <p> find something from https://www.reddit.com/r/dataisugly/</p>
+        <section>
+            <h2>Coding Challenge 3 – Using a visualisation in economic/policy commentary</h2>
+            <p>Chosen topic: The kids aren’t alright: Tackling a legacy of child poverty, bad diets and poor health
+                 https://www.economicsobservatory.com/the-kids-arent-alright-tackling-a-legacy-of-child-poverty-bad-diets-and-poor-health
+                 In this event, the expert panel discussed issues affecting young children in the UK, such as poverty and health, and how they might affect health outcomes. 
+            </p>
+            <figure id="Location5"></figure>
+            <ul>
+                <li></li>
+            </ul>
+            <figure id="Location6"></figure>
+            <ul>
+                <li>The UK has a relatively low vacancy rate compared to other OECD nations, suggesting limited availability contributes to higher rental prices.</li>
+            </ul>
+        </section>
 
-    <div class="chart-description">
-    <section>
+        <section>
+            <h2>Coding Challenge 4: Replication – Re-create, then improve, someone else’s chart</h2>
+            <p>Find a chart to replicate and improve on. See more at <a href="https://www.reddit.com/r/dataisugly/">Data is Ugly</a>.</p>
+        </section>
 
-    </section>
-    <div class="chart-description">
-    <h2> Coding Challenge 5: Scraper. Implement a data scraper of your own.</h2>
-    <p>This week we have discussed the simple ways of scraping data from websites. Using a Google Colab python notebook, scrape a website through one of the presented methods in class (pandas read_html or beautifulsoup). This can be any source, any data.
-        Then clean and normalise the data and export into TIDY (long form) format.</p>
-    <p> 1. A link to the Google Collab python notebook where you conducted your data analysis (make sure you make it publicly accessible!)
-        2. A chart built with the data from the previous point. It is up to you what how do you reference and include the data in the Vega-lite chart specification.
-        3. Comment (not more than 25 words) why did you choose this site.</p>
+        <section>
+            <h2>Coding Challenge 5: Scraper – Implement a data scraper</h2>
+            <p>Scrape a website using a Google Colab Python notebook, clean, and normalize the data in TIDY format. Embed a chart with the cleaned data.</p>
+        </section>
 
-        <div class="chart-description">
-    <section>
+        <section>
+            <h2>Coding Challenge 6: Loops – Build a dashboard</h2>
+            <p>Use the ONS API to download nine different series as JSON files using a loop and save them to your GitHub account.</p>
+        </section>
 
-    </section>
-    <div class="chart-description">
-    <h2> Coding Challenge 6: Loops. Build a dashboard.</h2>
-    <p> Use the ONS API to batch download nine different series as JSON files using a loop.
-        Save these to your GitHub account, and use these (as “raw” files) to supply the</p>
-        <div class="chart-description">
-    <section>
+        <section>
+            <h2>Coding Challenge 7: Maps – Base maps and choropleths</h2>
+            <p>Produce two maps of the same area, region, or city, and embed them in the portfolio page.</p>
+        </section>
 
-    </section>
-    <div class="chart-description">
-    <h2> Coding Challenge 7: Maps. Base maps and choropleths.</h2>
-    <p> Produce two maps and embed them in your portfolio page. Both should be of the same country, region, area, city.
-         The map must be of a “P21” country (of part of it, so a map of Kinshasa, for example, would be fine).</p>
-        <div class="chart-description">
-    <section>
+        <section>
+            <h2>Coding Challenge 8: Big Data – Extracting a story from millions of prices</h2>
+            <p>Use UK price datasets to create two charts and explain what you have done in 50 words.</p>
+        </section>
 
-    </section>
-    <div class="chart-description">
-    <h2> Coding Challenge 8: Big Data. Extracting a story from millions of prices.</h2>
-    <p> Produce two charts using either of the two UK prices datasets provided in class. 
-        Both charts can be from the same database, or you can produce one from each. 
-        Explain, in no more than 50 words, what you have done.</p>
-        <div class="chart-description">
-    <section>
+        <script>
+            let figure_1_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartClassExample2_7.json"; 
+            let figure_2_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartClassExample3_5.json"; 
+            let figure_3_spec = "CC2_fig1.json"; 
+            let figure_4_spec = "CC2_fig2.json";
+            let figure_5_spec = "CC3_fig1.json";
+            let figure_6_spec = "CC3_fig2.json";
 
-
-
-    <script>
-
-
-        let figure_1_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartClassExample2_7.json"; 
-        let figure_2_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartClassExample2_8.json"; 
-        let figure_3_spec = "CC2_fig1.json"; 
-        let figure_4_spec = "CC2_fig2.json";
-        let figure_5_spec = "CC3_fig1.json";
-        let figure_6_spec = "CC3_fig2.json";
-
-        vegaEmbed('#Location1', figure_1_spec) 
-        vegaEmbed('#Location2', figure_2_spec) 
-        vegaEmbed('#Location3', figure_3_spec)
-        vegaEmbed('#Location4', figure_4_spec)
-        vegaEmbed('#Location5', figure_5_spec) 
-        vegaEmbed('#Location6', figure_6_spec) 
-
-
-    </script>
-</div>
+            vegaEmbed('#Location1', figure_1_spec);
+            vegaEmbed('#Location2', figure_2_spec);
+            vegaEmbed('#Location3', figure_3_spec);
+            vegaEmbed('#Location4', figure_4_spec);
+            vegaEmbed('#Location5', figure_5_spec);
+            vegaEmbed('#Location6', figure_6_spec);
+        </script>
+    </div>
 </body>
-    
 </html>

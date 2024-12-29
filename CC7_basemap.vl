@@ -14,7 +14,7 @@
   "width": 600,
   "height": 400,
   "data": {
-    "url": "https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/geoBoundaries-EGY-ADM1.geojson",
+    "url": "https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/egy_admbnda_adm1_capmas_20170421_geo.json",
     "format": {"property": "features"}
   },
   "projection": {

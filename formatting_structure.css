@@ -1,123 +1,194 @@
-/* Base styles */
+/* Body and general styling */
 body {
   font-family: Georgia, serif;
+  padding: 20;
+  margin: 0;
+  font-size: 28px; /* Adjusted font size */
+  color: #001d3d;
+  scroll-behavior: smooth;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px; 
+  padding-top:80px;
+  padding-left:50px;
+  padding-right:50px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #81a4cd;
+}
+
+.header-name {
+  font-size: 2rem; /* Adjusted font size */
+  color: #000814;
+  font-family: Helvetica, sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  margin-right: 5px; 
+}
+
+.menu-icon {
+  width: 60px; /* Adjusted size */
+  height: 60px; /* Adjusted size */
+  background-color: #F17300; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: -160px;
+}
+
+.bar {
+  width: 40px; /* Adjusted size */
+  height: 4px; /* Adjusted size */
+  background-color: white;
+  margin: 3px 0; /* Adjusted margin */
+  border-radius: 2px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #ffffff;
+  min-width: 160px;
+  z-index: 1;
+  border-radius: 4px;
+  left: -260px;
+  overflow: hidden;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: #000814;
+  padding: 10px 12px; /* Adjusted padding */
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+  color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Container to hold content */
+.container {
+  max-width: 1500px; /* Adjusted width */
   margin: 0 auto;
-  padding: 0;
-  max-width: 900px; /* Keeps the width not too wide */
-  font-size: 18px; /* Slightly larger base font size for better readability */
-  line-height: 1.6; /* Increases line height for readability */
+  padding: 10px;
+  width: 100%;
+  padding-top: 20px; /* Adjusted padding */
 }
 
-/* Typography */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  color: #1a202c; /* dark gray for headings */
+/* Introduction section */
+.introduction {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  background-color: #81a4cd;
+  padding-left: 500px; /* Added padding */
+  padding-right: 500px; /* Added padding */
 }
 
-h1 {
-  font-size: 2.5rem; /* Larger font size for the main header */
+.introduction main {
+  font-size: 3rem; /* Adjusted font size */
+  font-weight: normal;
+  color: #000814;
+}
+
+.introduction sub {
+  font-size: 1.5rem; /* Adjusted font size */
+  font-weight: normal;
+  color: #000814;
+  margin-top: 5px;
+}
+
+/* Section Styles */
+section {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+h1, h3 {
+  margin: 0 0 10px;
 }
 
 h2 {
-  font-size: 2rem; /* Larger sub-headings */
+  margin: 0 0 10px;
+  font-size: 2rem;
 }
 
-h3 {
-  font-size: 1.75rem; /* Slightly larger than default for smaller headings */
-}
-
-h4, h5, h6 {
-  font-size: 1.5rem; /* Adjust these smaller headings for consistency */
-}
-
-p {
-  color: #4a5568; /* medium gray for body text */
-  font-size: 1.125rem; /* Larger font size for paragraphs */
-  line-height: 1.8; /* Slightly more line height for readability */
-  margin-bottom: 1rem; /* Adds space between paragraphs */
-}
-
-/* Links */
 a {
-  color: #2b6cb0; /* blue for links */
+  color: #007bff;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
+
 a:hover {
-  color: #2c5282; /* darker blue on hover */
+  color: #0056b3;
+  text-decoration: underline;
 }
 
-/* Buttons */
-.button {
-  background-color: #2f855a; /* green for buttons */
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-}
-.button:hover {
-  background-color: #276749;
+/* Layout for charts grid */
+.chart-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
 }
 
-/* Containers */
-.container {
-  padding: 20px;
+figure {
+  flex: 1 1 calc(50% - 20px);
+  margin: 0;
 }
 
-/* Utility classes */
-.text-center {
-  text-align: center;
-}
-.mt-4 {
-  margin-top: 1rem;
-}
-.mb-4 {
-  margin-bottom: 1rem;
-}
-.pt-4 {
-  padding-top: 1rem;
-}
-.pb-4 {
-  padding-bottom: 1rem;
+/* Styling for chart descriptions */
+.chart-description {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #333333;
 }
 
-/* Accent colors */
-.text-primary {
-  color: #2b6cb0;
-}
-.text-secondary {
-  color: #718096;
-}
-.text-accent {
-  color: #d69e2e;
-}
-.bg-primary {
-  background-color: #2b6cb0;
-}
-.bg-secondary {
-  background-color: #718096;
-}
-.bg-accent {
-  background-color: #d69e2e;
+/* Spinner for loading indicators */
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #000814;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
 }
 
-/* Responsive adjustments */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Responsive design */
 @media (max-width: 768px) {
-  body {
-    max-width: 100%;
-    padding: 10px;
-    font-size: 16px; /* Slightly smaller text on smaller screens */
+  .header {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  h1 {
-    font-size: 2rem; /* Smaller font size for the main header on smaller screens */
+  .dropdown-content {
+    right: auto;
+    left: 0;
   }
-
-  h2 {
-    font-size: 1.75rem;
-  }
-
-  h3 {
-    font-size: 1.5rem;
+  .chart-grid {
+    flex-direction: column;
   }
 }

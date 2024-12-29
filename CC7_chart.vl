@@ -1,0 +1,53 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Subnational Population",
+    "subtitle": [
+      "Egypt Governorate Regions",
+      "Source: CAPMAS"
+    ],
+    "anchor": "start",
+    "fontSize": 16,
+    "subtitleFontSize": 12,
+    "subtitleFontWeight": "lighter"
+  },
+  "width": 600,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/egy_admbnda_adm1_capmas_20170421_geo.json",
+    "format": {"property": "features"}
+  },
+  "projection": {
+    "type": "identity",
+    "reflectY": true
+  },
+  "transform": [
+    {
+      "lookup": "properties.ADM1_PCODE",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/egypt_population_estimate_compas_2012_v1.1_0_fis_v2.csv"
+        },
+        "key": "ADM1_PCODE",
+        "fields": ["T_TL"]
+      }
+    }
+  ],
+  "mark": {
+    "type": "geoshape",
+    "stroke": "white",
+    "strokeWidth": 0.5
+  },
+  "encoding": {
+    "color": {
+      "field": "T_TL",
+      "type": "quantitative",
+      "title": "Total Population",
+      "scale": {"scheme": "blues"}
+    },
+    "tooltip": [
+      {"field": "properties.ADM1_EN", "type": "nominal", "title": "Governorate"},
+      {"field": "T_TL", "type": "quantitative", "title": "Total Population"}
+    ]
+  }
+}
