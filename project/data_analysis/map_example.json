@@ -1,0 +1,36 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Subnational Population",
+    "subtitle": ["Egypt Governorate Regions", "Source: CAPMAS"],
+    "anchor": "start",
+    "fontSize": 16,
+    "subtitleFontSize": 12,
+    "subtitleFontWeight": "lighter"
+  },
+  "width": 600,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/project/data_analysis/ipc_geoson.json",
+    "format": {"type": "json", "property": "features"}
+  },
+  "projection": {"type": "identity", "reflectY": true},
+  "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.5},
+  "encoding": {
+    "color": {
+      "field": "properties.color",
+      "type": "nominal",
+      "title": "IPC Phase Color"
+    },
+    "tooltip": [
+      {"field": "properties.title", "type": "nominal", "title": "Area"},
+      {"field": "properties.estimated_population", "type": "quantitative", "title": "Estimated Population"},
+      {"field": "properties.phase1_population", "type": "quantitative", "title": "Phase 1 Population"},
+      {"field": "properties.phase2_population", "type": "quantitative", "title": "Phase 2 Population"},
+      {"field": "properties.phase3_population", "type": "quantitative", "title": "Phase 3 Population"},
+      {"field": "properties.phase4_population", "type": "quantitative", "title": "Phase 4 Population"},
+      {"field": "properties.phase5_population", "type": "quantitative", "title": "Phase 5 Population"}
+    ]
+  },
+  "config": {}
+}
