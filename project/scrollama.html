@@ -8,12 +8,37 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+    <!-- Intro Section -->
+    <section class="intro">
+        <h1>Visualizing the Impact of the Sudanese War on Food Security</h1>
+        <p>This visualization explores the impact of the ongoing Sudanese conflict on food security from 2021 to 2024, using GeoJSON data to show changes in food insecurity over time. The maps below represent data from different years, highlighting the evolution of the situation and providing a clear visual representation of food security in Sudan during this period.</p>
+    </section>
+
+    <!-- Map Container -->
     <div class="map-container">
         <!-- First map -->
-        <svg id="map1" width="800" height="600"></svg>
+        <div class="map-item">
+            <div class="map-header">2021</div>
+            <svg id="map1"></svg>
+        </div>
         <!-- Second map -->
-        <svg id="map2" width="800" height="600"></svg>
+        <div class="map-item">
+            <div class="map-header">2022</div>
+            <svg id="map2"></svg>
+        </div>
+        <!-- Third map -->
+        <div class="map-item">
+            <div class="map-header">2023</div>
+            <svg id="map3"></svg>
+        </div>
+        <!-- Fourth map -->
+        <div class="map-item">
+            <div class="map-header">2024</div>
+            <svg id="map4"></svg>
+        </div>
     </div>
+
+    <!-- Tooltip -->
     <div class="tooltip"></div>
 
     <!-- Link to external JavaScript file -->
