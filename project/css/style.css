@@ -42,4 +42,27 @@ body, html {
 #chart {
   border: 1px solid #ddd;
 }
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    height: auto;
+    padding: 8px;
+    font: 12px sans-serif;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    pointer-events: none;
+    visibility: hidden;
+}
+path {
+    stroke: #fff;
+    stroke-width: 0.5;
+}
+.map-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
 
