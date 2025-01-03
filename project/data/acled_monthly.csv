@@ -1,213 +1,283 @@
-month_year,disorder_type,fatalities,event_date
-2020-01,Demonstrations,0,48
-2020-01,Political violence,89,36
-2020-01,Political violence; Demonstrations,0,1
+month_year,event_type,fatalities,event_date
+2020-01,Battles,21,11
+2020-01,Explosions/Remote violence,9,1
+2020-01,Protests,0,46
 2020-01,Strategic developments,0,3
-2020-02,Demonstrations,0,49
-2020-02,Political violence,12,19
-2020-02,Political violence; Demonstrations,0,2
+2020-01,Violence against civilians,59,22
+2020-02,Battles,4,3
+2020-02,Protests,0,44
 2020-02,Strategic developments,0,4
-2020-03,Demonstrations,0,32
-2020-03,Political violence,44,25
+2020-02,Violence against civilians,8,16
+2020-03,Battles,17,5
+2020-03,Explosions/Remote violence,2,2
+2020-03,Protests,0,27
 2020-03,Strategic developments,0,3
-2020-04,Demonstrations,1,29
-2020-04,Political violence,59,34
-2020-05,Demonstrations,1,18
-2020-05,Political violence,141,52
+2020-03,Violence against civilians,25,17
+2020-04,Battles,29,10
+2020-04,Explosions/Remote violence,0,1
+2020-04,Protests,0,22
+2020-04,Violence against civilians,30,23
+2020-05,Battles,97,21
+2020-05,Protests,0,13
 2020-05,Strategic developments,0,1
-2020-06,Demonstrations,0,56
-2020-06,Political violence,133,46
-2020-06,Political violence; Demonstrations,2,6
+2020-05,Violence against civilians,43,29
+2020-06,Battles,96,20
+2020-06,Explosions/Remote violence,2,2
+2020-06,Protests,2,50
 2020-06,Strategic developments,0,3
-2020-07,Demonstrations,2,73
-2020-07,Political violence,221,51
-2020-07,Political violence; Demonstrations,12,2
+2020-06,Violence against civilians,34,22
+2020-07,Battles,171,20
+2020-07,Protests,12,67
 2020-07,Strategic developments,0,3
-2020-08,Demonstrations,0,43
-2020-08,Political violence,87,32
+2020-07,Violence against civilians,50,30
+2020-08,Battles,77,14
+2020-08,Protests,0,37
 2020-08,Strategic developments,0,1
-2020-09,Demonstrations,0,45
-2020-09,Political violence,21,20
-2020-09,Political violence; Demonstrations,2,1
+2020-08,Violence against civilians,10,18
+2020-09,Battles,1,2
+2020-09,Protests,2,43
 2020-09,Strategic developments,0,1
-2020-10,Demonstrations,8,85
-2020-10,Political violence,46,28
-2020-10,Political violence; Demonstrations,2,1
+2020-09,Violence against civilians,18,17
+2020-10,Battles,17,10
+2020-10,Protests,2,74
 2020-10,Strategic developments,0,1
-2020-11,Demonstrations,0,31
-2020-11,Political violence,15,22
+2020-10,Violence against civilians,29,18
+2020-11,Battles,2,7
+2020-11,Protests,0,30
 2020-11,Strategic developments,0,5
-2020-12,Demonstrations,0,51
-2020-12,Political violence,61,54
+2020-11,Violence against civilians,13,15
+2020-12,Battles,34,24
+2020-12,Explosions/Remote violence,0,1
+2020-12,Protests,0,47
 2020-12,Strategic developments,0,4
-2021-01,Demonstrations,0,59
-2021-01,Political violence,293,68
+2020-12,Violence against civilians,27,27
+2021-01,Battles,176,15
+2021-01,Explosions/Remote violence,0,1
+2021-01,Protests,0,47
 2021-01,Strategic developments,0,1
-2021-02,Demonstrations,4,48
-2021-02,Political violence,106,49
+2021-01,Violence against civilians,117,49
+2021-02,Battles,77,18
+2021-02,Explosions/Remote violence,4,2
+2021-02,Protests,0,32
 2021-02,Strategic developments,0,3
-2021-03,Demonstrations,0,51
-2021-03,Political violence,64,46
+2021-02,Violence against civilians,25,28
+2021-03,Battles,34,11
+2021-03,Protests,0,48
 2021-03,Strategic developments,0,4
-2021-04,Demonstrations,0,50
-2021-04,Political violence,203,40
-2021-04,Political violence; Demonstrations,2,4
+2021-03,Violence against civilians,30,33
+2021-04,Battles,179,22
+2021-04,Explosions/Remote violence,1,1
+2021-04,Protests,2,44
 2021-04,Strategic developments,0,2
-2021-05,Demonstrations,3,30
-2021-05,Political violence,99,50
-2021-05,Political violence; Demonstrations,0,1
+2021-04,Violence against civilians,23,17
+2021-05,Battles,58,20
+2021-05,Explosions/Remote violence,3,2
+2021-05,Protests,0,23
 2021-05,Strategic developments,0,3
-2021-06,Demonstrations,2,73
-2021-06,Political violence,136,56
-2021-06,Political violence; Demonstrations,1,1
+2021-05,Violence against civilians,38,25
+2021-06,Battles,106,21
+2021-06,Protests,1,62
 2021-06,Strategic developments,0,5
-2021-07,Demonstrations,0,37
-2021-07,Political violence,174,84
+2021-06,Violence against civilians,27,34
+2021-07,Battles,121,42
+2021-07,Protests,0,34
 2021-07,Strategic developments,0,4
-2021-08,Demonstrations,0,47
-2021-08,Political violence,64,50
-2021-08,Political violence; Demonstrations,2,1
+2021-07,Violence against civilians,53,42
+2021-08,Battles,24,12
+2021-08,Explosions/Remote violence,4,3
+2021-08,Protests,2,47
 2021-08,Strategic developments,0,10
-2021-09,Demonstrations,2,67
-2021-09,Political violence,43,44
+2021-08,Violence against civilians,36,35
+2021-09,Battles,23,11
+2021-09,Protests,0,60
 2021-09,Strategic developments,0,6
-2021-10,Demonstrations,3,125
-2021-10,Political violence,62,36
-2021-10,Political violence; Demonstrations,16,13
+2021-09,Violence against civilians,20,32
+2021-10,Battles,19,7
+2021-10,Protests,16,132
 2021-10,Strategic developments,0,3
-2021-11,Demonstrations,3,129
-2021-11,Political violence,154,50
-2021-11,Political violence; Demonstrations,30,13
+2021-10,Violence against civilians,42,28
+2021-11,Battles,118,16
+2021-11,Protests,30,136
 2021-11,Strategic developments,0,4
-2021-12,Demonstrations,6,141
-2021-12,Political violence,180,62
-2021-12,Political violence; Demonstrations,5,10
+2021-11,Violence against civilians,36,34
+2021-12,Battles,100,11
+2021-12,Explosions/Remote violence,1,2
+2021-12,Protests,5,149
 2021-12,Strategic developments,0,4
-2022-01,Demonstrations,2,202
-2022-01,Political violence,43,46
-2022-01,Political violence; Demonstrations,22,26
+2021-12,Violence against civilians,78,48
+2022-01,Battles,15,6
+2022-01,Explosions/Remote violence,0,1
+2022-01,Protests,22,225
 2022-01,Strategic developments,0,11
-2022-02,Demonstrations,0,131
-2022-02,Political violence,58,44
-2022-02,Political violence; Demonstrations,7,19
+2022-01,Violence against civilians,28,39
+2022-02,Battles,32,13
+2022-02,Protests,7,149
 2022-02,Strategic developments,0,11
-2022-03,Demonstrations,1,173
-2022-03,Political violence,167,55
-2022-03,Political violence; Demonstrations,7,28
+2022-02,Violence against civilians,26,29
+2022-03,Battles,97,21
+2022-03,Explosions/Remote violence,5,1
+2022-03,Protests,7,195
 2022-03,Strategic developments,0,8
-2022-04,Demonstrations,0,153
-2022-04,Political violence,320,47
-2022-04,Political violence; Demonstrations,1,3
+2022-03,Violence against civilians,61,31
+2022-04,Battles,229,15
+2022-04,Explosions/Remote violence,0,1
+2022-04,Protests,1,156
 2022-04,Strategic developments,0,3
-2022-05,Demonstrations,1,133
-2022-05,Political violence,83,65
-2022-05,Political violence; Demonstrations,7,23
+2022-04,Violence against civilians,91,31
+2022-05,Battles,37,20
+2022-05,Explosions/Remote violence,5,4
+2022-05,Protests,7,141
 2022-05,Strategic developments,0,22
-2022-06,Demonstrations,0,164
-2022-06,Political violence,257,74
-2022-06,Political violence; Demonstrations,16,28
+2022-05,Violence against civilians,39,40
+2022-06,Battles,200,36
+2022-06,Protests,16,191
 2022-06,Strategic developments,0,22
-2022-07,Demonstrations,5,94
-2022-07,Political violence,215,68
-2022-07,Political violence; Demonstrations,2,10
+2022-06,Violence against civilians,57,38
+2022-07,Battles,193,17
+2022-07,Explosions/Remote violence,0,1
+2022-07,Protests,2,99
 2022-07,Strategic developments,0,9
-2022-08,Demonstrations,0,75
-2022-08,Political violence,89,44
-2022-08,Political violence; Demonstrations,3,8
+2022-07,Violence against civilians,22,50
+2022-08,Battles,51,13
+2022-08,Explosions/Remote violence,5,2
+2022-08,Protests,3,82
 2022-08,Strategic developments,0,5
-2022-09,Demonstrations,0,88
-2022-09,Political violence,71,51
-2022-09,Political violence; Demonstrations,0,2
+2022-08,Violence against civilians,33,28
+2022-09,Battles,45,15
+2022-09,Explosions/Remote violence,3,1
+2022-09,Protests,0,84
 2022-09,Strategic developments,0,11
-2022-10,Demonstrations,1,178
-2022-10,Political violence,427,64
-2022-10,Political violence; Demonstrations,7,11
+2022-09,Violence against civilians,23,35
+2022-10,Battles,375,27
+2022-10,Explosions/Remote violence,14,1
+2022-10,Protests,7,181
 2022-10,Strategic developments,0,10
-2022-11,Demonstrations,0,110
-2022-11,Political violence,151,71
-2022-11,Political violence; Demonstrations,2,8
+2022-10,Violence against civilians,38,36
+2022-11,Battles,112,15
+2022-11,Explosions/Remote violence,0,1
+2022-11,Protests,2,116
 2022-11,Strategic developments,0,26
-2022-12,Demonstrations,0,148
-2022-12,Political violence,109,64
-2022-12,Political violence; Demonstrations,0,7
+2022-11,Violence against civilians,38,53
+2022-12,Battles,76,19
+2022-12,Explosions/Remote violence,0,3
+2022-12,Protests,0,153
 2022-12,Strategic developments,0,22
-2023-01,Demonstrations,0,121
-2023-01,Political violence,64,68
-2023-01,Political violence; Demonstrations,2,9
+2022-12,Violence against civilians,33,42
+2023-01,Battles,14,11
+2023-01,Protests,2,130
 2023-01,Strategic developments,0,37
-2023-02,Demonstrations,0,97
-2023-02,Political violence,43,58
-2023-02,Political violence; Demonstrations,3,6
+2023-01,Violence against civilians,48,55
+2023-02,Battles,13,9
+2023-02,Protests,3,94
 2023-02,Strategic developments,0,30
-2023-03,Demonstrations,0,102
-2023-03,Political violence,62,46
-2023-03,Political violence; Demonstrations,0,2
+2023-02,Violence against civilians,30,48
+2023-03,Battles,20,12
+2023-03,Explosions/Remote violence,3,2
+2023-03,Protests,0,95
 2023-03,Strategic developments,0,20
-2023-04,Demonstrations,0,102
-2023-04,Political violence,1138,338
-2023-04,Political violence; Demonstrations,1,2
+2023-03,Violence against civilians,39,32
+2023-04,Battles,992,246
+2023-04,Explosions/Remote violence,63,21
+2023-04,Protests,1,93
 2023-04,Strategic developments,0,106
-2023-05,Demonstrations,0,23
-2023-05,Political violence,1729,394
+2023-04,Violence against civilians,77,64
+2023-05,Battles,1365,253
+2023-05,Explosions/Remote violence,132,24
+2023-05,Protests,0,23
 2023-05,Strategic developments,0,147
-2023-06,Demonstrations,0,17
-2023-06,Political violence,2386,397
-2023-06,Political violence; Demonstrations,3,1
+2023-05,Violence against civilians,232,115
+2023-06,Battles,1797,250
+2023-06,Explosions/Remote violence,100,42
+2023-06,Protests,3,18
 2023-06,Strategic developments,0,100
-2023-07,Demonstrations,0,19
-2023-07,Political violence,1614,524
-2023-07,Political violence; Demonstrations,1,2
+2023-06,Violence against civilians,489,105
+2023-07,Battles,1323,363
+2023-07,Explosions/Remote violence,147,35
+2023-07,Protests,1,21
 2023-07,Strategic developments,0,109
-2023-08,Demonstrations,0,8
-2023-08,Political violence,2509,656
+2023-07,Violence against civilians,144,126
+2023-08,Battles,2267,458
+2023-08,Explosions/Remote violence,98,97
+2023-08,Protests,0,8
 2023-08,Strategic developments,0,162
-2023-09,Demonstrations,0,10
-2023-09,Political violence,1728,548
+2023-08,Violence against civilians,144,101
+2023-09,Battles,1262,244
+2023-09,Explosions/Remote violence,378,201
+2023-09,Protests,0,10
 2023-09,Strategic developments,0,98
-2023-10,Demonstrations,0,8
-2023-10,Political violence,1386,473
+2023-09,Violence against civilians,88,103
+2023-10,Battles,845,209
+2023-10,Explosions/Remote violence,485,205
+2023-10,Protests,0,8
 2023-10,Strategic developments,0,109
-2023-11,Demonstrations,0,13
-2023-11,Political violence,2455,427
+2023-10,Violence against civilians,56,59
+2023-11,Battles,1745,183
+2023-11,Explosions/Remote violence,172,168
+2023-11,Protests,0,12
 2023-11,Strategic developments,0,108
-2023-12,Demonstrations,0,22
-2023-12,Political violence,741,519
+2023-11,Violence against civilians,538,75
+2023-12,Battles,271,189
+2023-12,Explosions/Remote violence,240,227
+2023-12,Protests,0,22
 2023-12,Strategic developments,0,167
-2024-01,Demonstrations,0,10
-2024-01,Political violence,892,595
+2023-12,Violence against civilians,230,103
+2024-01,Battles,559,217
+2024-01,Explosions/Remote violence,250,312
+2024-01,Protests,0,10
 2024-01,Strategic developments,0,141
-2024-02,Demonstrations,0,5
-2024-02,Political violence,916,458
+2024-01,Violence against civilians,83,66
+2024-02,Battles,477,188
+2024-02,Explosions/Remote violence,59,108
+2024-02,Protests,0,5
 2024-02,Strategic developments,0,124
-2024-03,Demonstrations,0,7
-2024-03,Political violence,772,367
+2024-02,Violence against civilians,380,162
+2024-03,Battles,502,145
+2024-03,Explosions/Remote violence,66,111
+2024-03,Protests,0,6
 2024-03,Strategic developments,0,120
-2024-04,Demonstrations,0,6
-2024-04,Political violence,847,419
+2024-03,Violence against civilians,200,110
+2024-04,Battles,474,153
+2024-04,Explosions/Remote violence,144,104
+2024-04,Protests,0,6
 2024-04,Strategic developments,0,115
-2024-05,Demonstrations,0,7
-2024-05,Political violence,953,386
-2024-05,Political violence; Demonstrations,0,1
+2024-04,Violence against civilians,229,162
+2024-05,Battles,585,123
+2024-05,Explosions/Remote violence,152,125
+2024-05,Protests,0,8
 2024-05,Strategic developments,0,82
-2024-06,Demonstrations,0,4
-2024-06,Political violence,1218,369
+2024-05,Violence against civilians,216,138
+2024-06,Battles,684,139
+2024-06,Explosions/Remote violence,337,144
+2024-06,Protests,0,4
 2024-06,Strategic developments,0,105
-2024-07,Demonstrations,0,1
-2024-07,Political violence,903,316
+2024-06,Violence against civilians,195,85
+2024-07,Battles,615,156
+2024-07,Explosions/Remote violence,112,66
+2024-07,Protests,0,1
 2024-07,Strategic developments,1,130
-2024-08,Demonstrations,0,12
-2024-08,Political violence,796,410
+2024-07,Violence against civilians,176,94
+2024-08,Battles,464,92
+2024-08,Explosions/Remote violence,256,217
+2024-08,Protests,0,11
 2024-08,Strategic developments,0,105
-2024-09,Demonstrations,0,6
-2024-09,Political violence,1287,504
+2024-08,Violence against civilians,76,101
+2024-09,Battles,837,179
+2024-09,Explosions/Remote violence,326,234
+2024-09,Protests,0,5
 2024-09,Strategic developments,1,117
-2024-10,Demonstrations,0,4
-2024-10,Political violence,3010,623
+2024-09,Violence against civilians,124,91
+2024-10,Battles,2129,194
+2024-10,Explosions/Remote violence,385,191
+2024-10,Protests,0,4
 2024-10,Strategic developments,1,181
-2024-11,Demonstrations,0,2
-2024-11,Political violence,1511,400
+2024-10,Violence against civilians,496,236
+2024-11,Battles,702,98
+2024-11,Explosions/Remote violence,349,154
+2024-11,Protests,0,2
 2024-11,Strategic developments,9,180
-2024-12,Demonstrations,0,2
-2024-12,Political violence,981,188
-2024-12,Political violence; Demonstrations,1,1
+2024-11,Violence against civilians,460,147
+2024-12,Battles,574,61
+2024-12,Explosions/Remote violence,326,86
+2024-12,Protests,1,2
 2024-12,Strategic developments,6,68
+2024-12,Violence against civilians,81,41
