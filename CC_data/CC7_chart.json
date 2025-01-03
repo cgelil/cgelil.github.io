@@ -11,7 +11,7 @@
   "width": 600,
   "height": 400,
   "data": {
-    "url": "https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/egy_admbnda_adm1_capmas_20170421_geo.json",
+    "url": "https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/old/egy_admbnda_adm1_capmas_20170421_geo.json",
     "format": {"property": "features"}
   },
   "projection": {"type": "identity", "reflectY": true},
@@ -20,7 +20,7 @@
       "lookup": "properties.ADM1_PCODE",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/egypt_population_estimate_compas_2012_v1.1_0_fis_v2.csv"
+          "url": "https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/old/egypt_population_estimate_compas_2012_v1.1_0_fis_v2.csv"
         },
         "key": "ADM1_PCODE",
         "fields": ["T_TL"]

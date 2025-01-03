@@ -2,7 +2,10 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Administrative Regions of Egypt",
-    "subtitle": ["Governorate Boundaries", ""],
+    "subtitle": [
+      "Governorate Boundaries",
+      ""
+    ],
     "anchor": "start",
     "fontSize": 16,
     "subtitleFontSize": 12,
@@ -11,10 +14,13 @@
   "width": 600,
   "height": 400,
   "data": {
-    "url": "https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/egy_admbnda_adm1_capmas_20170421_geo.json",
+    "url": "https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/old/egy_admbnda_adm1_capmas_20170421_geo.json",
     "format": {"property": "features"}
   },
-  "projection": {"type": "identity", "reflectY": true},
+  "projection": {
+    "type": "identity",
+    "reflectY": true
+  },
   "mark": {
     "type": "geoshape",
     "fill": "steelblue",
@@ -27,6 +33,6 @@
       "type": "nominal",
       "title": "Governorate"
     }
-  },
-  "config": {}
+  }
 }
+
