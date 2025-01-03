@@ -1,77 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drivers of Food Insecurity: MENA Case Study</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="js/script.js" defer></script>
+<html> 
+<head>    
+    <link rel="stylesheet" type="text/css" href="formatting_structure.css">
+    <title>Portfolio Page Abdelgelil</title> 
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
-<body>
+
+<body> 
+    <div class="header">
+        <div class="header-name">
+            PP434 Portfolio
+        </div>
+        <div class="dropdown">
+            <div class="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="dropdown-content">
+                <a href="https://www.linkedin.com/in/camelia-abdelgelil/">LinkedIn</a>
+                <a href="https://github.com/cgelil">GitHub</a>
+                <a href="/project/scrollama.html">Project Page</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="introduction">
+        <main>VISUAL OUTPUTS FROM PP434: Automated Data Visualisation for Policymaking</main>
+        <sub>AT 2024/25</sub>
+    </div>
+
     <div class="container">
-        <section class="header">
-            <h1>Drivers of Food Insecurity: Case Study on MENA</h1>
-        </section>
-
-        <section class="introduction">
-            <div class="text-box">
-                <h2>Project Overview</h2>
-                <p>This project explores the trends and drivers behind food insecurity across the Middle East and North Africa (MENA) region. 
-                   We utilize IPC Phase 3+ data to track populations experiencing severe food insecurity between 2017 and 2023.</p>
+        <section>
+            <h2>Coding challenge 1 – Hosting someone else’s visualisation</h2>
+            <p>Adding two charts using the vegaembed function.</p>
+            <div class="chart-grid">
+                <figure id="Location1"></figure> 
+                <figure id="Location2"></figure>
             </div>
         </section>
 
-        <section class="visual">
-            <div class="text-box">
-                <h2>Global Map of IPC 3+ Over Time</h2>
-                <p>Interact with the map below to observe how the prevalence of IPC Phase 3+ food insecurity has evolved globally.</p>
+        <section>
+            <h2>Coding challenge 2 – Building my own visualisation</h2>
+            <p>Embed two charts built using the "create" tool in the Economics Observatory.</p>
+            <div class="chart-grid">
+                <figure id="Location3"></figure>
+                <figure id="Location4"></figure>
             </div>
-            <div id="map"></div>
-            <script>
-                const width = 960;
-                const height = 500;
-                const colorScale = d3.scaleSequential(d3.interpolateReds).domain([0, 1]);
-
-                const svg = d3.select("#map")
-                    .append("svg")
-                    .attr("width", width)
-                    .attr("height", height);
-
-                const projection = d3.geoNaturalEarth1()
-                    .scale(150)
-                    .translate([width / 2, height / 2]);
-
-                const path = d3.geoPath().projection(projection);
-
-                // Load map and data
-                Promise.all([
-                    d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"),
-                    d3.csv("data/acutefoodinsecurity.csv")
-                ]).then(([world, data]) => {
-                    const countries = topojson.feature(world, world.objects.countries);
-
-                    // Create data map for IPC 3+ percentages
-                    const ipcData = {};
-                    data.forEach(d => {
-                        ipcData[d.Country] = +d.phase3plus_per;
-                    });
-
-                    // Draw countries
-                    svg.selectAll("path")
-                        .data(countries.features)
-                        .enter().append("path")
-                        .attr("d", path)
-                        .attr("fill", d => {
-                            const value = ipcData[d.properties.name];
-                            return value ? colorScale(value) : '#ccc';
-                        })
-                        .attr("stroke", "#333")
-                        .append("title")
-                        .text(d => `${d.properties.name}: ${ipcData[d.properties.name] ? (ipcData[d.properties.name] * 100).toFixed(1) + '%' : 'No data'}`);
-                });
-            </script>
         </section>
+
+        <section>
+            <h2>Coding Challenge 3 – Using a visualisation in economic/policy commentary</h2>
+            <p>Chosen topic: The kids aren’t alright: Tackling a legacy of child poverty, bad diets and poor health
+                 https://www.economicsobservatory.com/the-kids-arent-alright-tackling-a-legacy-of-child-poverty-bad-diets-and-poor-health
+                 In this event, the expert panel discussed issues affecting young children in the UK, such as poverty and health, and how they might affect health outcomes. 
+            </p>
+            <figure id="Location5"></figure>
+            <ul>
+                <li></li>
+            </ul>
+            <figure id="Location6"></figure>
+            <ul>
+                <li>The UK has a relatively low vacancy rate compared to other OECD nations, suggesting limited availability contributes to higher rental prices.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Coding Challenge 4: Replication – Re-create, then improve, someone else’s chart</h2>
+            <p>Find a chart to replicate and improve on. See more at <a href="https://www.reddit.com/r/dataisugly/">Data is Ugly</a>.</p>
+        </section>
+
+        <section>
+            <h2>Coding Challenge 5: Scraper – Implement a data scraper</h2>
+            <p>Scrape a website using a Google Colab Python notebook, clean, and normalize the data in TIDY format. Embed a chart with the cleaned data.</p>
+        </section>
+
+        <section>
+            <h2>Coding Challenge 6: Loops – Build a dashboard</h2>
+            <p>Use the ONS API to download nine different series as JSON files using a loop and save them to your GitHub account.</p>
+        </section>
+
+        <section>
+            <h2>Coding Challenge 7: Maps – Base maps and choropleths</h2>
+            <p>Produce two maps of the same area, region, or city, and embed them in the portfolio page.</p>
+            <div class="chart-grid">
+                <figure id="Location10"></figure> 
+                <figure id="Location11"></figure>
+            </div>
+        </section>
+
+        <section>
+            <h2>Coding Challenge 8: Big Data – Extracting a story from millions of prices</h2>
+            <p>Use UK price datasets to create two charts and explain what you have done in 50 words.</p>
+        </section>
+
+        <script>
+            let figure_1_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartClassExample2_7.json"; 
+            let figure_2_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartClassExample3_5.json"; 
+            let figure_3_spec = "CC_data/CC2_fig1.json"; 
+            let figure_4_spec = "CC_data/CC2_fig2.json";
+            /*let figure_5_spec = "CC_data/CC3_fig1.json";*/
+            /*let figure_6_spec = "CC_data/CC3_fig2.json";*/
+            /*let figure_7_spec = "CC_data/CC4_fig1.json";*/
+            /*let figure_8_spec = "CC_data/CC5_fig1.json";*/
+            /*let figure_9_spec = "CC_data/CC6_fig1.json";*/
+            let figure_10_spec = "CC_data/CC7_basemap.json";
+            let figure_11_spec = "CC_data/CC7_chart.json";
+            /*let figure_12_spec = "CC_data/CC8_fig1.json";*/
+            /*let figure_13_spec = "CC_data/CC9_fig1.json";*/
+            
+            vegaEmbed('#Location1', figure_1_spec);
+            vegaEmbed('#Location2', figure_2_spec);
+            vegaEmbed('#Location3', figure_3_spec);
+            vegaEmbed('#Location4', figure_4_spec);
+            vegaEmbed('#Location5', figure_5_spec);
+            vegaEmbed('#Location6', figure_6_spec);
+            vegaEmbed('#Location7', figure_7_spec);
+            vegaEmbed('#Location8', figure_8_spec);
+            vegaEmbed('#Location9', figure_9_spec);
+            vegaEmbed('#Location10', figure_10_spec);
+            vegaEmbed('#Location11', figure_11_spec);
+            vegaEmbed('#Location12', figure_12_spec);
+            vegaEmbed('#Location13', figure_13_spec)
+        </script>
     </div>
 </body>
 </html>

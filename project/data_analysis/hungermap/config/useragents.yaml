@@ -1,0 +1,7 @@
+hdx-scraper-wfp-hungermap:
+  name: "Camelia Abdelgelil"
+  version: "1.0"
+  url: "https://www.lse.ac.uk/school-of-public-policy"
+  developer: "LSE SPP"
+  developer_email: "c.abdelgelil@lse.ac.uk"
+  user_agent: "Dataviz/1.0"
