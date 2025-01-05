@@ -9,12 +9,19 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <!-- Scrollable Container for Intro Sections -->
+
+
+    <!-- Scrollable Container for texts -->
     <div class="scroll-container">
-        <!-- Intro Section 1 -->
+        <!-- Intro Section -->
         <section class="textbox" id="textbox-1">
             <h1>Visualizing the Impact of the Sudanese Civil War</h1>
             <p>This project explores the impact of the ongoing Sudanese conflict on the humanitarian situation</p>
+        </section>
+
+        <!-- Image for intro -->
+        <section class="image-section" id="image-section">
+            <img src="image1170x530cropped.jpg" alt="Impact of the Sudanese Civil War">
         </section>
 
         <!-- Textbox Section 2 -->
@@ -31,12 +38,10 @@
         </section>
 
         <!-- Line Plot Section -->
-        <section class="line-plot" id="line-plot-section">
+        <section class="graph" id="line-plot">
             <h2>Timeline of events</h2>
             <p>This plot shows the frequency of different types of political disorders over time.</p>
-            <div id="linechart-container">
-                <svg id="lineplot" width="100%" height="500"></svg>
-            </div>
+                <svg id="lineplot" ></svg>
         </section>
 
         <!-- Textbox Section 3 -->
@@ -56,33 +61,33 @@
             </p>
         </section>
 
-    <!-- Map Container -->
-    <section class="map-plot">
-        <h2>Map Visualization</h2>
-        <div class="map-container">
-            <!-- Map for 2021 -->
-            <div class="map-item">
-                <div class="map-header">2021</div>
-                <svg id="map1"></svg>
+        <!-- Map Container -->
+        <section class="graph" id="map-plot">
+            <h2>Map Visualization</h2>
+            <div class="map-container">
+                <!-- Map for 2021 -->
+                <div class="map-item">
+                    <div class="map-header">2021</div>
+                    <svg id="map1"></svg>
+                </div>
+                <!-- Map for 2022 -->
+                <div class="map-item">
+                    <div class="map-header">2022</div>
+                    <svg id="map2"></svg>
+                </div>
+                <!-- Map for 2023 -->
+                <div class="map-item">
+                    <div class="map-header">2023</div>
+                    <svg id="map3"></svg>
+                </div>
+                <!-- Map for 2024 -->
+                <div class="map-item">
+                    <div class="map-header">2024</div>
+                    <svg id="map4"></svg>
+                </div>
             </div>
-            <!-- Map for 2022 -->
-            <div class="map-item">
-                <div class="map-header">2022</div>
-                <svg id="map2"></svg>
-            </div>
-            <!-- Map for 2023 -->
-            <div class="map-item">
-                <div class="map-header">2023</div>
-                <svg id="map3"></svg>
-            </div>
-            <!-- Map for 2024 -->
-            <div class="map-item">
-                <div class="map-header">2024</div>
-                <svg id="map4"></svg>
-            </div>
-        </div>
-    </section>
-
+        </section>
+    </div>
     <!-- Tooltip -->
     <div class="tooltip"></div>
 
