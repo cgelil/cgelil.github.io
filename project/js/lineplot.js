@@ -1,64 +1,101 @@
-// Load data from CSV file
-d3.csv("https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/project/data/acled_rawdata.csv").then(data => {
+// chart.js
+const margin = { top: 50, right: 30, bottom: 90, left: 50 },
+    width = 900 - margin.left - margin.right,
+    height = 800 - margin.top - margin.bottom;
+
+const svg = d3.select("#lineplot")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+const dataUrl = "https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/project/data/acled_monthly.csv";
+
+fetch(dataUrl).then(response => response.text()).then(csvString => {
+    const data = d3.csvParse(csvString);
+
+    // Parse data
     data.forEach(d => {
-        d.fatalities = +d.fatalities;
-        d.event_date = +d.event_date;
+      d.fatalities = +d.fatalities || 0;  // Ensure no undefined values
+      d.event_date = +d.event_date || 0;
+      d.date = d3.timeParse("%Y-%m")(d.month_year);
     });
 
-    const svg = d3.select("#lineplot")
-        .attr("width", 700)
-        .attr("height", 400);
+    // Set scales
+    const x = d3.scaleTime()
+      .domain(d3.extent(data, d => d.date))
+      .range([0, width]);
 
-    const margin = {top: 80, right: 80, bottom: 100, left: 80};
-    const width = +svg.attr("width") - margin.left - margin.right;
-    const height = +svg.attr("height") - margin.top - margin.bottom;
+    const y = d3.scaleLinear()
+      .domain([0, d3.max(data, d => Math.max(d.fatalities, d.event_date))])
+      .range([height, 0]);
 
-    const g = svg.append("g")
-        .attr("transform", `translate(${margin.left},${margin.top})`);
-
-    const x = d3.scaleBand()
-        .domain(data.map(d => d.month_year))
-        .range([0, width])
-        .padding(0.1);
-
-    const y0 = d3.scaleLinear()
-        .domain([0, d3.max(data, d => d.fatalities)]).nice()
-        .range([height, 0]);
-
-    const y1 = d3.scaleLinear()
-        .domain([0, d3.max(data, d => d.event_date)]).nice()
-        .range([height, 0]);
-
-    g.append("g")
-        .selectAll(".bar")
-        .data(data)
-        .enter().append("rect")
-        .attr("class", "bar")
-        .attr("x", d => x(d.month_year))
-        .attr("y", d => y1(d.event_date))
-        .attr("width", x.bandwidth())
-        .attr("height", d => height - y1(d.event_date));
-
+    // Define line generator
     const line = d3.line()
-        .x(d => x(d.month_year) + x.bandwidth() / 2)
-        .y(d => y0(d.fatalities));
+      .x(d => x(d.date))
+      .y(d => y(d.fatalities));
 
-    g.append("path")
-        .datum(data)
-        .attr("class", "line")
-        .attr("d", line);
+    // Append bars first
+    svg.selectAll(".bar")
+      .data(data)
+      .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", d => x(d.date) - 10)
+      .attr("y", d => y(d.event_date))
+      .attr("width", 20)
+      .attr("height", d => height - y(d.event_date))
+      .attr("opacity", 0.7);  // Reduce opacity to avoid full obstruction
 
-    g.append("g")
-        .attr("class", "x-axis")
-        .attr("transform", `translate(0,${height})`)
-        .call(d3.axisBottom(x));
+    // Append line path after bars (so it's on top)
+    svg.append("path")
+      .datum(data)
+      .attr("class", "line")
+      .attr("d", line)
+      .attr("stroke", "steelblue")
+      .attr("fill", "none")
+      .attr("stroke-width", 2)
+      .attr("stroke-dasharray", width + " " + width)
+      .attr("stroke-dashoffset", width)
+      .transition()
+      .duration(2000)
+      .ease(d3.easeLinear)
+      .attr("stroke-dashoffset", 0)
+      .raise();  // Bring line to front
 
-    g.append("g")
-        .attr("class", "y-axis")
-        .call(d3.axisLeft(y0));
+    // Add annotations
+    svg.append("line")
+      .attr("class", "annotation")
+      .attr("x1", x(new Date("2021-10")))
+      .attr("x2", x(new Date("2021-10")))
+      .attr("y1", 0)
+      .attr("y2", height)
+      .attr("stroke", "red");
 
-    g.append("g")
-        .attr("class", "y-axis")
-        .attr("transform", `translate(${width},0)`)
-        .call(d3.axisRight(y1));
+    svg.append("text")
+      .attr("x", x(new Date("2021-10")) + 5)
+      .attr("y", 20)
+      .text("Military coup")
+      .style("fill", "red");
+
+    svg.append("line")
+      .attr("class", "annotation")
+      .attr("x1", x(new Date("2023-04")))
+      .attr("x2", x(new Date("2023-04")))
+      .attr("y1", 0)
+      .attr("y2", height)
+      .attr("stroke", "red");
+
+    svg.append("text")
+      .attr("x", x(new Date("2023-04")) + 5)
+      .attr("y", 40)
+      .text("Conflict outbreak")
+      .style("fill", "red");
+
+    // Add axes
+    svg.append("g")
+      .attr("transform", `translate(0,${height})`)
+      .call(d3.axisBottom(x).ticks(12));
+
+    svg.append("g")
+      .call(d3.axisLeft(y));
 });

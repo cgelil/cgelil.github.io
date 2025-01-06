@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (index >= geojsonUrls.length) {
                 clearInterval(interval);  // Stop animation after the last year
             }
-        }, 3000);  // Transition every 3 seconds (adjust as needed)
+        }, 2000);  // Transition every 3 seconds (adjust as needed)
     };
 
     // Call renderMap for the map with the list of GeoJSON URLs for different years
