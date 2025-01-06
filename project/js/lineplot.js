@@ -9,7 +9,7 @@ const svg = d3.select("#lineplot")
     .append("g")
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-const dataUrl = "https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/project/data/acled_monthly.csv";
+const dataUrl = "https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/project/data/acled_monthly_data.csv";
 
 fetch(dataUrl).then(response => response.text()).then(csvString => {
     const data = d3.csvParse(csvString);
