@@ -2,21 +2,23 @@
 body, html {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Gill Sans Extrabold", sans-serif;
   height: 100%;
   overflow-x: hidden;
+  text-align: justify;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
+  text-align: center;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #333;
   margin-bottom: 1rem;
+  text-align: justify;
 }
-
 
 /* Intro Section */
 #intro {
@@ -32,9 +34,11 @@ h2 {
 
 .textbox-1 {
   background: rgba(0, 0, 0, 0.6);
+  height:fit-content;
   color: white;
-  padding: 2rem;
-  max-width: 60%;
+  padding: 2em;
+  max-width: 40%;
+  text-align: justify;
 }
 
 /* Scrolling Section */
@@ -43,6 +47,7 @@ h2 {
   width: 50%;
   padding: 2rem 0;
   margin: 0 auto;
+  text-align: justify;
 }
 
 /* Textbox Styles */
@@ -50,23 +55,26 @@ h2 {
   background: white;
   padding: 1.5rem;
   border: 1px solid #ddd;
-  margin: 20px 0
+  margin: 20px 20px;
+  text-align: justify;
 }
 
 /* Maps Section */
 .maps {
   display: block;
   justify-content: center;
-  margin: 2rem 0;
-  border: 1px solid red;
+  margin: 2rem 2rem;
+
+  text-align: justify;
 }
 
 .map-item {
   width: 33%;
   height: 400px;
   display: block;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  text-align: justify;
 }
 
 /* Graph Section */
@@ -74,18 +82,28 @@ h2 {
   display: block;
   justify-content: center;
   margin: 2rem 0;
+  text-align: justify;
 }
 
-.graph-item {
+.graph-item1 {
   width: 100%;
-  height: 800px;
+  height: 100%;
+  max-width: 100%;
   display: block;
   justify-content: center;
   align-items: center;
-  border: 1px solid #ddd;
-  background-color: #f9f9f9;
+  text-align: justify;
 }
 
+.graph-item2 {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
 
 /* Tooltip */
 .tooltip {
@@ -97,6 +115,7 @@ h2 {
   color: white;
   padding: 10px;
   border-radius: 5px;
+  text-align: justify;
 }
 
 /* Slider container styling */
@@ -109,12 +128,14 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: justify;
 }
 
 /* Styling for the slider */
 input[type="range"] {
   width: 200px;
   margin-bottom: 10px;
+  text-align: justify;
 }
 
 /* Styling for the button */
@@ -126,6 +147,7 @@ button {
   color: white;
   border: none;
   border-radius: 4px;
+  text-align: justify;
 }
 
 button:hover {
@@ -137,4 +159,5 @@ button:hover {
   font-family: Arial, sans-serif;
   font-weight: bold;
   color: #333;
+  text-align: justify;
 }

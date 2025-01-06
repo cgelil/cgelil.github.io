@@ -12,9 +12,9 @@
     <section id="intro">
         <div class="textbox-1">
             <h1>Understanding the drivers of food insecurity in Sudan</h1>
-            <p>This project explores the causes and consequences of the ongoing food crisis in Sudan, 
-                which has been aggravated since the beginning of the civil war in April 2023. 
-                The focus is on 3 key drivers: conflict and insecurity, displacement, and economic shocks.
+            <p>This project takes a closer look at the causes and effects of the ongoing food crisis in Sudan, 
+                which has worsened since the civil war broke out in April 2023
+                The focus is on two key drivers: conflict and insecurity, as well as displacement.
             </p>
         </div>
     </section>
@@ -28,13 +28,16 @@
                   catastrophic levels of acute food insecurity (IPC Phase 4 or 5).</p>
         </div>
 
+        <!-- Map Section -->
         <section class="maps">
             <div class="map-item">
                 <svg id="map"></svg>
             </div>
         </section>    
 
-        <div class="textbox" id="textbox-2">
+        <div id="slider-container"></div>
+
+        <div class="textbox" id="textbox-3">
             <p>Sudan has long battled food insecurity due to recurring political instability. Prior to the coup...</p>
             
         </div>
@@ -48,16 +51,21 @@
         </div>
 
         <section class="graph">
-            <div class="graph-item">
-                <svg id="lineplot"></svg>
+            <div class="graph-item1">
+                <svg id="line-plot"></svg>
             </div>  
         </section>  
 
-        <div class="textbox" id="textbox-4">
+        <div class="textbox" id="textbox-5">
             <p>How do they correlate?
             </p>
         </div>
 
+        <section class="graph">
+            <div class="graph-item2">
+                <svg id="scatter"></svg>
+            </div>  
+        </section> 
 
     </section>
 
@@ -74,11 +82,14 @@
     <div class="tooltip"></div>
 
     <!-- External JS -->
+    <script src="https://unpkg.com/scrollama"></script>
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/scrollama.min.js"></script>
     <script src="js/lineplot.js"></script>
-    <script src="js/map_new.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/scatter.js"></script>
+
 
 </body>
 </html>

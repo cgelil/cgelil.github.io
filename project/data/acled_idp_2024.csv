@@ -1,0 +1,163 @@
+id,operation,admin0Name,admin0Pcode,admin1Name,admin1Pcode,admin2Name,admin2Pcode,numPresentIdpInd,reportingDate,yearReportingDate,monthReportingDate,roundNumber,assessmentType,admin2,fatalities,event_id_cnty
+519499,Armed Clashes in Sudan (Overview),Sudan,SDN,Khartoum,SD01,Jebel Awlia,SD01001,14020,2024-12-17T00:00:00,2024,12,18,BA,Jebel Awlia,896,423
+519500,Armed Clashes in Sudan (Overview),Sudan,SDN,Khartoum,SD01,Um Bada,SD01002,5698,2024-12-17T00:00:00,2024,12,18,BA,Um Bada,810,271
+519503,Armed Clashes in Sudan (Overview),Sudan,SDN,Khartoum,SD01,Karrari,SD01005,16941,2024-12-17T00:00:00,2024,12,18,BA,Karrari,1331,512
+519504,Armed Clashes in Sudan (Overview),Sudan,SDN,Khartoum,SD01,Omdurman,SD01006,6963,2024-12-17T00:00:00,2024,12,18,BA,Omdurman,1431,993
+519505,Armed Clashes in Sudan (Overview),Sudan,SDN,Khartoum,SD01,Khartoum,SD01007,6686,2024-12-17T00:00:00,2024,12,18,BA,Khartoum,2188,2036
+519506,Armed Clashes in Sudan (Overview),Sudan,SDN,North Darfur,SD02,Dar As Salam,SD02113,156731,2024-12-17T00:00:00,2024,12,18,BA,Dar As Salam,62,57
+519507,Armed Clashes in Sudan (Overview),Sudan,SDN,North Darfur,SD02,Al Fasher,SD02114,683990,2024-12-17T00:00:00,2024,12,18,BA,Al Fasher,3379,745
+519509,Armed Clashes in Sudan (Overview),Sudan,SDN,North Darfur,SD02,Al Malha,SD02117,6330,2024-12-17T00:00:00,2024,12,18,BA,Al Malha,15,23
+519512,Armed Clashes in Sudan (Overview),Sudan,SDN,North Darfur,SD02,Um Baru,SD02120,15507,2024-12-17T00:00:00,2024,12,18,BA,Um Baru,10,4
+519513,Armed Clashes in Sudan (Overview),Sudan,SDN,North Darfur,SD02,Kebkabiya,SD02124,85760,2024-12-17T00:00:00,2024,12,18,BA,Kebkabiya,151,84
+519514,Armed Clashes in Sudan (Overview),Sudan,SDN,North Darfur,SD02,Kelemando,SD02126,15014,2024-12-17T00:00:00,2024,12,18,BA,Kelemando,7,5
+519515,Armed Clashes in Sudan (Overview),Sudan,SDN,North Darfur,SD02,Kutum,SD02128,182794,2024-12-17T00:00:00,2024,12,18,BA,Kutum,380,158
+519516,Armed Clashes in Sudan (Overview),Sudan,SDN,North Darfur,SD02,Melit,SD02129,55009,2024-12-17T00:00:00,2024,12,18,BA,Melit,688,90
+519517,Armed Clashes in Sudan (Overview),Sudan,SDN,North Darfur,SD02,Saraf Omra,SD02133,75387,2024-12-17T00:00:00,2024,12,18,BA,Saraf Omra,20,11
+519518,Armed Clashes in Sudan (Overview),Sudan,SDN,North Darfur,SD02,Um Kadadah,SD02136,39215,2024-12-17T00:00:00,2024,12,18,BA,Um Kadadah,38,26
+519519,Armed Clashes in Sudan (Overview),Sudan,SDN,North Darfur,SD02,Kernoi,SD02168,2505,2024-12-17T00:00:00,2024,12,18,BA,Kernoi,5,8
+519520,Armed Clashes in Sudan (Overview),Sudan,SDN,North Darfur,SD02,Al Lait,SD02169,15554,2024-12-17T00:00:00,2024,12,18,BA,Al Lait,0,3
+519521,Armed Clashes in Sudan (Overview),Sudan,SDN,North Darfur,SD02,Tawila,SD02170,232534,2024-12-17T00:00:00,2024,12,18,BA,Tawila,64,33
+519522,Armed Clashes in Sudan (Overview),Sudan,SDN,North Darfur,SD02,At Tina,SD02171,6095,2024-12-17T00:00:00,2024,12,18,BA,At Tina,0,9
+519523,Armed Clashes in Sudan (Overview),Sudan,SDN,South Darfur,SD03,Al Radoum,SD03141,37790,2024-12-17T00:00:00,2024,12,18,BA,Al Radoum,40,14
+519524,Armed Clashes in Sudan (Overview),Sudan,SDN,South Darfur,SD03,Ed Al Fursan,SD03143,33541,2024-12-17T00:00:00,2024,12,18,BA,Ed Al Fursan,0,1
+519525,Armed Clashes in Sudan (Overview),Sudan,SDN,South Darfur,SD03,Kas,SD03144,153958,2024-12-17T00:00:00,2024,12,18,BA,Kas,59,15
+519527,Armed Clashes in Sudan (Overview),Sudan,SDN,South Darfur,SD03,Um Dafoug,SD03146,3835,2024-12-17T00:00:00,2024,12,18,BA,Um Dafoug,0,4
+519528,Armed Clashes in Sudan (Overview),Sudan,SDN,South Darfur,SD03,Sharg Aj Jabal,SD03147,43915,2024-12-17T00:00:00,2024,12,18,BA,Sharg Aj Jabal,38,17
+519529,Armed Clashes in Sudan (Overview),Sudan,SDN,South Darfur,SD03,Tulus,SD03149,20775,2024-12-17T00:00:00,2024,12,18,BA,Tulus,3,5
+519530,Armed Clashes in Sudan (Overview),Sudan,SDN,South Darfur,SD03,Al Wihda,SD03150,6140,2024-12-17T00:00:00,2024,12,18,BA,Al Wihda,3,4
+519531,Armed Clashes in Sudan (Overview),Sudan,SDN,South Darfur,SD03,Nitega,SD03151,28505,2024-12-17T00:00:00,2024,12,18,BA,Nitega,0,2
+519532,Armed Clashes in Sudan (Overview),Sudan,SDN,South Darfur,SD03,Gereida,SD03153,139642,2024-12-17T00:00:00,2024,12,18,BA,Gereida,20,7
+519534,Armed Clashes in Sudan (Overview),Sudan,SDN,South Darfur,SD03,Kubum,SD03157,9090,2024-12-17T00:00:00,2024,12,18,BA,Kubum,240,23
+519535,Armed Clashes in Sudan (Overview),Sudan,SDN,South Darfur,SD03,Rehaid Albirdi,SD03158,30621,2024-12-17T00:00:00,2024,12,18,BA,Rehaid Albirdi,21,5
+519536,Armed Clashes in Sudan (Overview),Sudan,SDN,South Darfur,SD03,Kateila,SD03159,43133,2024-12-17T00:00:00,2024,12,18,BA,Kateila,2,1
+519537,Armed Clashes in Sudan (Overview),Sudan,SDN,South Darfur,SD03,Buram,SD03161,195030,2024-12-17T00:00:00,2024,12,18,BA,Buram,217,36
+519538,Armed Clashes in Sudan (Overview),Sudan,SDN,South Darfur,SD03,Beliel,SD03162,473818,2024-12-17T00:00:00,2024,12,18,BA,Beliel,40,24
+519539,Armed Clashes in Sudan (Overview),Sudan,SDN,South Darfur,SD03,Nyala Shimal,SD03164,328650,2024-12-17T00:00:00,2024,12,18,BA,Nyala Shimal,7,8
+519541,Armed Clashes in Sudan (Overview),Sudan,SDN,South Darfur,SD03,Nyala Janoub,SD03167,78932,2024-12-17T00:00:00,2024,12,18,BA,Nyala Janoub,1062,349
+519542,Armed Clashes in Sudan (Overview),Sudan,SDN,South Darfur,SD03,Damso,SD03172,7370,2024-12-17T00:00:00,2024,12,18,BA,Damso,2,1
+519543,Armed Clashes in Sudan (Overview),Sudan,SDN,West Darfur,SD04,Beida,SD04111,3190,2024-12-17T00:00:00,2024,12,18,BA,Beida,51,11
+519544,Armed Clashes in Sudan (Overview),Sudan,SDN,West Darfur,SD04,El Geneina,SD04115,78675,2024-12-17T00:00:00,2024,12,18,BA,El Geneina,4484,266
+519545,Armed Clashes in Sudan (Overview),Sudan,SDN,West Darfur,SD04,Foro Baranga,SD04121,17425,2024-12-17T00:00:00,2024,12,18,BA,Foro Baranga,55,17
+519547,Armed Clashes in Sudan (Overview),Sudan,SDN,West Darfur,SD04,Jebel Moon,SD04123,70735,2024-12-17T00:00:00,2024,12,18,BA,Jebel Moon,9,8
+519549,Armed Clashes in Sudan (Overview),Sudan,SDN,West Darfur,SD04,Kulbus,SD04127,44582,2024-12-17T00:00:00,2024,12,18,BA,Kulbus,104,12
+519550,Armed Clashes in Sudan (Overview),Sudan,SDN,West Darfur,SD04,Sirba,SD04134,26325,2024-12-17T00:00:00,2024,12,18,BA,Sirba,281,47
+519551,Armed Clashes in Sudan (Overview),Sudan,SDN,East Darfur,SD05,Adila,SD05139,53737,2024-12-17T00:00:00,2024,12,18,BA,Adila,5,13
+519553,Armed Clashes in Sudan (Overview),Sudan,SDN,East Darfur,SD05,Ad Duayn,SD05142,212145,2024-12-17T00:00:00,2024,12,18,BA,Ad Duayn,81,74
+519554,Armed Clashes in Sudan (Overview),Sudan,SDN,East Darfur,SD05,Shiaria,SD05148,196045,2024-12-17T00:00:00,2024,12,18,BA,Shiaria,17,8
+519555,Armed Clashes in Sudan (Overview),Sudan,SDN,East Darfur,SD05,Al Firdous,SD05152,59700,2024-12-17T00:00:00,2024,12,18,BA,Al Firdous,0,1
+519556,Armed Clashes in Sudan (Overview),Sudan,SDN,East Darfur,SD05,Abu Karinka,SD05155,45046,2024-12-17T00:00:00,2024,12,18,BA,Abu Karinka,5,13
+519557,Armed Clashes in Sudan (Overview),Sudan,SDN,East Darfur,SD05,Bahr Al Arab,SD05160,67220,2024-12-17T00:00:00,2024,12,18,BA,Bahr Al Arab,4,4
+519558,Armed Clashes in Sudan (Overview),Sudan,SDN,East Darfur,SD05,Assalaya,SD05163,25240,2024-12-17T00:00:00,2024,12,18,BA,Assalaya,0,3
+519560,Armed Clashes in Sudan (Overview),Sudan,SDN,Central Darfur,SD06,Azum,SD06110,70005,2024-12-17T00:00:00,2024,12,18,BA,Azum,9,12
+519561,Armed Clashes in Sudan (Overview),Sudan,SDN,Central Darfur,SD06,Bendasi,SD06112,32090,2024-12-17T00:00:00,2024,12,18,BA,Bendasi,13,7
+519562,Armed Clashes in Sudan (Overview),Sudan,SDN,Central Darfur,SD06,Mukjar,SD06130,28750,2024-12-17T00:00:00,2024,12,18,BA,Mukjar,30,20
+519563,Armed Clashes in Sudan (Overview),Sudan,SDN,Central Darfur,SD06,Gharb Jabal Marrah,SD06131,83563,2024-12-17T00:00:00,2024,12,18,BA,Gharb Jabal Marrah,25,23
+519564,Armed Clashes in Sudan (Overview),Sudan,SDN,Central Darfur,SD06,Shamal Jabal Marrah,SD06132,162772,2024-12-17T00:00:00,2024,12,18,BA,Shamal Jabal Marrah,1,11
+519565,Armed Clashes in Sudan (Overview),Sudan,SDN,Central Darfur,SD06,Um Dukhun,SD06135,61630,2024-12-17T00:00:00,2024,12,18,BA,Um Dukhun,1,5
+519566,Armed Clashes in Sudan (Overview),Sudan,SDN,Central Darfur,SD06,Wadi Salih,SD06137,86078,2024-12-17T00:00:00,2024,12,18,BA,Wadi Salih,5,12
+519567,Armed Clashes in Sudan (Overview),Sudan,SDN,Central Darfur,SD06,Zalingi,SD06138,217807,2024-12-17T00:00:00,2024,12,18,BA,Zalingi,391,195
+519568,Armed Clashes in Sudan (Overview),Sudan,SDN,Central Darfur,SD06,Wasat Jabal Marrah,SD06139,181119,2024-12-17T00:00:00,2024,12,18,BA,Wasat Jabal Marrah,1,2
+519569,Armed Clashes in Sudan (Overview),Sudan,SDN,South Kordofan,SD07,Abu Jubayhah,SD07088,59135,2024-12-17T00:00:00,2024,12,18,BA,Abu Jubayhah,0,5
+519570,Armed Clashes in Sudan (Overview),Sudan,SDN,South Kordofan,SD07,Talawdi,SD07089,10389,2024-12-17T00:00:00,2024,12,18,BA,Talawdi,5,4
+519571,Armed Clashes in Sudan (Overview),Sudan,SDN,South Kordofan,SD07,Abassiya,SD07090,66127,2024-12-17T00:00:00,2024,12,18,BA,Abassiya,115,17
+519572,Armed Clashes in Sudan (Overview),Sudan,SDN,South Kordofan,SD07,Rashad,SD07093,22114,2024-12-17T00:00:00,2024,12,18,BA,Rashad,0,4
+519573,Armed Clashes in Sudan (Overview),Sudan,SDN,South Kordofan,SD07,Al Quoz,SD07094,9195,2024-12-17T00:00:00,2024,12,18,BA,Al Quoz,51,29
+519574,Armed Clashes in Sudan (Overview),Sudan,SDN,South Kordofan,SD07,Dilling,SD07095,44389,2024-12-17T00:00:00,2024,12,18,BA,Dilling,148,64
+519575,Armed Clashes in Sudan (Overview),Sudan,SDN,South Kordofan,SD07,Ar Reif Ash Shargi,SD07097,39030,2024-12-17T00:00:00,2024,12,18,BA,Ar Reif Ash Shargi,70,15
+519576,Armed Clashes in Sudan (Overview),Sudan,SDN,South Kordofan,SD07,Kadugli,SD07098,84515,2024-12-17T00:00:00,2024,12,18,BA,Kadugli,139,71
+519578,Armed Clashes in Sudan (Overview),Sudan,SDN,South Kordofan,SD07,Abu Kershola,SD07104,26018,2024-12-17T00:00:00,2024,12,18,BA,Abu Kershola,54,21
+519581,Armed Clashes in Sudan (Overview),Sudan,SDN,South Kordofan,SD07,Delami,SD07107,4731,2024-12-17T00:00:00,2024,12,18,BA,Delami,72,22
+519582,Armed Clashes in Sudan (Overview),Sudan,SDN,South Kordofan,SD07,Ghadeer,SD07108,15123,2024-12-17T00:00:00,2024,12,18,BA,Ghadeer,118,16
+519585,Armed Clashes in Sudan (Overview),Sudan,SDN,Blue Nile,SD08,Al Kurmuk,SD08106,24510,2024-12-17T00:00:00,2024,12,18,BA,Al Kurmuk,40,15
+519588,Armed Clashes in Sudan (Overview),Sudan,SDN,Blue Nile,SD08,Geisan,SD08109,49675,2024-12-17T00:00:00,2024,12,18,BA,Geisan,16,3
+519589,Armed Clashes in Sudan (Overview),Sudan,SDN,Blue Nile,SD08,Wad Al Mahi,SD08110,12672,2024-12-17T00:00:00,2024,12,18,BA,Wad Al Mahi,2,1
+519590,Armed Clashes in Sudan (Overview),Sudan,SDN,White Nile,SD09,Ad Diwaim,SD09044,79712,2024-12-17T00:00:00,2024,12,18,BA,Ad Diwaim,20,19
+519591,Armed Clashes in Sudan (Overview),Sudan,SDN,White Nile,SD09,Um Rimta,SD09045,10603,2024-12-17T00:00:00,2024,12,18,BA,Um Rimta,38,15
+519592,Armed Clashes in Sudan (Overview),Sudan,SDN,White Nile,SD09,Rabak,SD09046,144936,2024-12-17T00:00:00,2024,12,18,BA,Rabak,6,20
+519593,Armed Clashes in Sudan (Overview),Sudan,SDN,White Nile,SD09,Kosti,SD09047,160638,2024-12-17T00:00:00,2024,12,18,BA,Kosti,30,43
+519594,Armed Clashes in Sudan (Overview),Sudan,SDN,White Nile,SD09,Tendalti,SD09048,15547,2024-12-17T00:00:00,2024,12,18,BA,Tendalti,18,9
+519595,Armed Clashes in Sudan (Overview),Sudan,SDN,White Nile,SD09,As Salam/Ar Rawat,SD09049,51602,2024-12-17T00:00:00,2024,12,18,BA,As Salam/Ar Rawat,0,2
+519596,Armed Clashes in Sudan (Overview),Sudan,SDN,White Nile,SD09,Al Gitaina,SD09050,26985,2024-12-17T00:00:00,2024,12,18,BA,Al Gitaina,64,87
+519597,Armed Clashes in Sudan (Overview),Sudan,SDN,White Nile,SD09,Aj Jabalain,SD09051,138913,2024-12-17T00:00:00,2024,12,18,BA,Aj Jabalain,24,24
+519599,Armed Clashes in Sudan (Overview),Sudan,SDN,Red Sea,SD10,Dordieb,SD10063,2345,2024-12-17T00:00:00,2024,12,18,BA,Dordieb,0,1
+519600,Armed Clashes in Sudan (Overview),Sudan,SDN,Red Sea,SD10,Port Sudan,SD10064,236698,2024-12-17T00:00:00,2024,12,18,BA,Port Sudan,1,117
+519601,Armed Clashes in Sudan (Overview),Sudan,SDN,Red Sea,SD10,Tawkar,SD10065,11010,2024-12-17T00:00:00,2024,12,18,BA,Tawkar,0,2
+519603,Armed Clashes in Sudan (Overview),Sudan,SDN,Red Sea,SD10,Jubayt Elmaaadin,SD10067,346,2024-12-17T00:00:00,2024,12,18,BA,Jubayt Elmaaadin,6,1
+519604,Armed Clashes in Sudan (Overview),Sudan,SDN,Red Sea,SD10,Sawakin,SD10068,8915,2024-12-17T00:00:00,2024,12,18,BA,Sawakin,0,8
+519609,Armed Clashes in Sudan (Overview),Sudan,SDN,Kassala,SD11,Halfa Aj Jadeedah,SD11052,113251,2024-12-17T00:00:00,2024,12,18,BA,Halfa Aj Jadeedah,0,4
+519610,Armed Clashes in Sudan (Overview),Sudan,SDN,Kassala,SD11,Madeinat Kassala,SD11053,177855,2024-12-17T00:00:00,2024,12,18,BA,Madeinat Kassala,1,62
+519611,Armed Clashes in Sudan (Overview),Sudan,SDN,Kassala,SD11,Reifi Gharb Kassala,SD11054,2985,2024-12-17T00:00:00,2024,12,18,BA,Reifi Gharb Kassala,2,2
+519612,Armed Clashes in Sudan (Overview),Sudan,SDN,Kassala,SD11,Reifi Aroma,SD11055,5370,2024-12-17T00:00:00,2024,12,18,BA,Reifi Aroma,0,2
+519614,Armed Clashes in Sudan (Overview),Sudan,SDN,Kassala,SD11,Reifi Shamal Ad Delta,SD11057,5745,2024-12-17T00:00:00,2024,12,18,BA,Reifi Shamal Ad Delta,0,1
+519616,Armed Clashes in Sudan (Overview),Sudan,SDN,Kassala,SD11,Reifi Telkok,SD11059,3535,2024-12-17T00:00:00,2024,12,18,BA,Reifi Telkok,0,1
+519617,Armed Clashes in Sudan (Overview),Sudan,SDN,Kassala,SD11,Reifi Khashm Elgirba,SD11060,13274,2024-12-17T00:00:00,2024,12,18,BA,Reifi Khashm Elgirba,0,4
+519621,Armed Clashes in Sudan (Overview),Sudan,SDN,Gedaref,SD12,Al Fao,SD12074,59944,2024-12-17T00:00:00,2024,12,18,BA,Al Fao,34,25
+519622,Armed Clashes in Sudan (Overview),Sudan,SDN,Gedaref,SD12,Al Fashaga,SD12075,48638,2024-12-17T00:00:00,2024,12,18,BA,Al Fashaga,0,9
+519624,Armed Clashes in Sudan (Overview),Sudan,SDN,Gedaref,SD12,Basundah,SD12077,51406,2024-12-17T00:00:00,2024,12,18,BA,Basundah,2,16
+519625,Armed Clashes in Sudan (Overview),Sudan,SDN,Gedaref,SD12,Al Galabat Al Gharbyah-Kassab,SD12078,48628,2024-12-17T00:00:00,2024,12,18,BA,Al Galabat Al Gharbyah-Kassab,2,2
+519626,Armed Clashes in Sudan (Overview),Sudan,SDN,Gedaref,SD12,Galaa Al Nahal,SD12079,65674,2024-12-17T00:00:00,2024,12,18,BA,Galaa Al Nahal,1,3
+519627,Armed Clashes in Sudan (Overview),Sudan,SDN,Gedaref,SD12,Madeinat Al Gedaref,SD12080,349757,2024-12-17T00:00:00,2024,12,18,BA,Madeinat Al Gedaref,6,58
+519628,Armed Clashes in Sudan (Overview),Sudan,SDN,Gedaref,SD12,Wasat Al Gedaref,SD12081,38999,2024-12-17T00:00:00,2024,12,18,BA,Wasat Al Gedaref,1,5
+519629,Armed Clashes in Sudan (Overview),Sudan,SDN,Gedaref,SD12,Al Mafaza,SD12082,93925,2024-12-17T00:00:00,2024,12,18,BA,Al Mafaza,0,6
+519630,Armed Clashes in Sudan (Overview),Sudan,SDN,Gedaref,SD12,Galabat Ash-Shargiah,SD12083,99399,2024-12-17T00:00:00,2024,12,18,BA,Galabat Ash-Shargiah,0,1
+519631,Armed Clashes in Sudan (Overview),Sudan,SDN,Gedaref,SD12,Ar Rahad,SD12084,154395,2024-12-17T00:00:00,2024,12,18,BA,Ar Rahad,128,53
+519639,Armed Clashes in Sudan (Overview),Sudan,SDN,North Kordofan,SD13,Ar Rahad,SD13030,41912,2024-12-17T00:00:00,2024,12,18,BA,Ar Rahad,128,53
+519632,Armed Clashes in Sudan (Overview),Sudan,SDN,North Kordofan,SD13,Um Rawaba,SD13023,43094,2024-12-17T00:00:00,2024,12,18,BA,Um Rawaba,275,95
+519633,Armed Clashes in Sudan (Overview),Sudan,SDN,North Kordofan,SD13,Sheikan,SD13024,48653,2024-12-17T00:00:00,2024,12,18,BA,Sheikan,822,219
+519634,Armed Clashes in Sudan (Overview),Sudan,SDN,North Kordofan,SD13,Soudari,SD13025,3968,2024-12-17T00:00:00,2024,12,18,BA,Soudari,72,26
+519635,Armed Clashes in Sudan (Overview),Sudan,SDN,North Kordofan,SD13,Bara,SD13026,34269,2024-12-17T00:00:00,2024,12,18,BA,Bara,60,31
+519636,Armed Clashes in Sudan (Overview),Sudan,SDN,North Kordofan,SD13,Gebrat Al Sheikh,SD13027,7328,2024-12-17T00:00:00,2024,12,18,BA,Gebrat Al Sheikh,49,12
+519637,Armed Clashes in Sudan (Overview),Sudan,SDN,North Kordofan,SD13,Um Dam Haj Ahmed,SD13028,15241,2024-12-17T00:00:00,2024,12,18,BA,Um Dam Haj Ahmed,47,13
+519638,Armed Clashes in Sudan (Overview),Sudan,SDN,North Kordofan,SD13,Gharb Bara,SD13029,8495,2024-12-17T00:00:00,2024,12,18,BA,Gharb Bara,3,1
+519640,Armed Clashes in Sudan (Overview),Sudan,SDN,Sennar,SD14,Abu Hujar,SD14037,2954,2024-12-17T00:00:00,2024,12,18,BA,Abu Hujar,28,24
+519641,Armed Clashes in Sudan (Overview),Sudan,SDN,Sennar,SD14,Sennar,SD14038,36703,2024-12-17T00:00:00,2024,12,18,BA,Sennar,406,152
+519642,Armed Clashes in Sudan (Overview),Sudan,SDN,Sennar,SD14,Ad Dali,SD14039,12271,2024-12-17T00:00:00,2024,12,18,BA,Ad Dali,27,18
+519643,Armed Clashes in Sudan (Overview),Sudan,SDN,Sennar,SD14,Dinder,SD14040,28487,2024-12-17T00:00:00,2024,12,18,BA,Dinder,73,65
+519644,Armed Clashes in Sudan (Overview),Sudan,SDN,Sennar,SD14,As Suki,SD14041,58289,2024-12-17T00:00:00,2024,12,18,BA,As Suki,32,54
+519645,Armed Clashes in Sudan (Overview),Sudan,SDN,Sennar,SD14,Sharg Sennar,SD14042,32360,2024-12-17T00:00:00,2024,12,18,BA,Sharg Sennar,29,17
+519646,Armed Clashes in Sudan (Overview),Sudan,SDN,Sennar,SD14,Sinja,SD14043,9512,2024-12-17T00:00:00,2024,12,18,BA,Sinja,184,60
+519647,Armed Clashes in Sudan (Overview),Sudan,SDN,Aj Jazirah,SD15,Medani Al Kubra,SD15030,3789,2024-12-17T00:00:00,2024,12,18,BA,Medani Al Kubra,411,232
+519648,Armed Clashes in Sudan (Overview),Sudan,SDN,Aj Jazirah,SD15,Janub Al Jazirah,SD15031,2674,2024-12-17T00:00:00,2024,12,18,BA,Janub Al Jazirah,354,256
+519649,Armed Clashes in Sudan (Overview),Sudan,SDN,Aj Jazirah,SD15,Um Algura,SD15032,20169,2024-12-17T00:00:00,2024,12,18,BA,Um Algura,473,127
+519650,Armed Clashes in Sudan (Overview),Sudan,SDN,Aj Jazirah,SD15,Sharg Al Jazirah,SD15033,5034,2024-12-17T00:00:00,2024,12,18,BA,Sharg Al Jazirah,1221,215
+519652,Armed Clashes in Sudan (Overview),Sudan,SDN,Aj Jazirah,SD15,Al Kamlin,SD15035,57239,2024-12-17T00:00:00,2024,12,18,BA,Al Kamlin,397,137
+519653,Armed Clashes in Sudan (Overview),Sudan,SDN,Aj Jazirah,SD15,Al Manaqil,SD15036,102947,2024-12-17T00:00:00,2024,12,18,BA,Al Manaqil,154,62
+519654,Armed Clashes in Sudan (Overview),Sudan,SDN,Aj Jazirah,SD15,Al Qurashi,SD15037,76315,2024-12-17T00:00:00,2024,12,18,BA,Al Qurashi,154,33
+519656,Armed Clashes in Sudan (Overview),Sudan,SDN,River Nile,SD16,Al Matama,SD16009,182195,2024-12-17T00:00:00,2024,12,18,BA,Al Matama,2,11
+519658,Armed Clashes in Sudan (Overview),Sudan,SDN,River Nile,SD16,Ad Damar,SD16011,154981,2024-12-17T00:00:00,2024,12,18,BA,Ad Damar,12,27
+519659,Armed Clashes in Sudan (Overview),Sudan,SDN,River Nile,SD16,Atbara,SD16012,114793,2024-12-17T00:00:00,2024,12,18,BA,Atbara,5,35
+519660,Armed Clashes in Sudan (Overview),Sudan,SDN,River Nile,SD16,Barbar,SD16013,151747,2024-12-17T00:00:00,2024,12,18,BA,Barbar,8,10
+519661,Armed Clashes in Sudan (Overview),Sudan,SDN,River Nile,SD16,Al Buhaira,SD16014,8378,2024-12-17T00:00:00,2024,12,18,BA,Al Buhaira,0,2
+519662,Armed Clashes in Sudan (Overview),Sudan,SDN,Northern,SD17,Halfa,SD17014,56744,2024-12-17T00:00:00,2024,12,18,BA,Halfa,0,14
+519664,Armed Clashes in Sudan (Overview),Sudan,SDN,Northern,SD17,Al Burgaig,SD17016,64541,2024-12-17T00:00:00,2024,12,18,BA,Al Burgaig,0,3
+519665,Armed Clashes in Sudan (Overview),Sudan,SDN,Northern,SD17,Dongola,SD17017,75067,2024-12-17T00:00:00,2024,12,18,BA,Dongola,2,37
+519666,Armed Clashes in Sudan (Overview),Sudan,SDN,Northern,SD17,Al Golid,SD17018,69167,2024-12-17T00:00:00,2024,12,18,BA,Al Golid,0,3
+519667,Armed Clashes in Sudan (Overview),Sudan,SDN,Northern,SD17,Ad Dabbah,SD17019,120445,2024-12-17T00:00:00,2024,12,18,BA,Ad Dabbah,0,9
+519669,Armed Clashes in Sudan (Overview),Sudan,SDN,West Kordofan,SD18,Ghubaish,SD18021,13933,2024-12-17T00:00:00,2024,12,18,BA,Ghubaish,71,14
+519670,Armed Clashes in Sudan (Overview),Sudan,SDN,West Kordofan,SD18,An Nuhud,SD18022,47147,2024-12-17T00:00:00,2024,12,18,BA,An Nuhud,21,39
+519671,Armed Clashes in Sudan (Overview),Sudan,SDN,West Kordofan,SD18,Abu Zabad,SD18028,29504,2024-12-17T00:00:00,2024,12,18,BA,Abu Zabad,17,11
+519672,Armed Clashes in Sudan (Overview),Sudan,SDN,West Kordofan,SD18,Wad Bandah,SD18029,7049,2024-12-17T00:00:00,2024,12,18,BA,Wad Bandah,53,5
+519673,Armed Clashes in Sudan (Overview),Sudan,SDN,West Kordofan,SD18,Keilak,SD18085,16863,2024-12-17T00:00:00,2024,12,18,BA,Keilak,10,8
+519676,Armed Clashes in Sudan (Overview),Sudan,SDN,West Kordofan,SD18,As Sunut,SD18092,8774,2024-12-17T00:00:00,2024,12,18,BA,As Sunut,9,3
+519677,Armed Clashes in Sudan (Overview),Sudan,SDN,West Kordofan,SD18,Babanusa,SD18100,32587,2024-12-17T00:00:00,2024,12,18,BA,Babanusa,333,89
+519678,Armed Clashes in Sudan (Overview),Sudan,SDN,West Kordofan,SD18,Al Lagowa,SD18102,21527,2024-12-17T00:00:00,2024,12,18,BA,Al Lagowa,43,18
+519679,Armed Clashes in Sudan (Overview),Sudan,SDN,West Kordofan,SD18,Al Dibab,SD18103,21146,2024-12-17T00:00:00,2024,12,18,BA,Al Dibab,0,2
+519681,Armed Clashes in Sudan (Overview),Sudan,SDN,West Kordofan,SD18,Al Khiwai,SD18105,9583,2024-12-17T00:00:00,2024,12,18,BA,Al Khiwai,135,14
+519682,Armed Clashes in Sudan (Overview),Sudan,SDN,West Kordofan,SD18,Al Meiram,SD18106,36973,2024-12-17T00:00:00,2024,12,18,BA,Al Meiram,21,11
+519548,Armed Clashes in Sudan (Overview),Sudan,SDN,West Darfur,SD04,Kereneik,SD04125,43025,2024-12-17T00:00:00,2024,12,18,BA,Kereneik,95,30
+519651,Armed Clashes in Sudan (Overview),Sudan,SDN,Aj Jazirah,SD15,Al Hasahisa,SD15034,13994,2024-12-17T00:00:00,2024,12,18,BA,Al Hasahisa,526,450
+519680,Armed Clashes in Sudan (Overview),Sudan,SDN,West Kordofan,SD18,Al Idia,SD18104,97570,2024-12-17T00:00:00,2024,12,18,BA,Al Idia,28,22
+519526,Armed Clashes in Sudan (Overview),Sudan,SDN,South Darfur,SD03,Mershing,SD03145,80145,2024-12-17T00:00:00,2024,12,18,BA,Mershing,40,28
+519606,Armed Clashes in Sudan (Overview),Sudan,SDN,Red Sea,SD10,Haya,SD10070,4715,2024-12-17T00:00:00,2024,12,18,BA,Haya,0,3
+519675,Armed Clashes in Sudan (Overview),Sudan,SDN,West Kordofan,SD18,Abyei,SD18087,22413,2024-12-17T00:00:00,2024,12,18,BA,Abyei,285,110
+519510,Armed Clashes in Sudan (Overview),Sudan,SDN,North Darfur,SD02,As Serief,SD02118,13405,2024-12-17T00:00:00,2024,12,18,BA,As Serief,0,4
+519655,Armed Clashes in Sudan (Overview),Sudan,SDN,River Nile,SD16,Abu Hamad,SD16008,82970,2024-12-17T00:00:00,2024,12,18,BA,Abu Hamad,0,6
+519613,Armed Clashes in Sudan (Overview),Sudan,SDN,Kassala,SD11,Reifi Kassla,SD11056,6235,2024-12-17T00:00:00,2024,12,18,BA,Reifi Kassla,0,1
+519657,Armed Clashes in Sudan (Overview),Sudan,SDN,River Nile,SD16,Shendi,SD16010,322878,2024-12-17T00:00:00,2024,12,18,BA,Shendi,70,64
+519663,Armed Clashes in Sudan (Overview),Sudan,SDN,Northern,SD17,Delgo,SD17015,40940,2024-12-17T00:00:00,2024,12,18,BA,Delgo,0,3
+519502,Armed Clashes in Sudan (Overview),Sudan,SDN,Khartoum,SD01,Sharg An Neel,SD01004,19550,2024-12-17T00:00:00,2024,12,18,BA,Sharg An Neel,739,350
+519559,Armed Clashes in Sudan (Overview),Sudan,SDN,East Darfur,SD05,Yassin,SD05165,81610,2024-12-17T00:00:00,2024,12,18,BA,Yassin,22,6
+519620,Armed Clashes in Sudan (Overview),Sudan,SDN,Gedaref,SD12,Al Butanah,SD12073,32765,2024-12-17T00:00:00,2024,12,18,BA,Al Butanah,24,9
+519501,Armed Clashes in Sudan (Overview),Sudan,SDN,Khartoum,SD01,Bahri,SD01003,28473,2024-12-17T00:00:00,2024,12,18,BA,Bahri,1368,998
+519584,Armed Clashes in Sudan (Overview),Sudan,SDN,Blue Nile,SD08,Ed Damazine,SD08105,188169,2024-12-17T00:00:00,2024,12,18,BA,Ed Damazine,27,45
+519668,Armed Clashes in Sudan (Overview),Sudan,SDN,Northern,SD17,Merowe,SD17020,126804,2024-12-17T00:00:00,2024,12,18,BA,Merowe,44,30
