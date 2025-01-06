@@ -1,0 +1,55 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#intro {
+  position: relative;
+  height: 100vh;
+  background: url('image1170x530cropped.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.textbox-1 {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 2rem;
+}
+
+.scrolly {
+  position: relative;
+  width: 100%;
+}
+
+article {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.step {
+  margin: 0 0 40vh;
+  transform: translateY(20px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.step.active {
+  transform: translateY(0);
+}
+
+.textbox {
+  background: white;
+  padding: 1.5rem;
+  border: 1px solid #ddd;  
+}
+
+

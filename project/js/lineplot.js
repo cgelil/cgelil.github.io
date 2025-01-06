@@ -1,9 +1,9 @@
 // Create SVG container first
 const svg = d3.select("#lineplot")
-    .attr("width", 800)  // Set explicit width
+    .attr("width", 700)  // Set explicit width
     .attr("height", 400);  // Set explicit height
 
-const margin = {top: 20, right: 120, bottom: 50, left: 60}; // Increased margins for labels
+const margin = {top: 80, right: 80, bottom: 100, left: 80}; // Increased bottom margin for legend
 const width = +svg.attr("width") - margin.left - margin.right;
 const height = +svg.attr("height") - margin.top - margin.bottom;
 
@@ -12,6 +12,17 @@ svg.selectAll("*").remove();
 
 const g = svg.append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
+
+// Create tooltip div
+const tooltip = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0)
+    .style("position", "absolute")
+    .style("background-color", "white")
+    .style("border", "solid")
+    .style("border-width", "1px")
+    .style("border-radius", "5px")
+    .style("padding", "10px");
 
 // Load and process data
 d3.csv("https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/project/data/acled_monthly.csv")
@@ -39,7 +50,7 @@ d3.csv("https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/mai
             .range([0, width]);
 
         const y = d3.scaleLinear()
-            .domain([0, d3.max(data, d => d.event_date)])
+            .domain([0, 500])  // Set max value to 500
             .range([height, 0]);
 
         const z = d3.scaleOrdinal(d3.schemeCategory10)
@@ -52,10 +63,13 @@ d3.csv("https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/mai
             .curve(d3.curveMonotoneX); // Add curve interpolation
 
         // Add X axis
+        const xAxis = d3.axisBottom(x)
+            .tickFormat(d3.timeFormat("%b-%y")); // Format ticks as "month-year"
+
         g.append("g")
             .attr("class", "x-axis")
             .attr("transform", `translate(0,${height})`)
-            .call(d3.axisBottom(x))
+            .call(xAxis)
             .selectAll("text")
             .style("text-anchor", "end")
             .attr("dx", "-.8em")
@@ -66,21 +80,6 @@ d3.csv("https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/mai
         g.append("g")
             .attr("class", "y-axis")
             .call(d3.axisLeft(y));
-
-        // Add Y axis label
-        g.append("text")
-            .attr("transform", "rotate(-90)")
-            .attr("y", 0 - margin.left)
-            .attr("x", 0 - (height / 2))
-            .attr("dy", "1em")
-            .style("text-anchor", "middle")
-            .text("Event Frequency");
-
-        // Add X axis label
-        g.append("text")
-            .attr("transform", `translate(${width/2}, ${height + margin.bottom - 10})`)
-            .style("text-anchor", "middle")
-            .text("Time");
 
         // Add lines
         const disorder = g.selectAll(".disorder")
@@ -95,47 +94,45 @@ d3.csv("https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/mai
             .style("fill", "none")
             .style("stroke-width", 2);
 
-        // Add legend
-        const legend = g.append("g")
-            .attr("class", "legend")
-            .attr("transform", `translate(${width + 10}, 0)`);
+ 
+        // Add legend to the lines
+        disorder.append("text")
+            .datum(d => ({type: d.type, value: d.values[d.values.length - 1]}))
+            .attr("transform", d => `translate(${x(d.value.month_year)},${y(d.value.event_date)})`)
+            .attr("x", 5)
+            .attr("dy", (d, i) => `${1.35 * i}em`)  // Adjust dy to prevent overlap
+            .style("font-size", "12px")
+            .style("fill", d => z(d.type))
+            .text(d => d.type);
 
-        legend.selectAll("rect")
-            .data(disorderTypes)
-            .enter()
-            .append("rect")
-            .attr("y", (d, i) => i * 20)
-            .attr("width", 10)
-            .attr("height", 10)
-            .style("fill", d => z(d));
+        // Add main header
+        svg.append("text")
+            .attr("x", margin.left / 3)
+            .attr("y", margin.top / 4)
+            .attr("text-anchor", "left")
+            .style("font-size", "24px")
+            .style("font-weight", "bold")
+            .text("Timeline of events in Sudan");
 
-        legend.selectAll("text")
-            .data(disorderTypes)
-            .enter()
-            .append("text")
-            .attr("x", 15)
-            .attr("y", (d, i) => i * 20 + 9)
-            .text(d => d)
-            .style("font-size", "12px");
+        // Add subheader
+        svg.append("text")
+            .attr("x", margin.left / 3)
+            .attr("y", margin.top / 4 + 20)
+            .attr("text-anchor", "left")
+            .style("font-size", "16px")
+            .text("Reported Incidents (Jan 2021 to Dec 2024)");
 
-        // Animation function
-        function triggerLinePlotAnimation() {
-            const paths = d3.selectAll(".line");
+        // Add legend title
+
             
-            paths.each(function() {
-                const totalLength = this.getTotalLength();
-                d3.select(this)
-                    .attr("stroke-dasharray", `${totalLength},${totalLength}`)
-                    .attr("stroke-dashoffset", totalLength)
-                    .transition()
-                    .duration(5000)
-                    .ease(d3.easeLinear)
-                    .attr("stroke-dashoffset", 0);
-            });
-        }
+        svg.append("text")
+            .attr("x", margin.left / 3)
+            .attr("y", margin.top / 4 + 40)
+            .attr("text-anchor", "left")
+            .style("font-size", "12px")
+            .style("fill", "grey")
+            .text("Source: ACLED");
 
-        // Trigger initial animation
-        triggerLinePlotAnimation();
     })
     .catch(error => {
         console.error("Error loading the data:", error);

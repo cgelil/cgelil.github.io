@@ -1,31 +1,72 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const tooltip = d3.select(".tooltip");
+    // Create tooltip
+    const tooltip = d3.select("body").append("div").attr("class", "tooltip");
 
-    // Define the width and height for each SVG map
-    const width = 500;  // Adjusted width to fit better within the container
-    const height = 300; // Adjusted height for consistency
+    // Function to get the width and height of the container
+    const getContainerDimensions = () => {
+        const container = document.querySelector(".maps");
+        return {
+            width: container.offsetWidth,
+            height: container.offsetHeight
+        };
+    };
 
     // Projection function
-    const createProjection = (svg) => {
+    const createProjection = (width, height) => {
+        // Adjust the scale and translation to fit the map correctly within the container
         return d3.geoMercator()
-            .scale(500)  // Adjust scale for a better fit
-            .translate([width / 2, height / 2]);  // Adjust translation to center the map
+        .scale(1000)
+        .center([46,0 ])
+        .translate([400, 400]);
+    };
+
+    // Color scale based on overall_phase
+    const getColor = (phase) => {
+        const colorScale = {
+            1: "#cdfacd", // Minimal food insecurity
+            2: "#fae61e", // Stressed food insecurity
+            3: "#e67800", // Crisis level food insecurity
+            4: "#c80000", // Emergency level food insecurity
+            5: "#640000"  // Famine level food insecurity
+        };
+        return colorScale[phase] || "#ccc";  // Default to grey if phase not found
+    };
+
+    // Extract year from the GeoJSON URL
+    const extractYearFromUrl = (url) => {
+        const match = url.match(/_(\d{4})\.json$/);
+        return match ? match[1] : "Unknown Year";
     };
 
     // Render map function
     const renderMap = (svgId, geojsonUrl) => {
+        const { width, height } = getContainerDimensions();
         const svg = d3.select(`#${svgId}`).attr("width", width).attr("height", height);
-        const projection = createProjection(svg);
+        const projection = createProjection(width, height);
         const path = d3.geoPath().projection(projection);
+
+        const year = extractYearFromUrl(geojsonUrl);
+        svg.append("text")
+            .attr("x", 100)
+            .attr("y", 30) // Adjusted to be closer to the top
+            .attr("text-anchor", "middle")
+            .attr("class", "map-title")
+            .attr("font-size", "24px") // Increased font size
+            .attr("fill", "#000") // Ensure the text color is visible
+            .text(`${year}`);
 
         // Load GeoJSON data from the URL
         d3.json(geojsonUrl)
             .then(geojson => {
+                console.log("Loaded GeoJSON:", geojson); // Log the GeoJSON data for debugging
+                
                 svg.selectAll("path")
                     .data(geojson.features)
                     .enter().append("path")
                     .attr("d", path)
-                    .attr("fill", d => d.properties.color || "#ccc")
+                    .attr("fill", d => getColor(d.properties.overall_phase))
+                    .attr("stroke", "#fff")
+                    .attr("stroke-width", 0.5)
                     .on("mouseover", function (event, d) {
                         d3.select(this).attr("stroke-width", 2);
                         tooltip.style("visibility", "visible")

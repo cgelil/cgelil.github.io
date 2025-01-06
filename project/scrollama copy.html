@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map and Line Plot</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <section id="intro">
+        <div class="textbox-1">
+            <h1>Welcome to the Interactive Data Explorer</h1>
+            <p>Scroll down to explore the data through maps and visualizations.</p>
+        </div>
+    </section>
+
+    <section class="scrolly">
+        <article>
+            <div class="step" data-step="1">
+                <div class="textbox">
+                    <h2>Map Analysis - Step 1</h2>
+                    <p>Initial map visualization with basic data overview.</p>
+                </div>
+            </div>
+
+            <div class="step" data-step="2">
+                <div class="textbox">
+                    <h2>Map Analysis - Step 2</h2>
+                    <p>Updated map showing new layers of data.</p>
+                </div>
+            </div>
+
+            <div class="step" data-step="3">
+                <div class="textbox">
+                    <h2>Map Analysis - Step 3</h2>
+                    <p>Deeper dive into the dataset, highlighting key regions.</p>
+                </div>
+            </div>
+
+            <div class="step" data-step="4">
+                <div class="textbox">
+                    <h2>Line Plot Analysis - Step 4</h2>
+                    <p>Transition to line plot for trend analysis over time.</p>
+                </div>
+                <section class="graph" id="graph1">
+                    <svg id="lineplot" ></svg>
+                </section>
+            </div>
+        </article>
+
+    </section>
+
+    <script src="js/scrollama.min.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/lineplot.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+</body>
+</html>
