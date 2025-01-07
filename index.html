@@ -23,7 +23,7 @@
             <div class="dropdown-content">
                 <a href="https://www.linkedin.com/in/camelia-abdelgelil/">LinkedIn</a>
                 <a href="https://github.com/cgelil">GitHub</a>
-                <a href="/project/scrollama.html">Project Page</a>
+                <a href="/project/project.html">Project Page</a>
             </div>
         </div>
     </div>
@@ -47,22 +47,26 @@
             <h2>Coding challenge 2 – Building my own visualisation</h2>
             <p>Embed two charts built using the "create" tool in the Economics Observatory.</p>
             <div class="chart-grid">
-                <figure id="Location3"></figure>
-                <figure id="Location4"></figure>
+                <figure id="Location3" style="width: 45%;"></figure>
+                <figure id="Location4" style="width: 45%;"></figure>
             </div>
         </section>
 
         <section>
             <h2>Coding Challenge 3 – Using a visualisation in economic/policy commentary</h2>
-            <p>Chosen topic: The kids aren’t alright: Tackling a legacy of child poverty, bad diets and poor health
-                 https://www.economicsobservatory.com/the-kids-arent-alright-tackling-a-legacy-of-child-poverty-bad-diets-and-poor-health
-                 In this event, the expert panel discussed issues affecting young children in the UK, such as poverty and health, and how they might affect health outcomes. 
+            <p><i>The kids aren’t alright: Tackling a legacy of child poverty, bad diets and poor health</i>
+                 (<a href="https://www.economicsobservatory.com/the-kids-arent-alright-tackling-a-legacy-of-child-poverty-bad-diets-and-poor-health">Link</a>).
             </p>
-            <figure id="Location5"></figure>
-            <ul>
-                <li></li>
-            </ul>
-            <figure id="Location6"></figure>
+            <p>In this event, the expert panel discussed issues affecting young children in the UK, such as poverty and health, and how they might affect health outcomes.</p>
+            
+                <figure id="Location5" style="width: 45%;"></figure>
+
+            <p>
+                The UK recently witnessed an increase in the percentage of children living in low-income households, which is alarming when looking at the long-term trend.
+                Both measures have almost always followed a downward trend since they were introduced, even during the COVID-19 pandemic. </p> 
+
+                <figure id="Location6" style="width: 45%;"></figure>
+
             <ul>
                 <li>The UK has a relatively low vacancy rate compared to other OECD nations, suggesting limited availability contributes to higher rental prices.</li>
             </ul>
@@ -94,20 +98,26 @@
             <p>Use UK price datasets to create two charts and explain what you have done in 50 words.</p>
         </section>
 
+        <section>
+            <h2>Coding Challenge 9: Analytics charts.</h2>
+            <p>Produce two charts that use advanced analytics.</p>
+                <figure id="Location13"></figure> 
+        </section>
+
         <script>
             let figure_1_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartClassExample2_7.json"; 
-            let figure_2_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartClassExample3_5.json"; 
-            let figure_3_spec = "CC_data/CC2_fig1.json"; 
-            let figure_4_spec = "CC_data/CC2_fig2.json";
-            let figure_5_spec = "CC_data/CC3_fig1.json";
-            let figure_6_spec = "CC_data/CC3_fig2.json";
-            /*let figure_7_spec = "CC_data/CC4_fig1.json";*/
-            /*let figure_8_spec = "CC_data/CC5_fig1.json";*/
-            /*let figure_9_spec = "CC_data/CC6_fig1.json";*/
-            let figure_10_spec = "CC_data/CC7_basemap.json";
-            let figure_11_spec = "CC_data/CC7_chart.json";
+            let figure_2_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartLine3.json"; 
+            let figure_3_spec = "CC_json/CC2_fig1.json"; 
+            let figure_4_spec = "CC_json/CC2_fig2.json";
+            let figure_5_spec = "CC_json/CC3_fig1.json";
+            let figure_6_spec = "CC_json/CC3_fig2.json";
+            /*let figure_7_spec = "CC_json/CC4_fig1.json";*/
+            /*let figure_8_spec = "CC_json/CC5_fig1.json";*/
+            /*let figure_9_spec = "CC_json/CC6_fig1.json";*/
+            let figure_10_spec = "CC_json/CC7_basemap.json";
+            let figure_11_spec = "CC_json/CC7_chart.json";
             /*let figure_12_spec = "CC_data/CC8_fig1.json";*/
-            /*let figure_13_spec = "CC_data/CC9_fig1.json";*/
+            let figure_13_spec = "CC_json/CC9_fig1.json";
             
             vegaEmbed('#Location1', figure_1_spec);
             vegaEmbed('#Location2', figure_2_spec);
@@ -121,7 +131,7 @@
             vegaEmbed('#Location10', figure_10_spec);
             vegaEmbed('#Location11', figure_11_spec);
             vegaEmbed('#Location12', figure_12_spec);
-            vegaEmbed('#Location13', figure_13_spec)
+            vegaEmbed('#Location13', figure_13_spec);
         </script>
     </div>
 </body>
