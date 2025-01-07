@@ -1,0 +1,183 @@
+month_year,event_type,fatalities,event_date
+2021-01,Battles,176,15
+2021-01,Explosions,0,1
+2021-01,Protests,0,47
+2021-01,Violence against civilians,117,49
+2021-02,Battles,77,18
+2021-02,Explosions,4,2
+2021-02,Protests,0,32
+2021-02,Violence against civilians,25,28
+2021-03,Battles,34,11
+2021-03,Protests,0,48
+2021-03,Violence against civilians,30,33
+2021-04,Battles,179,22
+2021-04,Explosions,1,1
+2021-04,Protests,2,44
+2021-04,Violence against civilians,23,17
+2021-05,Battles,58,20
+2021-05,Explosions,3,2
+2021-05,Protests,0,23
+2021-05,Violence against civilians,38,25
+2021-06,Battles,106,21
+2021-06,Protests,1,62
+2021-06,Violence against civilians,27,34
+2021-07,Battles,121,42
+2021-07,Protests,0,34
+2021-07,Violence against civilians,53,42
+2021-08,Battles,24,12
+2021-08,Explosions,4,3
+2021-08,Protests,2,47
+2021-08,Violence against civilians,36,35
+2021-09,Battles,23,11
+2021-09,Protests,0,60
+2021-09,Violence against civilians,20,32
+2021-10,Battles,19,7
+2021-10,Protests,16,132
+2021-10,Violence against civilians,42,28
+2021-11,Battles,118,16
+2021-11,Protests,30,136
+2021-11,Violence against civilians,36,34
+2021-12,Battles,100,11
+2021-12,Explosions,1,2
+2021-12,Protests,5,149
+2021-12,Violence against civilians,78,48
+2022-01,Battles,15,6
+2022-01,Explosions,0,1
+2022-01,Protests,22,225
+2022-01,Violence against civilians,28,39
+2022-02,Battles,32,13
+2022-02,Protests,7,149
+2022-02,Violence against civilians,26,29
+2022-03,Battles,97,21
+2022-03,Explosions,5,1
+2022-03,Protests,7,195
+2022-03,Violence against civilians,61,31
+2022-04,Battles,229,15
+2022-04,Explosions,0,1
+2022-04,Protests,1,156
+2022-04,Violence against civilians,91,31
+2022-05,Battles,37,20
+2022-05,Explosions,5,4
+2022-05,Protests,7,141
+2022-05,Violence against civilians,39,40
+2022-06,Battles,200,36
+2022-06,Protests,16,191
+2022-06,Violence against civilians,57,38
+2022-07,Battles,193,17
+2022-07,Explosions,0,1
+2022-07,Protests,2,99
+2022-07,Violence against civilians,22,50
+2022-08,Battles,51,13
+2022-08,Explosions,5,2
+2022-08,Protests,3,82
+2022-08,Violence against civilians,33,28
+2022-09,Battles,45,15
+2022-09,Explosions,3,1
+2022-09,Protests,0,84
+2022-09,Violence against civilians,23,35
+2022-10,Battles,375,27
+2022-10,Explosions,14,1
+2022-10,Protests,7,181
+2022-10,Violence against civilians,38,36
+2022-11,Battles,112,15
+2022-11,Explosions,0,1
+2022-11,Protests,2,116
+2022-11,Violence against civilians,38,53
+2022-12,Battles,76,19
+2022-12,Explosions,0,3
+2022-12,Protests,0,153
+2022-12,Violence against civilians,33,42
+2023-01,Battles,14,11
+2023-01,Protests,2,130
+2023-01,Violence against civilians,48,55
+2023-02,Battles,13,9
+2023-02,Protests,3,94
+2023-02,Violence against civilians,30,48
+2023-03,Battles,20,12
+2023-03,Explosions,3,2
+2023-03,Protests,0,95
+2023-03,Violence against civilians,39,32
+2023-04,Battles,992,246
+2023-04,Explosions,63,21
+2023-04,Protests,1,93
+2023-04,Violence against civilians,77,64
+2023-05,Battles,1365,253
+2023-05,Explosions,132,24
+2023-05,Protests,0,23
+2023-05,Violence against civilians,232,115
+2023-06,Battles,1797,250
+2023-06,Explosions,100,42
+2023-06,Protests,3,18
+2023-06,Violence against civilians,489,105
+2023-07,Battles,1323,363
+2023-07,Explosions,147,35
+2023-07,Protests,1,21
+2023-07,Violence against civilians,144,126
+2023-08,Battles,2267,458
+2023-08,Explosions,98,97
+2023-08,Protests,0,8
+2023-08,Violence against civilians,144,101
+2023-09,Battles,1262,244
+2023-09,Explosions,378,201
+2023-09,Protests,0,10
+2023-09,Violence against civilians,88,103
+2023-10,Battles,845,209
+2023-10,Explosions,485,205
+2023-10,Protests,0,8
+2023-10,Violence against civilians,56,59
+2023-11,Battles,1745,183
+2023-11,Explosions,172,168
+2023-11,Protests,0,12
+2023-11,Violence against civilians,538,75
+2023-12,Battles,271,189
+2023-12,Explosions,240,227
+2023-12,Protests,0,22
+2023-12,Violence against civilians,230,103
+2024-01,Battles,559,217
+2024-01,Explosions,250,312
+2024-01,Protests,0,10
+2024-01,Violence against civilians,83,66
+2024-02,Battles,477,188
+2024-02,Explosions,59,108
+2024-02,Protests,0,5
+2024-02,Violence against civilians,380,162
+2024-03,Battles,502,145
+2024-03,Explosions,66,111
+2024-03,Protests,0,6
+2024-03,Violence against civilians,200,110
+2024-04,Battles,474,153
+2024-04,Explosions,144,104
+2024-04,Protests,0,6
+2024-04,Violence against civilians,229,162
+2024-05,Battles,585,123
+2024-05,Explosions,152,125
+2024-05,Protests,0,8
+2024-05,Violence against civilians,216,138
+2024-06,Battles,684,139
+2024-06,Explosions,337,144
+2024-06,Protests,0,4
+2024-06,Violence against civilians,195,85
+2024-07,Battles,615,156
+2024-07,Explosions,112,66
+2024-07,Protests,0,1
+2024-07,Violence against civilians,176,94
+2024-08,Battles,464,92
+2024-08,Explosions,256,217
+2024-08,Protests,0,11
+2024-08,Violence against civilians,76,101
+2024-09,Battles,837,179
+2024-09,Explosions,326,234
+2024-09,Protests,0,5
+2024-09,Violence against civilians,124,91
+2024-10,Battles,2129,194
+2024-10,Explosions,385,191
+2024-10,Protests,0,4
+2024-10,Violence against civilians,496,236
+2024-11,Battles,702,98
+2024-11,Explosions,349,154
+2024-11,Protests,0,2
+2024-11,Violence against civilians,460,147
+2024-12,Battles,574,61
+2024-12,Explosions,326,86
+2024-12,Protests,1,2
+2024-12,Violence against civilians,81,41
