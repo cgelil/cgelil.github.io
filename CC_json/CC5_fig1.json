@@ -1,0 +1,1154 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "datasets": {
+    "data-9eecd7599f9d4e7c456f6bbaf6d53bca": [
+      {
+        "Org": "atp",
+        "Player": "J. Sinner",
+        "Points": 11830,
+        "Rank": 1,
+        "Season": 2024
+      },
+      {
+        "Org": "atp",
+        "Player": "A. Zverev",
+        "Points": 7915,
+        "Rank": 2,
+        "Season": 2024
+      },
+      {
+        "Org": "atp",
+        "Player": "C. Alcaraz",
+        "Points": 7010,
+        "Rank": 3,
+        "Season": 2024
+      },
+      {
+        "Org": "atp",
+        "Player": "T. Fritz",
+        "Points": 5100,
+        "Rank": 4,
+        "Season": 2024
+      },
+      {
+        "Org": "atp",
+        "Player": "D. Medvedev",
+        "Points": 5030,
+        "Rank": 5,
+        "Season": 2024
+      },
+      {
+        "Org": "atp",
+        "Player": "C. Ruud",
+        "Points": 4255,
+        "Rank": 6,
+        "Season": 2024
+      },
+      {
+        "Org": "atp",
+        "Player": "N. Djokovic",
+        "Points": 3910,
+        "Rank": 7,
+        "Season": 2024
+      },
+      {
+        "Org": "atp",
+        "Player": "A. Rublev",
+        "Points": 3760,
+        "Rank": 8,
+        "Season": 2024
+      },
+      {
+        "Org": "atp",
+        "Player": "A. De Minaur",
+        "Points": 3745,
+        "Rank": 9,
+        "Season": 2024
+      },
+      {
+        "Org": "atp",
+        "Player": "G. Dimitrov",
+        "Points": 3350,
+        "Rank": 10,
+        "Season": 2024
+      },
+      {
+        "Org": "atp",
+        "Player": "N. Djokovic",
+        "Points": 11245,
+        "Rank": 1,
+        "Season": 2023
+      },
+      {
+        "Org": "atp",
+        "Player": "C. Alcaraz",
+        "Points": 8855,
+        "Rank": 2,
+        "Season": 2023
+      },
+      {
+        "Org": "atp",
+        "Player": "D. Medvedev",
+        "Points": 7600,
+        "Rank": 3,
+        "Season": 2023
+      },
+      {
+        "Org": "atp",
+        "Player": "J. Sinner",
+        "Points": 6490,
+        "Rank": 4,
+        "Season": 2023
+      },
+      {
+        "Org": "atp",
+        "Player": "A. Rublev",
+        "Points": 4805,
+        "Rank": 5,
+        "Season": 2023
+      },
+      {
+        "Org": "atp",
+        "Player": "S. Tsitsipas",
+        "Points": 4235,
+        "Rank": 6,
+        "Season": 2023
+      },
+      {
+        "Org": "atp",
+        "Player": "A. Zverev",
+        "Points": 3985,
+        "Rank": 7,
+        "Season": 2023
+      },
+      {
+        "Org": "atp",
+        "Player": "H. Rune",
+        "Points": 3660,
+        "Rank": 8,
+        "Season": 2023
+      },
+      {
+        "Org": "atp",
+        "Player": "H. Hurkacz",
+        "Points": 3245,
+        "Rank": 9,
+        "Season": 2023
+      },
+      {
+        "Org": "atp",
+        "Player": "T. Fritz",
+        "Points": 3100,
+        "Rank": 10,
+        "Season": 2023
+      },
+      {
+        "Org": "atp",
+        "Player": "C. Alcaraz",
+        "Points": 6820,
+        "Rank": 1,
+        "Season": 2022
+      },
+      {
+        "Org": "atp",
+        "Player": "R. Nadal",
+        "Points": 6020,
+        "Rank": 2,
+        "Season": 2022
+      },
+      {
+        "Org": "atp",
+        "Player": "C. Ruud",
+        "Points": 5820,
+        "Rank": 3,
+        "Season": 2022
+      },
+      {
+        "Org": "atp",
+        "Player": "S. Tsitsipas",
+        "Points": 5550,
+        "Rank": 4,
+        "Season": 2022
+      },
+      {
+        "Org": "atp",
+        "Player": "N. Djokovic",
+        "Points": 4820,
+        "Rank": 5,
+        "Season": 2022
+      },
+      {
+        "Org": "atp",
+        "Player": "F. Auger-Aliassime",
+        "Points": 4195,
+        "Rank": 6,
+        "Season": 2022
+      },
+      {
+        "Org": "atp",
+        "Player": "D. Medvedev",
+        "Points": 4065,
+        "Rank": 7,
+        "Season": 2022
+      },
+      {
+        "Org": "atp",
+        "Player": "A. Rublev",
+        "Points": 3930,
+        "Rank": 8,
+        "Season": 2022
+      },
+      {
+        "Org": "atp",
+        "Player": "T. Fritz",
+        "Points": 3355,
+        "Rank": 9,
+        "Season": 2022
+      },
+      {
+        "Org": "atp",
+        "Player": "H. Hurkacz",
+        "Points": 2905,
+        "Rank": 10,
+        "Season": 2022
+      },
+      {
+        "Org": "atp",
+        "Player": "N. Djokovic",
+        "Points": 11540,
+        "Rank": 1,
+        "Season": 2021
+      },
+      {
+        "Org": "atp",
+        "Player": "D. Medvedev",
+        "Points": 8640,
+        "Rank": 2,
+        "Season": 2021
+      },
+      {
+        "Org": "atp",
+        "Player": "A. Zverev",
+        "Points": 7840,
+        "Rank": 3,
+        "Season": 2021
+      },
+      {
+        "Org": "atp",
+        "Player": "S. Tsitsipas",
+        "Points": 6540,
+        "Rank": 4,
+        "Season": 2021
+      },
+      {
+        "Org": "atp",
+        "Player": "A. Rublev",
+        "Points": 5150,
+        "Rank": 5,
+        "Season": 2021
+      },
+      {
+        "Org": "atp",
+        "Player": "R. Nadal",
+        "Points": 4875,
+        "Rank": 6,
+        "Season": 2021
+      },
+      {
+        "Org": "atp",
+        "Player": "M. Berrettini",
+        "Points": 4568,
+        "Rank": 7,
+        "Season": 2021
+      },
+      {
+        "Org": "atp",
+        "Player": "C. Ruud",
+        "Points": 4160,
+        "Rank": 8,
+        "Season": 2021
+      },
+      {
+        "Org": "atp",
+        "Player": "H. Hurkacz",
+        "Points": 3706,
+        "Rank": 9,
+        "Season": 2021
+      },
+      {
+        "Org": "atp",
+        "Player": "J. Sinner",
+        "Points": 3350,
+        "Rank": 10,
+        "Season": 2021
+      },
+      {
+        "Org": "atp",
+        "Player": "N. Djokovic",
+        "Points": 12030,
+        "Rank": 1,
+        "Season": 2020
+      },
+      {
+        "Org": "atp",
+        "Player": "R. Nadal",
+        "Points": 9850,
+        "Rank": 2,
+        "Season": 2020
+      },
+      {
+        "Org": "atp",
+        "Player": "D. Thiem",
+        "Points": 9125,
+        "Rank": 3,
+        "Season": 2020
+      },
+      {
+        "Org": "atp",
+        "Player": "D. Medvedev",
+        "Points": 8470,
+        "Rank": 4,
+        "Season": 2020
+      },
+      {
+        "Org": "atp",
+        "Player": "R. Federer",
+        "Points": 6630,
+        "Rank": 5,
+        "Season": 2020
+      },
+      {
+        "Org": "atp",
+        "Player": "S. Tsitsipas",
+        "Points": 5925,
+        "Rank": 6,
+        "Season": 2020
+      },
+      {
+        "Org": "atp",
+        "Player": "A. Zverev",
+        "Points": 5525,
+        "Rank": 7,
+        "Season": 2020
+      },
+      {
+        "Org": "atp",
+        "Player": "A. Rublev",
+        "Points": 4119,
+        "Rank": 8,
+        "Season": 2020
+      },
+      {
+        "Org": "atp",
+        "Player": "D. Schwartzman",
+        "Points": 3455,
+        "Rank": 9,
+        "Season": 2020
+      },
+      {
+        "Org": "atp",
+        "Player": "M. Berrettini",
+        "Points": 3075,
+        "Rank": 10,
+        "Season": 2020
+      }
+    ],
+    "data-a6ae5b035c794916f95db887957e0d6a": [
+      {
+        "Org": "atp",
+        "Player": "J. Sinner",
+        "Points": 11830,
+        "Rank": 1,
+        "Season": 2024
+      },
+      {
+        "Org": "atp",
+        "Player": "A. Zverev",
+        "Points": 7915,
+        "Rank": 2,
+        "Season": 2024
+      },
+      {
+        "Org": "atp",
+        "Player": "C. Alcaraz",
+        "Points": 7010,
+        "Rank": 3,
+        "Season": 2024
+      },
+      {
+        "Org": "atp",
+        "Player": "N. Djokovic",
+        "Points": 11245,
+        "Rank": 1,
+        "Season": 2023
+      },
+      {
+        "Org": "atp",
+        "Player": "C. Alcaraz",
+        "Points": 8855,
+        "Rank": 2,
+        "Season": 2023
+      },
+      {
+        "Org": "atp",
+        "Player": "D. Medvedev",
+        "Points": 7600,
+        "Rank": 3,
+        "Season": 2023
+      },
+      {
+        "Org": "atp",
+        "Player": "C. Alcaraz",
+        "Points": 6820,
+        "Rank": 1,
+        "Season": 2022
+      },
+      {
+        "Org": "atp",
+        "Player": "R. Nadal",
+        "Points": 6020,
+        "Rank": 2,
+        "Season": 2022
+      },
+      {
+        "Org": "atp",
+        "Player": "C. Ruud",
+        "Points": 5820,
+        "Rank": 3,
+        "Season": 2022
+      },
+      {
+        "Org": "atp",
+        "Player": "N. Djokovic",
+        "Points": 11540,
+        "Rank": 1,
+        "Season": 2021
+      },
+      {
+        "Org": "atp",
+        "Player": "D. Medvedev",
+        "Points": 8640,
+        "Rank": 2,
+        "Season": 2021
+      },
+      {
+        "Org": "atp",
+        "Player": "A. Zverev",
+        "Points": 7840,
+        "Rank": 3,
+        "Season": 2021
+      },
+      {
+        "Org": "atp",
+        "Player": "N. Djokovic",
+        "Points": 12030,
+        "Rank": 1,
+        "Season": 2020
+      },
+      {
+        "Org": "atp",
+        "Player": "R. Nadal",
+        "Points": 9850,
+        "Rank": 2,
+        "Season": 2020
+      },
+      {
+        "Org": "atp",
+        "Player": "D. Thiem",
+        "Points": 9125,
+        "Rank": 3,
+        "Season": 2020
+      }
+    ],
+    "data-a75aa3e32ccb09b3e393d7a6efe886f7": [
+      {
+        "Org": "wta",
+        "Player": "A. Sabalenka",
+        "Points": 9416,
+        "Rank": 1,
+        "Season": 2024
+      },
+      {
+        "Org": "wta",
+        "Player": "I. Swiatek",
+        "Points": 8295,
+        "Rank": 2,
+        "Season": 2024
+      },
+      {
+        "Org": "wta",
+        "Player": "C. Gauff",
+        "Points": 6530,
+        "Rank": 3,
+        "Season": 2024
+      },
+      {
+        "Org": "wta",
+        "Player": "J. Paolini",
+        "Points": 5344,
+        "Rank": 4,
+        "Season": 2024
+      },
+      {
+        "Org": "wta",
+        "Player": "Q. Zheng",
+        "Points": 5340,
+        "Rank": 5,
+        "Season": 2024
+      },
+      {
+        "Org": "wta",
+        "Player": "E. Rybakina",
+        "Points": 5171,
+        "Rank": 6,
+        "Season": 2024
+      },
+      {
+        "Org": "wta",
+        "Player": "J. Pegula",
+        "Points": 4705,
+        "Rank": 7,
+        "Season": 2024
+      },
+      {
+        "Org": "wta",
+        "Player": "E. Navarro",
+        "Points": 3589,
+        "Rank": 8,
+        "Season": 2024
+      },
+      {
+        "Org": "wta",
+        "Player": "D. Kasatkina",
+        "Points": 3368,
+        "Rank": 9,
+        "Season": 2024
+      },
+      {
+        "Org": "wta",
+        "Player": "B. Krejc\u00edkov\u00e1",
+        "Points": 3214,
+        "Rank": 10,
+        "Season": 2024
+      },
+      {
+        "Org": "wta",
+        "Player": "I. Swiatek",
+        "Points": 9295,
+        "Rank": 1,
+        "Season": 2023
+      },
+      {
+        "Org": "wta",
+        "Player": "A. Sabalenka",
+        "Points": 9050,
+        "Rank": 2,
+        "Season": 2023
+      },
+      {
+        "Org": "wta",
+        "Player": "C. Gauff",
+        "Points": 6580,
+        "Rank": 3,
+        "Season": 2023
+      },
+      {
+        "Org": "wta",
+        "Player": "E. Rybakina",
+        "Points": 6365,
+        "Rank": 4,
+        "Season": 2023
+      },
+      {
+        "Org": "wta",
+        "Player": "J. Pegula",
+        "Points": 5975,
+        "Rank": 5,
+        "Season": 2023
+      },
+      {
+        "Org": "wta",
+        "Player": "O. Jabeur",
+        "Points": 4195,
+        "Rank": 6,
+        "Season": 2023
+      },
+      {
+        "Org": "wta",
+        "Player": "M. Vondrou\u0161ov\u00e1",
+        "Points": 4046,
+        "Rank": 7,
+        "Season": 2023
+      },
+      {
+        "Org": "wta",
+        "Player": "K. Muchov\u00e1",
+        "Points": 3650,
+        "Rank": 8,
+        "Season": 2023
+      },
+      {
+        "Org": "wta",
+        "Player": "M. Sakkari",
+        "Points": 3620,
+        "Rank": 9,
+        "Season": 2023
+      },
+      {
+        "Org": "wta",
+        "Player": "B. Krejc\u00edkov\u00e1",
+        "Points": 2880,
+        "Rank": 10,
+        "Season": 2023
+      },
+      {
+        "Org": "wta",
+        "Player": "I. Swiatek",
+        "Points": 11085,
+        "Rank": 1,
+        "Season": 2022
+      },
+      {
+        "Org": "wta",
+        "Player": "O. Jabeur",
+        "Points": 5055,
+        "Rank": 2,
+        "Season": 2022
+      },
+      {
+        "Org": "wta",
+        "Player": "J. Pegula",
+        "Points": 4691,
+        "Rank": 3,
+        "Season": 2022
+      },
+      {
+        "Org": "wta",
+        "Player": "C. Garcia",
+        "Points": 4375,
+        "Rank": 4,
+        "Season": 2022
+      },
+      {
+        "Org": "wta",
+        "Player": "A. Sabalenka",
+        "Points": 3925,
+        "Rank": 5,
+        "Season": 2022
+      },
+      {
+        "Org": "wta",
+        "Player": "M. Sakkari",
+        "Points": 3871,
+        "Rank": 6,
+        "Season": 2022
+      },
+      {
+        "Org": "wta",
+        "Player": "C. Gauff",
+        "Points": 3646,
+        "Rank": 7,
+        "Season": 2022
+      },
+      {
+        "Org": "wta",
+        "Player": "D. Kasatkina",
+        "Points": 3435,
+        "Rank": 8,
+        "Season": 2022
+      },
+      {
+        "Org": "wta",
+        "Player": "V. Kudermetova",
+        "Points": 2795,
+        "Rank": 9,
+        "Season": 2022
+      },
+      {
+        "Org": "wta",
+        "Player": "S. Halep",
+        "Points": 2661,
+        "Rank": 10,
+        "Season": 2022
+      },
+      {
+        "Org": "wta",
+        "Player": "A. Barty",
+        "Points": 7582,
+        "Rank": 1,
+        "Season": 2021
+      },
+      {
+        "Org": "wta",
+        "Player": "A. Sabalenka",
+        "Points": 6380,
+        "Rank": 2,
+        "Season": 2021
+      },
+      {
+        "Org": "wta",
+        "Player": "G. Muguruza",
+        "Points": 5685,
+        "Rank": 3,
+        "Season": 2021
+      },
+      {
+        "Org": "wta",
+        "Player": "K. Pl\u00ed\u0161kov\u00e1",
+        "Points": 5135,
+        "Rank": 4,
+        "Season": 2021
+      },
+      {
+        "Org": "wta",
+        "Player": "B. Krejc\u00edkov\u00e1",
+        "Points": 5008,
+        "Rank": 5,
+        "Season": 2021
+      },
+      {
+        "Org": "wta",
+        "Player": "M. Sakkari",
+        "Points": 4385,
+        "Rank": 6,
+        "Season": 2021
+      },
+      {
+        "Org": "wta",
+        "Player": "A. Kontaveit",
+        "Points": 4351,
+        "Rank": 7,
+        "Season": 2021
+      },
+      {
+        "Org": "wta",
+        "Player": "P. Badosa",
+        "Points": 3849,
+        "Rank": 8,
+        "Season": 2021
+      },
+      {
+        "Org": "wta",
+        "Player": "I. Swiatek",
+        "Points": 3786,
+        "Rank": 9,
+        "Season": 2021
+      },
+      {
+        "Org": "wta",
+        "Player": "O. Jabeur",
+        "Points": 3455,
+        "Rank": 10,
+        "Season": 2021
+      },
+      {
+        "Org": "wta",
+        "Player": "A. Barty",
+        "Points": 8717,
+        "Rank": 1,
+        "Season": 2020
+      },
+      {
+        "Org": "wta",
+        "Player": "S. Halep",
+        "Points": 7255,
+        "Rank": 2,
+        "Season": 2020
+      },
+      {
+        "Org": "wta",
+        "Player": "N. Osaka",
+        "Points": 5780,
+        "Rank": 3,
+        "Season": 2020
+      },
+      {
+        "Org": "wta",
+        "Player": "S. Kenin",
+        "Points": 5760,
+        "Rank": 4,
+        "Season": 2020
+      },
+      {
+        "Org": "wta",
+        "Player": "E. Svitolina",
+        "Points": 5260,
+        "Rank": 5,
+        "Season": 2020
+      },
+      {
+        "Org": "wta",
+        "Player": "K. Pl\u00ed\u0161kov\u00e1",
+        "Points": 5205,
+        "Rank": 6,
+        "Season": 2020
+      },
+      {
+        "Org": "wta",
+        "Player": "B. Andreescu",
+        "Points": 4555,
+        "Rank": 7,
+        "Season": 2020
+      },
+      {
+        "Org": "wta",
+        "Player": "P. Kvitov\u00e1",
+        "Points": 4516,
+        "Rank": 8,
+        "Season": 2020
+      },
+      {
+        "Org": "wta",
+        "Player": "K. Bertens",
+        "Points": 4505,
+        "Rank": 9,
+        "Season": 2020
+      },
+      {
+        "Org": "wta",
+        "Player": "A. Sabalenka",
+        "Points": 4220,
+        "Rank": 10,
+        "Season": 2020
+      }
+    ],
+    "data-baf9105f554b0571580251a766779a80": [
+      {
+        "Org": "wta",
+        "Player": "A. Sabalenka",
+        "Points": 9416,
+        "Rank": 1,
+        "Season": 2024
+      },
+      {
+        "Org": "wta",
+        "Player": "I. Swiatek",
+        "Points": 8295,
+        "Rank": 2,
+        "Season": 2024
+      },
+      {
+        "Org": "wta",
+        "Player": "C. Gauff",
+        "Points": 6530,
+        "Rank": 3,
+        "Season": 2024
+      },
+      {
+        "Org": "wta",
+        "Player": "I. Swiatek",
+        "Points": 9295,
+        "Rank": 1,
+        "Season": 2023
+      },
+      {
+        "Org": "wta",
+        "Player": "A. Sabalenka",
+        "Points": 9050,
+        "Rank": 2,
+        "Season": 2023
+      },
+      {
+        "Org": "wta",
+        "Player": "C. Gauff",
+        "Points": 6580,
+        "Rank": 3,
+        "Season": 2023
+      },
+      {
+        "Org": "wta",
+        "Player": "I. Swiatek",
+        "Points": 11085,
+        "Rank": 1,
+        "Season": 2022
+      },
+      {
+        "Org": "wta",
+        "Player": "O. Jabeur",
+        "Points": 5055,
+        "Rank": 2,
+        "Season": 2022
+      },
+      {
+        "Org": "wta",
+        "Player": "J. Pegula",
+        "Points": 4691,
+        "Rank": 3,
+        "Season": 2022
+      },
+      {
+        "Org": "wta",
+        "Player": "A. Barty",
+        "Points": 7582,
+        "Rank": 1,
+        "Season": 2021
+      },
+      {
+        "Org": "wta",
+        "Player": "A. Sabalenka",
+        "Points": 6380,
+        "Rank": 2,
+        "Season": 2021
+      },
+      {
+        "Org": "wta",
+        "Player": "G. Muguruza",
+        "Points": 5685,
+        "Rank": 3,
+        "Season": 2021
+      },
+      {
+        "Org": "wta",
+        "Player": "A. Barty",
+        "Points": 8717,
+        "Rank": 1,
+        "Season": 2020
+      },
+      {
+        "Org": "wta",
+        "Player": "S. Halep",
+        "Points": 7255,
+        "Rank": 2,
+        "Season": 2020
+      },
+      {
+        "Org": "wta",
+        "Player": "N. Osaka",
+        "Points": 5780,
+        "Rank": 3,
+        "Season": 2020
+      }
+    ]
+  },
+  "hconcat": [
+    {
+      "height": 400,
+      "layer": [
+        {
+          "data": {
+            "name": "data-9eecd7599f9d4e7c456f6bbaf6d53bca"
+          },
+          "encoding": {
+            "color": {
+              "field": "Org",
+              "legend": null,
+              "scale": {
+                "domain": [
+                  "atp"
+                ],
+                "range": [
+                  "#2ecc71"
+                ]
+              },
+              "title": "Tour",
+              "type": "nominal"
+            },
+            "tooltip": [
+              {
+                "field": "Player",
+                "type": "nominal"
+              },
+              {
+                "field": "Points",
+                "type": "quantitative"
+              },
+              {
+                "field": "Rank",
+                "type": "quantitative"
+              },
+              {
+                "field": "Season",
+                "type": "quantitative"
+              },
+              {
+                "field": "Org",
+                "type": "nominal"
+              }
+            ],
+            "x": {
+              "field": "Season",
+              "title": null,
+              "type": "ordinal"
+            },
+            "y": {
+              "field": "Points",
+              "title": null,
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "size": 100,
+            "type": "circle"
+          },
+          "name": "view_39",
+          "title": "ATP Tennis Rankings Distribution"
+        },
+        {
+          "data": {
+            "name": "data-a6ae5b035c794916f95db887957e0d6a"
+          },
+          "encoding": {
+            "color": {
+              "value": "black"
+            },
+            "text": {
+              "field": "Player",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "Season",
+              "type": "ordinal"
+            },
+            "y": {
+              "field": "Points",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "align": "right",
+            "baseline": "middle",
+            "dx": 10,
+            "dy": -10,
+            "type": "text"
+          }
+        }
+      ],
+      "width": 300
+    },
+    {
+      "height": 400,
+      "layer": [
+        {
+          "data": {
+            "name": "data-a75aa3e32ccb09b3e393d7a6efe886f7"
+          },
+          "encoding": {
+            "color": {
+              "field": "Org",
+              "legend": null,
+              "scale": {
+                "domain": [
+                  "wta"
+                ],
+                "range": [
+                  "#e74c3c"
+                ]
+              },
+              "title": "Tour",
+              "type": "nominal"
+            },
+            "tooltip": [
+              {
+                "field": "Player",
+                "type": "nominal"
+              },
+              {
+                "field": "Points",
+                "type": "quantitative"
+              },
+              {
+                "field": "Rank",
+                "type": "quantitative"
+              },
+              {
+                "field": "Season",
+                "type": "quantitative"
+              },
+              {
+                "field": "Org",
+                "type": "nominal"
+              }
+            ],
+            "x": {
+              "field": "Season",
+              "title": null,
+              "type": "ordinal"
+            },
+            "y": {
+              "field": "Points",
+              "title": null,
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "size": 100,
+            "type": "circle"
+          },
+          "name": "view_40",
+          "title": "WTA Tennis Rankings Distribution"
+        },
+        {
+          "data": {
+            "name": "data-baf9105f554b0571580251a766779a80"
+          },
+          "encoding": {
+            "color": {
+              "value": "black"
+            },
+            "text": {
+              "field": "Player",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "Season",
+              "type": "ordinal"
+            },
+            "y": {
+              "field": "Points",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "align": "center",
+            "baseline": "middle",
+            "dx": 1,
+            "dy": -10,
+            "type": "text"
+          }
+        }
+      ],
+      "width": 300
+    }
+  ],
+  "params": [
+    {
+      "bind": "scales",
+      "name": "param_39",
+      "select": {
+        "encodings": [
+          "x",
+          "y"
+        ],
+        "type": "interval"
+      },
+      "views": [
+        "view_39"
+      ]
+    },
+    {
+      "bind": "scales",
+      "name": "param_40",
+      "select": {
+        "encodings": [
+          "x",
+          "y"
+        ],
+        "type": "interval"
+      },
+      "views": [
+        "view_40"
+      ]
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  }
+}
