@@ -18,8 +18,7 @@
             <p><strong>Aim:</strong> This project aims to examine the ongoing food crisis in Sudan, 
                 with a focus on two key drivers - conflict and internal displacement -
                 and their relationship with food insecurity.
-
-                Specifically, it investigates the period following the outbreak of the civil war in April 2023,
+                Specifically, I investigate the period following the outbreak of the civil war in April 2023,
                 analyzing the consequences at a subnational level.
                 
             </p>
@@ -29,11 +28,9 @@
     <!-- Scrolling Content Section -->
     <section class="scrolly">
         <div class="textbox" id="textbox-2">
-            <p> Sudan has been experiencing worseming acute food security levels since 2021. 
-                By May 2024, the Integrated Food Security Phase Classification (IPC) reported that
-                over half of the Sudanese population (25.6 Million) was facing acute food insecurity (IPC Phase 3 or above), 
-                with 755,000 at risk of famine across 10 states. 
-                Additionally, at least 534,000 IDPs and refugees were facing critical or catastrophic levels of acute food insecurity (IPC Phase 4 or 5).
+            <p> Sudan has been experiencing worsening levels of acute food security since 2021. 
+                By May 2024, over half of the Sudanese population (25.6 Million) was facing acute food insecurity (IPC Phase 3 or above). 
+                First projections for 2025 show 5 areas being fully classified in  catastrophic levels of acute food insecurity (IPC 5).
             </p>
         </div>
 
@@ -46,8 +43,10 @@
         </section>    
 
         <div class="textbox" id="textbox-3">
-            <p>Then, I downloaded
-                Armed Conflict Location & Event Data (ACLED).
+            <p> This does not come as a surprise considering Sudan's recent history of political instability.
+                In October 2021, the Sudanese military, led by General Abdel Fattah al-Burhan, seized control of the government in a coup, 
+                dissolving the civilian governmen and triggering widespread protests. This continues until April 2023 when a civil war erupted 
+                between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces (RSF),resulting in significant fatalaties. 
             </p>
 
             <p>
@@ -65,16 +64,7 @@
         </section>  
 
         <div class="textbox" id="textbox-4">
-            <p> The civil war between Sudanese Armed Forces (SAF) 
-                and the paramilitary Rapid Support Forces (RSF) began on 15 April 2023. <br>
-            </p>
-        </div>
-
-        <div class="textbox" id="textbox-5">
-            <p>To see how the pongoing events affect food insecurity, we can examine the 
-                Armed Conflict Location & Event Data (ACLED).
-                The civil war between Sudanese Armed Forces (SAF) 
-                and the paramilitary Rapid Support Forces (RSF) began on 15 April 2023. 
+            <p>The conflict has caused a severe humanitarian crisis, with millions of people internally displaced and many fleeing as refugees. <br>
             </p>
         </div>
 
@@ -89,38 +79,39 @@
             </div>  
         </section> 
 
+        <p> <strong>Conclusions:</strong> <br>
+
 
         <div class="writeup">
             <p> <strong>Data:</strong> <br>
                 <li> <strong>IPC Food Security data:</strong></li> 
-                I used the IPC APIs to automate the extraction of GeoJSON data on food insecurity in Sudan. 
-                Using a Python script I first request a list of IPC analyses, filtering for current data. 
-                For each analysis, the script downloads the associated geographic data in GeoJSON format. If the analysis
-                does not contain current data, the script reuqests projection data.
+                Using a Python script I first request a list of IPC analyses using the IPCs API, filtering for current data. 
+                For each analysis, the script downloads the associated geographic data in GeoJSON format using a second API. If the analysis
+                does not contain current data, the script requests projection data using a third API. The data includes the IPC color scale.
                 <li> <strong> ACLED Events data:</strong></li> ACLED's API has a bandwidth limit that prevents users from retrieving larger 
                 amounts of data in a single call. Instead, ACLED data export tool allows a simple and fast option to download the data in one call.
                 The dataset contained 17.035 single event observations, which I grouped by month and removed irrelevant event types in order
                 to create a cleaner dataset. 
                 <li>Internal Displacemnet</li> 
                 <br>
-
                 
             </p>
-            <p>
-                3. challenges in data cleaning and/or analysis, and the tools you used to overcome them;
-                4. your conclusions. 
+            <p> <strong>Challenges:</strong> <br>
+                I wanted to achieve more interactive animation and customization for the plots, so I used d3.js to create the plots. 
+                The level of customization, especially in relation to the sizes was quite challenging, so I utilized AI tools (Claude, ChatGPT)
+                to aid with the generation of the plots.<br>
+                For the map, I was able to include controls for animating the map updates with a slider and play/pause button, 
+                allowing users to view changes over time. I also was able to render more easily both the polygons and the point geometries
+                to show areas and IDPs/Refugee areas.<br>
 
-                - matching adm 2 data, used python fuzzywords
+                Secondly, when I was creating the scatterplots, I faced challenges matching the list of over 100 admin2 area names which
+                were not equivalent across sources. For that, I used the python package fuzzywords to create a mapping dictionary based on 
+                word similarity. 
+
             </p>
-            <p>the data you used, how you accessed it, including notes on automation/replication;
 
-                I first start by using the Integrated Food Security Phase Classification (IPC) API to
-                automate the extraction of GeoJSON data on food insecurity in Sudan. 
-                
+            <p> <strong>Python code and javascript for figures:</strong> <br>
 
-                - matching adm 2 data, used python fuzzywords
-                3. challenges in data cleaning and/or analysis, and the tools you used to overcome them;
-                4. your conclusions. 
             </p>
         </div>
 

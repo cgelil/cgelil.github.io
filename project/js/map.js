@@ -294,7 +294,7 @@ document.addEventListener("DOMContentLoaded", function () {
             });
 
         const button = controlsContainer.append("button")
-            .text("Play")
+            .text("Pause")
             .style("padding", "5px 15px")
             .on("click", function() {
                 if (button.text() === "Play") {
@@ -320,6 +320,7 @@ document.addEventListener("DOMContentLoaded", function () {
         };
 
         updateMap(geojsonUrls[index]);
+        playAnimation(); // Start the animation by default
     };
 
     renderMap("map", [
