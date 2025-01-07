@@ -14,10 +14,14 @@
     <!-- Intro Section -->
     <section id="intro">
         <div class="textbox-1">
-            <h1>Drivers of Food Insecurity in Sudan</h1>
-            <p>This project takes a closer look at the ongoing food crisis in Sudan, 
-                which has worsened since the civil war broke out in April 2023.
-                The focus is on two key drivers: conflict and insecurity, as well as displacement. 
+            <h1>Hunger, Conflict and Displacement in Sudan</h1>
+            <p><strong>Aim:</strong> This project aims to examine the ongoing food crisis in Sudan, 
+                with a focus on two key drivers - conflict and internal displacement -
+                and their relationship with food insecurity.
+
+                Specifically, it investigates the period following the outbreak of the civil war in April 2023,
+                analyzing the consequences at a subnational level.
+                
             </p>
         </div>
     </section>
@@ -25,10 +29,12 @@
     <!-- Scrolling Content Section -->
     <section class="scrolly">
         <div class="textbox" id="textbox-2">
-            <p>In June 2024, the Integrated Food Security Phase Classification (IPC) published a situation report on Sudan.
-                 Over half of the Sudanese population (47.2 million) was facing acute food insecurity (IPC Phase 3 or above), 
-                 with 755,000 at risk of famine across 10 states. Additionally, at least 534,000 IDPs and refugees were facing critical or
-                  catastrophic levels of acute food insecurity (IPC Phase 4 or 5).</p>
+            <p> Sudan has been experiencing worseming acute food security levels since 2021. 
+                By May 2024, the Integrated Food Security Phase Classification (IPC) reported that
+                over half of the Sudanese population (25.6 Million) was facing acute food insecurity (IPC Phase 3 or above), 
+                with 755,000 at risk of famine across 10 states. 
+                Additionally, at least 534,000 IDPs and refugees were facing critical or catastrophic levels of acute food insecurity (IPC Phase 4 or 5).
+            </p>
         </div>
 
         <!-- Map Section -->
@@ -39,19 +45,17 @@
             <div id="slider-container"></div>
         </section>    
 
-
-
         <div class="textbox" id="textbox-3">
-            <p>Sudan has long battled food insecurity due to recurring political instability. Prior to the coup...</p>
-            
-        </div>
-
-        <div class="textbox" id="textbox-4">
-            <p>To see how the pongoing events affect food insecurity, we can examine the 
+            <p>Then, I downloaded
                 Armed Conflict Location & Event Data (ACLED).
-                The civil war between Sudanese Armed Forces (SAF) 
-                and the paramilitary Rapid Support Forces (RSF) began on 15 April 2023. 
             </p>
+
+            <p>
+                <em>Note: visual inspiration taken from 
+                <a href="https://x.com/J_LuengoCabrera/status/1859271789525823495">here</a>.
+                </em>
+            </p>
+            
         </div>
 
         <section class="graph">
@@ -59,6 +63,20 @@
                 <svg id="line-plot"></svg>
             </div>  
         </section>  
+
+        <div class="textbox" id="textbox-4">
+            <p> The civil war between Sudanese Armed Forces (SAF) 
+                and the paramilitary Rapid Support Forces (RSF) began on 15 April 2023. <br>
+            </p>
+        </div>
+
+        <div class="textbox" id="textbox-5">
+            <p>To see how the pongoing events affect food insecurity, we can examine the 
+                Armed Conflict Location & Event Data (ACLED).
+                The civil war between Sudanese Armed Forces (SAF) 
+                and the paramilitary Rapid Support Forces (RSF) began on 15 April 2023. 
+            </p>
+        </div>
 
         <div class="textbox" id="textbox-5">
             <p>How do they correlate?
@@ -71,16 +89,41 @@
             </div>  
         </section> 
 
-        <figure id="Location1"></figure> 
 
-    </section>
+        <div class="writeup">
+            <p> <strong>Data:</strong> <br>
+                <li> <strong>IPC Food Security data:</strong></li> 
+                I used the IPC APIs to automate the extraction of GeoJSON data on food insecurity in Sudan. 
+                Using a Python script I first request a list of IPC analyses, filtering for current data. 
+                For each analysis, the script downloads the associated geographic data in GeoJSON format. If the analysis
+                does not contain current data, the script reuqests projection data.
+                <li> <strong> ACLED Events data:</strong></li> ACLED's API has a bandwidth limit that prevents users from retrieving larger 
+                amounts of data in a single call. Instead, ACLED data export tool allows a simple and fast option to download the data in one call.
+                The dataset contained 17.035 single event observations, which I grouped by month and removed irrelevant event types in order
+                to create a cleaner dataset. 
+                <li>Internal Displacemnet</li> 
+                <br>
 
-    <section id="conclusion">
-        <div class="textbox-11">
-            <p>Data Challenges:
+                
+            </p>
+            <p>
+                3. challenges in data cleaning and/or analysis, and the tools you used to overcome them;
+                4. your conclusions. 
+
                 - matching adm 2 data, used python fuzzywords
             </p>
+            <p>the data you used, how you accessed it, including notes on automation/replication;
+
+                I first start by using the Integrated Food Security Phase Classification (IPC) API to
+                automate the extraction of GeoJSON data on food insecurity in Sudan. 
+                
+
+                - matching adm 2 data, used python fuzzywords
+                3. challenges in data cleaning and/or analysis, and the tools you used to overcome them;
+                4. your conclusions. 
+            </p>
         </div>
+
     </section>
 
 

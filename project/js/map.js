@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .attr("y", 30)
             .attr("text-anchor", "left")
             .attr("class", "map-title")
-            .attr("font-size", "24px")
+            .attr("font-size", "20px")
             .attr("fill", "#000")
             .text("Sudan: Acute Food Insecurity");
 
@@ -244,11 +244,16 @@ document.addEventListener("DOMContentLoaded", function () {
                         .on("mouseover", function(event, d) {
                             d3.select(this).style("opacity", 0.8);
                             tooltip.style("visibility", "visible")
+                                .style("font-size", "10px") // Set smaller font size
                                 .html(`
                                     <strong>${d.properties.title}</strong><br>
+                                    Population in <br>
                                     ${d.properties.admin_type ? `Type: ${d.properties.admin_type.toUpperCase()}<br>` : ''}
-                                    Overall population: ${Number(d.properties.estimated_population).toLocaleString()}<br>
-                                    Phase: ${d.properties.overall_phase}
+                                    <strong>Phase 1:</strong> ${Number(d.properties.phase1_population).toLocaleString()}<br>
+                                    <strong>Phase 2: </strong>${Number(d.properties.phase2_population).toLocaleString()}<br>
+                                    <strong>Phase 3: </strong>${Number(d.properties.phase3_population).toLocaleString()}<br>
+                                    <strong>Phase 4: </strong> ${Number(d.properties.phase4_population).toLocaleString()}<br>
+                                    <strong>Phase 5: </strong>${Number(d.properties.phase5_population).toLocaleString()}<br>
                                 `);
                         })
                         .on("mousemove", function(event) {
@@ -263,6 +268,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 addEventListeners(polygonGroup.selectAll("path"));
                 addEventListeners(pointGroup.selectAll(".point"));
+                
 
             }).catch(error => {
                 console.error(`Error loading GeoJSON data: `, error);

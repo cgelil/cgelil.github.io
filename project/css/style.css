@@ -2,7 +2,7 @@
 body, html {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   height: 100%;
   overflow-x: hidden;
   text-align: justify;
@@ -32,6 +32,8 @@ h2 {
   text-align: center;
 }
 
+
+
 .textbox-1 {
   background: rgba(0, 0, 0, 0.6);
   height:fit-content;
@@ -44,7 +46,7 @@ h2 {
 /* Scrolling Section */
 .scrolly {
   position: relative;
-  width: 50%;
+  width: 60%;
   padding: 2rem 0;
   margin: 0 auto;
   text-align: justify;
@@ -57,6 +59,12 @@ h2 {
   border: 1px solid #ddd;
   margin: 20px 20px;
   text-align: justify;
+}
+
+.writeup {
+  background: white;
+  padding: 1.5rem;
+  margin: 20px 20px;
 }
 
 /* Maps Section */
@@ -144,5 +152,6 @@ input[type="range"] {
   align-items: center;
   text-align: justify;
 }
+
 
 
