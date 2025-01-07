@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PP434 Project</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
 <body>
 
     <!-- Intro Section -->
     <section id="intro">
         <div class="textbox-1">
-            <h1>Understanding the drivers of food insecurity in Sudan</h1>
-            <p>This project takes a closer look at the causes and effects of the ongoing food crisis in Sudan, 
-                which has worsened since the civil war broke out in April 2023
-                The focus is on two key drivers: conflict and insecurity, as well as displacement.
+            <h1>Drivers of Food Insecurity in Sudan</h1>
+            <p>This project takes a closer look at the ongoing food crisis in Sudan, 
+                which has worsened since the civil war broke out in April 2023.
+                The focus is on two key drivers: conflict and insecurity, as well as displacement. 
             </p>
         </div>
     </section>
@@ -33,9 +36,10 @@
             <div class="map-item">
                 <svg id="map"></svg>
             </div>
+            <div id="slider-container"></div>
         </section>    
 
-        <div id="slider-container"></div>
+
 
         <div class="textbox" id="textbox-3">
             <p>Sudan has long battled food insecurity due to recurring political instability. Prior to the coup...</p>
@@ -67,6 +71,8 @@
             </div>  
         </section> 
 
+        <figure id="Location1"></figure> 
+
     </section>
 
     <section id="conclusion">
@@ -80,6 +86,11 @@
 
     <!-- Tooltip -->
     <div class="tooltip"></div>
+
+    <script>
+    let figure_1_spec = "data_analysis/CC9_fig1.json"; 
+    vegaEmbed('#Location1', figure_1_spec);
+    </script>  
 
     <!-- External JS -->
     <script src="https://unpkg.com/scrollama"></script>
