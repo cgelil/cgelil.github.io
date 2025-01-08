@@ -252,7 +252,7 @@
       "type": "quantitative"
     }
   },
-  "height": 400,
+  "height": "container",
   "mark": {
     "type": "line"
   },
