@@ -4,7 +4,13 @@
     "view": {
       "continuousHeight": 300,
       "continuousWidth": 300
+    },
+    "title": {
+      "anchor": "start"
     }
+    
+
+
   },
   "data": {
     "name": "data-796e19c005c3079862ee0ee6a70aff80"
@@ -588,7 +594,7 @@
       "scale": {
         "type": "log"
       },
-      "title": "Incidents (Log)",
+      "title": "Number of Incidents (Log Scale)",
       "type": "quantitative"
     },
     "y": {
@@ -596,7 +602,7 @@
       "scale": {
         "type": "log"
       },
-      "title": "People in IPC Phase 3+ (Log)",
+      "title": "People in IPC Phase 3+ (Log Scale)",
       "type": "quantitative"
     }
   },
@@ -616,5 +622,8 @@
       }
     }
   ],
-  "title": "Armed Violence and acute food insecurity"
+  "title": {
+    "subtitle": "IPC Phase 3+ population and number of conflict incidents, scaled by number of fatalaties, Apr 2023 - May 2024. Source: HDX, IPC",
+    "text": "Food Insecurity and Conflict in Sudan"
+  }
 }

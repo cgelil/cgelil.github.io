@@ -74,17 +74,20 @@
 
         <section>
             <h2>Coding Challenge 4: Replication – Re-create, then improve, someone else’s chart</h2>
-            <p>Find a chart to replicate and improve on. See more at <a href="https://www.reddit.com/r/dataisugly/">Data is Ugly</a>.</p>
+            <p> Improving the chart from NBC <a href="https://www.nbcnews.com/politics/2024-election/nbc-news-exit-poll-voters-express-concern-democracy-economy-rcna178602">here</a>.
+                3D pie charts are harder to interpret and this one is using incorrect percentages. </p>
+
+            <figure id="Location7"></figure>    
         </section>
 
         <section>
             <h2>Coding Challenge 5: Scraper – Implement a data scraper</h2>
 
+            <p>I chose the Eurosport Tennis ranking website as it provides combined access to both ATP and WTA ranking data.</p>
+
+            <p> <a href="https://github.com/cgelil/cgelil.github.io/blob/main/CC_data/CC5_scraper.ipynb">Link</a> to the Google Colab Python notebook</p>
+
             <figure id="Location8"></figure> 
-
-            <p> <a href="https://github.com/cgelil/cgelil.github.io/blob/main/scarper_PP443.ipynb">Link</a> to the Google Colab Python notebook</p>
-
-            
         </section>
 
         <section>
@@ -97,19 +100,22 @@
 
         <section>
             <h2>Coding Challenge 7: Maps – Base maps and choropleths</h2>
-                <figure id="Location10"></figure> 
-                <figure id="Location11"></figure> 
-        </section>
-
-        <section>
-            <h2>Coding Challenge 8: Big Data – Extracting a story from millions of prices</h2>
-            <p>Use UK price datasets to create two charts and explain what you have done in 50 words.</p>
+            <p>Although Egypt is one of the largest countries globally in terms of area, its population is 
+                concentrated along the Nile and the delta area. </p>
+                <div class="chart-grid">
+                <figure id="Location10"style="width: 25%;"></figure> 
+                <figure id="Location11"style="width: 25%;"></figure> 
+              </div>
         </section>
 
         <section>
             <h2>Coding Challenge 9: Analytics charts.</h2>
             <p>Produce two charts that use advanced analytics.</p>
-                <figure id="Location13"></figure> 
+
+                <div class="chart-grid">
+                <figure id="Location13"style="width: 25%;"></figure> 
+                <figure id="Location14"style="width: 25%;"></figure> 
+                </div>
         </section>
 
         <script>
@@ -126,6 +132,7 @@
             let figure_11_spec = "CC_data/CC7_chart.json";
             let figure_12_spec = "CC_data/CC8_fig1.json";
             let figure_13_spec = "CC_data/CC9_fig1.json";
+            let figure_14_spec = "CC_data/CC9_fig2.json";
             
             vegaEmbed('#Location1', figure_1_spec);
             vegaEmbed('#Location2', figure_2_spec);

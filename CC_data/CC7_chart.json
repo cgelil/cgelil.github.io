@@ -8,7 +8,7 @@
     "subtitleFontSize": 12,
     "subtitleFontWeight": "lighter"
   },
-  "width": 600,
+  "width": "container",
   "height": 400,
   "data": {
     "url": "https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/CC_data/egy_admbnda_adm1_capmas_20170421_geo.json",
