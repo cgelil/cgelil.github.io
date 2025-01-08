@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     // Set the margins and dimensions
     const margin = { top: 60, right: 180, bottom: 50, left: 50 }; // Increased right margin for legend
-    const width = 800 - margin.left - margin.right;
+    const width = 900 - margin.left - margin.right;
     const height = 500 - margin.top - margin.bottom;
 
     // Clear any existing SVG
