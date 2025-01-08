@@ -7,8 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
             'Battles': '#001524',
             'Explosions': '#15616D',
             'Protests': '#FFECD1',
-            'Strategic developments': '#FF7D00',
-            'Violence against civilians': '#78290F'
+            'Violence against civilians': '#FF7D00'
         }
     };
     
@@ -44,12 +43,12 @@ document.addEventListener('DOMContentLoaded', function () {
         .attr("text-anchor", "left")
         .style("font-size", "16px")
         .style("fill", "#666")
-        .text("Total incidents (lines) and fatalaties (bars) by event type, Jan 2021 - Dec 2024");
+        .text("Total incidents (lines) and fatalities (bars) by event type, Jan 2021 - Dec 2024");
 
     
 
     // Process the data
-    d3.csv("https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/project/data/acled_monthly.csv").then(function(data) {
+    d3.csv("https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/project/data/acled.csv").then(function(data) {
         const eventTypes = Array.from(new Set(data.map(d => d.event_type)));
         
         // Parse dates and numbers

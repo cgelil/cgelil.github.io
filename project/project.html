@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PP434 Project</title>
+    <title>Sudan Crisis</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
@@ -43,7 +43,7 @@
         </section>    
 
         <div class="textbox" id="textbox-3">
-            <p> This does not come as a surprise considering Sudan's recent history of political instability.
+            <p> This does not come as a surprise considering Sudan's timeline of political instability.
                 In October 2021, the Sudanese military, led by General Abdel Fattah al-Burhan, seized control of the government in a coup, 
                 dissolving the civilian governmen and triggering widespread protests. This continues until April 2023 when a civil war erupted 
                 between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces (RSF),resulting in significant fatalaties. 
@@ -84,15 +84,18 @@
 
         <div class="writeup">
             <p> <strong>Data:</strong> <br>
+                <li>HDX data</li> I used the HDX Humanitarian API (HAPI) to download datasets provided from the IOM and IPC
                 <li> <strong>IPC Food Security data:</strong></li> 
                 Using a Python script I first request a list of IPC analyses using the IPCs API, filtering for current data. 
                 For each analysis, the script downloads the associated geographic data in GeoJSON format using a second API. If the analysis
                 does not contain current data, the script requests projection data using a third API. The data includes the IPC color scale.
-                <li> <strong> ACLED Events data:</strong></li> ACLED's API has a bandwidth limit that prevents users from retrieving larger 
+                <li> <strong> ACLED Events data:</strong></li> Since HDX does not include all event types in their data, I reverted to ACLED.
+                ACLED's API has a bandwidth limit that prevents users from retrieving larger 
                 amounts of data in a single call. Instead, ACLED data export tool allows a simple and fast option to download the data in one call.
                 The dataset contained 17.035 single event observations, which I grouped by month and removed irrelevant event types in order
                 to create a cleaner dataset. 
-                <li>Internal Displacemnet</li> 
+                <li>IOMD Internal Displacemnet data</li> 
+
                 <br>
                 
             </p>
