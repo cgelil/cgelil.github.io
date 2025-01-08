@@ -16,8 +16,7 @@
                 with a focus on two key drivers - conflict and internal displacement -
                 and their relationship with food insecurity.
                 Specifically, I investigate the period following the outbreak of the civil war in April 2023,
-                analyzing the consequences at a subnational level.
-                
+                analysing the consequences at a subnational level.
             </p>
         </div>
     </section>
@@ -46,9 +45,9 @@
 
         <div class="textbox" id="textbox-3">
             <p> This does not come as a surprise considering Sudan's timeline of political instability.
-                In October 2021, the Sudanese military, led by General Abdel Fattah al-Burhan, seized control of the government in a coup, 
-                dissolving the civilian governmen and triggering widespread protests. In April 2023, a civil war erupted 
-                between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces (RSF),resulting in significant fatalaties. 
+                In October 2021, the Sudanese military seized control of the government in a coup, 
+                dissolving the civilian government and triggering widespread protests. In April 2023, a civil war erupted 
+                between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces (RSF),resulting in significant fatalities. 
             </p>
 
             <p>
@@ -66,7 +65,7 @@
         </section>  
 
         <div class="textbox" id="textbox-4">
-            <p>The conflict has caused a severe humanitarian crisis, with millions of people internally displaced and many fleeing as refugees. <br>
+            <p>The conflict has caused a severe humanitarian crisis, and since 2023 Sudan has the highest number of internally displaced people globally. <br>
             </p>
         </div>
 
@@ -77,8 +76,16 @@
         </section> 
 
         <div class="textbox" id="textbox-5">
-            <p>How do they correlate?
+            <p>To understand how the conflict has affected the deterioting state of food insecurity,
+            we can look at the latest IPC data and examine the relationship with 
+            the number of IDPS and the number of Incidents.
             </p>
+            <p>
+                <em> Click below the plot to toggle between x-axis options. The most recent IPC data (excluding projections) is available up to May 2024. 
+                    Therefore, this visualization focuses on a subset of IOM and ACLED data spanning from April 2023 to May 2024.
+                </em>
+            </p>
+
         </div>
 
         <section class="graph">
@@ -87,7 +94,23 @@
             </div>  
         </section> 
 
-        <p> <strong>Conclusions:</strong> <br>
+
+        
+        <div class="textbox" id="textbox-6">
+            <p>
+                <strong>Conclusions:</strong> The Sudanese civil war has significantly exacerbated food insecurity across the country. 
+                Areas experiencing high levels of violence show a strong positive correlation (0.65 at the Admin 1 level)
+                 with the population in IPC Phase 3+, indicating severe food insecurity.
+                  However, the correlation with the number of internally displaced persons (IDPs) is notably weaker. 
+                This weaker relationship is largely influenced by Khartoum, the epicenter of the conflict, 
+                which has a relatively low number of IDPs. Paradoxically, while Khartoum has fewer displaced individuals,
+                 it remains the primary area of displacement for many IDPs across the country. <br>
+                 Further analysis could look into the relationship based on the area of origin of IDPs, although as of now
+                 the IOM has this data available on an Admin1 level
+            </p>
+
+        </div>
+
 
 
         <div class="writeup">
@@ -136,6 +159,7 @@
     <!-- External JS -->
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="project/js/lineplot.js"></script>
+    <script src="project/js/lineplot2.js"></script>
     <script src="project/js/map.js"></script>
     <script src="project/js/scatter.js"></script>
 

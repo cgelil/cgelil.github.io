@@ -1,93 +1,98 @@
-Area,Level 1,fatalities,event_id_cnty,numPresentIdpInd,phase3plus
-Abassiya,South Kordofan,108.0,13.0,56528.0,54287
-Abu Jubayhah,South Kordofan,0.0,2.0,56258.0,91277
-Abu Zabad,West Kordofan,12.0,10.0,17517.0,151440
-Adila,East Darfur,0.0,9.0,53737.0,85845
-Al Dibab,West Kordofan,0.0,2.0,21146.0,146748
-Al Idia,West Kordofan,15.0,14.0,57247.0,151440
-Al Khiwai,West Kordofan,58.0,6.0,8069.0,174900
-Al Meiram,West Kordofan,0.0,2.0,8018.0,146748
-Al Qurashi,Aj Jazirah,17.0,9.0,81460.0,681606
-Al Wihda,South Darfur,1.0,2.0,11020.0,242549
-An Nuhud,West Kordofan,6.0,24.0,45809.0,134355
-At Tina,North Darfur,0.0,3.0,5385.0,121328
-Atbara,River Nile,5.0,19.0,169642.0,108542
-Azum,Central Darfur,9.0,10.0,67400.0,369837
-Babanusa,West Kordofan,307.0,77.0,34417.0,10020
-Bahri,Khartoum,1181.0,744.0,18585.0,521150
-Bara,North Kordofan,60.0,29.0,32225.0,261498
-Barbar,River Nile,0.0,4.0,21486.0,37186
-Basundah,Gedaref,0.0,7.0,45765.0,42800
-Beida,West Darfur,50.0,10.0,3105.0,16885
-Beliel,South Darfur,34.0,15.0,483998.0,453642
-Bendasi,Central Darfur,12.0,5.0,28525.0,369837
-Buram,South Darfur,213.0,29.0,195735.0,526939
-Delami,South Kordofan,72.0,22.0,4781.0,22663
-Delgo,Northern,0.0,3.0,40375.0,25786
-Dilling,South Kordofan,143.0,53.0,44297.0,108770
-Dongola,Northern,1.0,22.0,55209.0,70031
-Geisan,Blue Nile,14.0,2.0,32131.0,58455
-Gereida,South Darfur,16.0,4.0,138202.0,526939
-Ghadeer,South Kordofan,116.0,12.0,13458.0,38972
-Ghubaish,West Kordofan,20.0,9.0,14033.0,174900
-Halfa,Northern,0.0,5.0,36341.0,28620
-Haya,Red Sea,0.0,3.0,1955.0,99110
-Heiban,South Kordofan,3.0,6.0,,124651
-Kadugli,South Kordofan,137.0,64.0,85565.0,47301
-Karrari,Khartoum,1028.0,332.0,15431.0,936591
-Kas,South Darfur,55.0,9.0,150048.0,198328
-Kateila,South Darfur,2.0,1.0,40403.0,310838
-Kebkabiya,North Darfur,37.0,30.0,80805.0,256748
-Keilak,West Kordofan,0.0,2.0,13568.0,36365
-Kelemando,North Darfur,5.0,1.0,10887.0,128909
-Kereneik,West Darfur,94.0,21.0,41600.0,203436
-Khartoum,Khartoum,1775.0,1602.0,4085.0,1083799
-Kosti,White Nile,29.0,28.0,135872.0,68633
-Kubum,South Darfur,240.0,22.0,9090.0,310838
-Kulbus,West Darfur,0.0,2.0,44482.0,37011
-Kutum,North Darfur,190.0,47.0,152296.0,154935
-Melit,North Darfur,33.0,41.0,46779.0,261912
-Mershing,South Darfur,38.0,21.0,80145.0,242549
-Mukjar,Central Darfur,28.0,14.0,28355.0,169248
-Nitega,South Darfur,0.0,1.0,28505.0,242549
-Nyala Janoub,South Darfur,914.0,263.0,77827.0,453642
-Nyala Shimal,South Darfur,6.0,7.0,327705.0,453642
-Rabak,White Nile,1.0,13.0,100552.0,188600
-Saraf Omra,North Darfur,4.0,5.0,64697.0,256748
-Sawakin,Red Sea,0.0,7.0,6812.0,15004
-Sennar,Sennar,123.0,57.0,149234.0,367729
-Sheikan,North Kordofan,747.0,185.0,43277.0,282220
-Shendi,River Nile,40.0,22.0,198415.0,175313
-Shiaria,East Darfur,5.0,1.0,,78097
-Sinja,Sennar,2.0,7.0,74037.0,147167
-Sirba,West Darfur,272.0,28.0,26225.0,91961
-Soudari,North Kordofan,21.0,16.0,3968.0,192976
-Talawdi,South Kordofan,4.0,2.0,10407.0,38972
-Tawila,North Darfur,51.0,22.0,170859.0,154935
-Tendalti,White Nile,0.0,4.0,18210.0,87112
-Um Bada,Khartoum,617.0,220.0,8681.0,1083799
-Um Dafoug,South Darfur,0.0,3.0,3835.0,308970
-Um Dam Haj Ahmed,North Kordofan,39.0,9.0,15156.0,261498
-Um Dukhun,Central Darfur,1.0,5.0,62030.0,169248
-Um Rawaba,North Kordofan,173.0,65.0,41916.0,236766
-Um Rimta,White Nile,9.0,6.0,13810.0,231568
-Wad Bandah,West Kordofan,16.0,2.0,6300.0,174900
-Wadi Salih,Central Darfur,4.0,8.0,85963.0,369837
-Yassin,East Darfur,18.0,5.0,78710.0,53018
-Zalingi,Central Darfur,379.0,153.0,208848.0,369837
-As Serief,,,,11731.0,
-Kernoi,,,,1580.0,
-Gharb Bara,,,,8036.0,
-Dordieb,,,,1455.0,
-Hala'ib,,,,600.0,
-Merwoe,,,,77802.0,
-Agig,,,,210.0,
-Sinkat,,,,8046.0,
-Tawkar,,,,2370.0,
-Damso,,,,7370.0,
-Tulus,,,,20775.0,
-Al Leri,,,,6641.0,
-Ar Rashad,,,,20931.0,
-Guli,,,,26634.0,
-Baw,,,,50471.0,
-Assalaya,,,,25240.0,
+phase3plus,Area,fatalities,event_id_cnty,numPresentIdpInd,Level 1
+10020,Babanusa,307,77,34417,West Kordofan
+107151,Merwoe,44,26,77802,Northern
+1083799,"Khartoum, UmDurman, Um Bada",3755,2723,21902,Khartoum
+108770,Dilling,143,53,44297,South Kordofan
+109223,Al fao,26,18,70113,Gedaref
+110231,Baw,0,3,50471,Blue Nile
+121328,At Tina,0,3,5385,North Darfur
+124956,At tawisha,0,1,1835,North Darfur
+128909,"Dar as salam, Kelemando",20,19,81903,North Darfur
+133123,Aj jabalain,0,5,129459,White Nile
+134355,An Nuhud,6,24,45809,West Kordofan
+135311,New Halfa,0,5,36341,Kassala
+140966,Ag geneina,4460,242,80590,West Darfur
+146748,"Al Dibab, Al Meiram",0,4,29164,West Kordofan
+147167,Sinja,2,7,74037,Sennar
+15004,Sawakin,0,7,6812,Red Sea
+151440,"Abu Zabad, Al Idia",27,24,74764,West Kordofan
+154935,"Kutum, Tawila",241,69,323155,North Darfur
+166470,Medani al kubra,217,180,22155,Aj Jazirah
+16885,Beida,50,10,3105,West Darfur
+169248,"Mukjar, Um Dukhun",29,19,90385,Central Darfur
+171650,Ad damar,11,19,155060,River Nile
+174900,"Al Khiwai, Ghubaish, Wad Bandah",94,17,28402,West Kordofan
+175313,Shendi,40,22,198415,River Nile
+175916,Ed damazine,0,30,106406,Blue Nile
+188600,Rabak,1,13,100552,White Nile
+192976,"Gebrat al sheikh, Soudari",64,25,11251,North Kordofan
+19455,Al buhaira,0,2,25165,River Nile
+195838,Ad dinder,0,5,64319,Sennar
+198328,"Kas, Sharg aj Jabal",33,11,38485,South Darfur
+2005856,"Al hasahisa, Kamlin Janub Al Jazirah, Kamlin Janub Al Jazirah, Algura",760,599,138682,Aj Jazirah
+200669,As suki,9,2,112934,Sennar
+203436,Kereneik,94,21,41600,West Darfur
+205212,"Kassala, Kassala",2,48,261624,Kassala
+221350,Al gitaina,35,45,13285,White Nile
+22230,At tadamon - sk,12,6,2093,South Kordofan
+22663,Delami,72,22,4781,South Kordofan
+231568,"Ad diwaim, Um Rimta",9,15,101046,White Nile
+236745,Al fasher,866,382,592826,North Darfur
+236766,Um Rawaba,173,65,41916,North Kordofan
+241232,Madeinat al gedaref,6,53,133964,Gedaref
+242549,"Al Wihda, Mershing, Nitega",39,24,119670,South Darfur
+25357,Abu hamad,0,4,47893,River Nile
+256748,"Kebkabiya, Saraf Omra",41,35,145502,North Darfur
+25786,Delgo,0,3,40375,Northern
+261498,"Bara, Um Dam Haj Ahmed",88,20,47381,North Kordofan
+261912,"Melit, Melit, Al malha, Al malha, Um kadadah",74,70,143928,North Darfur
+282220,Sheikan,747,185,43277,North Kordofan
+28620,Halfa,0,3,52220,Northern
+308970,"Al radoum, Rehaid al Birdi, Um Dafoug",47,13,55200,South Darfur
+310838,"Ed al fursan, Kateila, Kubum",242,24,83034,South Darfur
+34158,Al mafaza,0,3,43260,Gedaref
+36365,Keilak,0,2,13568,West Kordofan
+367729,"Sennar, Sennar",131,64,298468,Sennar
+369837,"Azum, Bendasi, Wadi Salih, Zalingi",404,176,390736,Central Darfur
+37011,Kulbus,0,2,44482,West Darfur
+37186,Barbar,0,4,21486,River Nile
+38549,Ar reif ash shargi,70,15,39030,South Kordofan
+38972,"Ghadeer, Talawdi",120,14,23865,South Kordofan
+41882,Habila - sk,134,34,59211,South Kordofan
+42800,Basundah,0,7,45765,Gedaref
+43720,Jebel moon,4,2,65540,West Darfur
+44963,Gala'a al nahal,1,3,12202,Gedaref
+453642,"Beliel, As salam - sd, Nyala Janoub, Nyala Shimal",1030,321,905780,South Darfur
+45537,Al butanah,1,5,3795,Gedaref
+45728,Al burgaig,0,3,56920,Northern
+47301,Kadugli,137,64,85565,South Kordofan
+47509,Al kurmuk,40,12,20091,Blue Nile
+50626,Al fashaga,0,6,38457,Gedaref
+51413,As salam / ar rawat,0,2,51747,White Nile
+51991,Abu kershola,31,16,21275,South Kordofan
+521150,"Bahri, Sharg an neel",1806,1016,39190,Khartoum
+526939,"Buram, Buram, Gereida, As sunta",287,37,631402,South Darfur
+52761,As sunut,0,1,8359,West Kordofan
+53018,Yassin,18,5,78710,East Darfur
+53825,Al golid,0,3,60442,Northern
+54287,Abassiya,108,13,56528,South Kordofan
+58455,Geisan,14,2,32131,Blue Nile
+60657,Al lagowa,35,14,19322,West Kordofan
+681606,"Al manaqil, Al Qurashi",68,40,134555,Aj Jazirah
+68633,Kosti,29,28,135872,White Nile
+70031,Dongola,1,22,55209,Northern
+73354,"Al galabat al gharbyah - kassab, Al galabat al gharbyah - kassab",57,11,36530,Gedaref
+74778,Al quoz,49,26,8677,South Kordofan
+75026,Wasat al gedaref,1,3,24958,Gedaref
+77012,Abu karinka,4,7,45046,East Darfur
+78097,Shiaria,5,1,184025,East Darfur
+82759,Port sudan,1,69,239272,Red Sea
+84038,Al matama,0,5,108555,River Nile
+85100,Ad dabbah,0,4,65310,Northern
+85845,Adila,0,9,53737,East Darfur
+87112,Tendalti,0,4,18210,White Nile
+91277,"Abu Jubayhah, Ar Rashad",0,5,77189,South Kordofan
+91961,Sirba,272,28,26225,West Darfur
+936591,"Jebel awlia, Karrari",1768,686,21500,Khartoum
+95295,Abu hujar,0,2,55681,Sennar
+99110,Haya,0,3,1955,Red Sea

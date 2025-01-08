@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         svg.append("text")
             .attr("x", -70)
-            .attr("y", -margin.top / 8)
+            .attr("y", -margin.top /7.5)
             .attr("text-anchor", "left")
             .style("font-size", containerWidth < 600 ? "12px" : "16px")
             .style("fill", "#666")

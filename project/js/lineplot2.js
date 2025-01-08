@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', function () {
         // Set margins
         const margin = { 
             top: 60, 
-            right: 150,
+            right: Math.max(containerWidth * 0.2, 180),
             bottom: 50, 
-            left: 60 
+            left: 100 
         };
         
         const width = containerWidth - margin.left - margin.right;
@@ -44,23 +44,23 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Add title and subtitle
         svg.append("text")
-            .attr("x", 0)
+            .attr("x", -75)
             .attr("y", -margin.top/2)
             .attr("text-anchor", "left")
             .style("font-size", containerWidth < 600 ? "16px" : "20px")
             .style("font-weight", "bold")
-            .text("Internally displaced people by conflict over time");
+            .text("Populations internally displaced by conflict");
 
         svg.append("text")
-            .attr("x", 0)
-            .attr("y", -margin.top/4)
+            .attr("x", -75)
+            .attr("y", -margin.top/7.5)
             .attr("text-anchor", "left")
-            .style("font-size", containerWidth < 600 ? "12px" : "14px")
+            .style("font-size", containerWidth < 600 ? "12px" : "146x")
             .style("fill", "#666")
-            .text("Number of IDPs in the top 10 countries with the highest number of IDPs");
+            .text("Number of IDPs in the top 10 countries with the highest number of IDPs, 2014 - 2024 | Source: IOM");
 
         // Process the data
-        d3.csv("your_data.csv").then(function(data) {
+        d3.csv("https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/project/data/idp_countries_global.csv").then(function(data) {
             data.forEach(d => {
                 d.year = +d.year;
                 d.numPresentIdpInd = +d.numPresentIdpInd;
@@ -116,7 +116,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     .attr("y", y(lastPoint.numPresentIdpInd))
                     .attr("dy", "0.35em")
                     .style("font-size", containerWidth < 600 ? "8px" : "10px")
+                    .style("fill", colors[country])
+                    .style("font-weight", country === "Sudan" ? "bold" : "normal")
                     .text(country);
+
+
             });
         });
     }
