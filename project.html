@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sudan Crisis</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="project/css/style.css">
 </head>
 <body>
 
@@ -27,7 +27,12 @@
         <div class="textbox" id="textbox-2">
             <p> Sudan has been experiencing worsening levels of acute food security since 2021. 
                 By May 2024, over half of the Sudanese population (25.6 Million) was facing acute food insecurity (IPC Phase 3 or above). 
-                First projections for 2025 show 5 areas being fully classified in  catastrophic levels of acute food insecurity (IPC 5).
+                First projections for 2025 show 5 areas being fully classified in  catastrophic levels of acute food insecurity (IPC 5) by the end of 2025.
+            </p>
+
+            <p>
+                <em> Zoom and hover over each area to see information on population in each IPC phase.
+                </em>
             </p>
         </div>
 
@@ -42,7 +47,7 @@
         <div class="textbox" id="textbox-3">
             <p> This does not come as a surprise considering Sudan's timeline of political instability.
                 In October 2021, the Sudanese military, led by General Abdel Fattah al-Burhan, seized control of the government in a coup, 
-                dissolving the civilian governmen and triggering widespread protests. This continues until April 2023 when a civil war erupted 
+                dissolving the civilian governmen and triggering widespread protests. In April 2023, a civil war erupted 
                 between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces (RSF),resulting in significant fatalaties. 
             </p>
 
@@ -65,13 +70,19 @@
             </p>
         </div>
 
+        <section class="graph">
+            <div class="graph-item3">
+                <svg id="line-plot2"></svg>
+            </div>  
+        </section> 
+
         <div class="textbox" id="textbox-5">
             <p>How do they correlate?
             </p>
         </div>
 
         <section class="graph">
-            <div class="graph-item2">
+            <div class="graph-item3">
                 <svg id="scatter"></svg>
             </div>  
         </section> 
@@ -122,16 +133,11 @@
     <!-- Tooltip -->
     <div class="tooltip"></div>
 
-    <script>
-    let figure_1_spec = "data_analysis/CC9_fig1.json"; 
-    vegaEmbed('#Location1', figure_1_spec);
-    </script>  
-
     <!-- External JS -->
     <script src="https://d3js.org/d3.v6.min.js"></script>
-    <script src="js/lineplot.js"></script>
-    <script src="js/map.js"></script>
-    <script src="js/scatter.js"></script>
+    <script src="project/js/lineplot.js"></script>
+    <script src="project/js/map.js"></script>
+    <script src="project/js/scatter.js"></script>
 
 </body>
 </html>

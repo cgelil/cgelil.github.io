@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const container = document.querySelector(".graph-item2");
+    const container = document.querySelector(".graph-item3");
     const svg = d3.select("#scatter");
     
     // Get container dimensions
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
         .text("Data Source: ACLED and IPC");
 
     // Create tooltip
-    const tooltipScatter = d3.select(".graph-item2").append("div")
+    const tooltipScatter = d3.select(".graph-item3").append("div")
         .attr("class", "tooltip-scatter")
         .style("position", "absolute")
         .style("visibility", "hidden")
@@ -290,7 +290,7 @@ document.addEventListener('DOMContentLoaded', function () {
             updateChart("numPresentIdpInd");
             
             // Create variable selector below the plot
-            const selector = d3.select(".graph-item2")
+            const selector = d3.select(".graph-item3")
                 .append("div")
                 .style("text-align", "center")
                 .style("margin-top", "20px");
