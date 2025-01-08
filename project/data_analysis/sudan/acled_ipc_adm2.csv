@@ -1,77 +1,150 @@
-admin2,fatalities,event_id_cnty,Date of analysis,Country,Total country population,Level 1,Area,Validity period,From,To,Phase,Number,Percentage
-Abassiya,108,13,Apr 2024,SDN,47208125,South Kordofan,Abassiya,current,2024-04-01,2024-05-31,3+,54287,0.4
-Abu Jubayhah,0,2,Apr 2024,SDN,47208125,South Kordofan,Abu Jubayhah,current,2024-04-01,2024-05-31,3+,91277,0.4
-Abu Zabad,12,10,Apr 2024,SDN,47208125,West Kordofan,Abu Zabad,current,2024-04-01,2024-05-31,3+,151440,0.5
-Adila,0,9,Apr 2024,SDN,47208125,East Darfur,Adila,current,2024-04-01,2024-05-31,3+,85845,0.45
-Al Dibab,0,2,Apr 2024,SDN,47208125,West Kordofan,Al Dibab,current,2024-04-01,2024-05-31,3+,146748,0.5
-Al Idia,15,14,Apr 2024,SDN,47208125,West Kordofan,Al Idia,current,2024-04-01,2024-05-31,3+,151440,0.5
-Al Khiwai,58,6,Apr 2024,SDN,47208125,West Kordofan,Al Khiwai,current,2024-04-01,2024-05-31,3+,174900,0.4
-Al Meiram,0,2,Apr 2024,SDN,47208125,West Kordofan,Al Meiram,current,2024-04-01,2024-05-31,3+,146748,0.5
-Al Qurashi,17,9,Apr 2024,SDN,47208125,Aj Jazirah,Al Qurashi,current,2024-04-01,2024-05-31,3+,681606,0.45
-Al Wihda,1,2,Apr 2024,SDN,47208125,South Darfur,Al Wihda,current,2024-04-01,2024-05-31,3+,242549,0.65
-An Nuhud,6,24,Apr 2024,SDN,47208125,West Kordofan,An Nuhud,current,2024-04-01,2024-05-31,3+,134355,0.45
-At Tina,0,3,Apr 2024,SDN,47208125,North Darfur,At Tina,current,2024-04-01,2024-05-31,3+,121328,0.45
-Atbara,5,19,Apr 2024,SDN,47208125,River Nile,Atbara,current,2024-04-01,2024-05-31,3+,108542,0.3
-Azum,9,10,Apr 2024,SDN,47208125,Central Darfur,Azum,current,2024-04-01,2024-05-31,3+,369837,0.65
-Babanusa,307,77,Apr 2024,SDN,47208125,West Kordofan,Babanusa,current,2024-04-01,2024-05-31,3+,10020,0.6
-Bahri,1181,744,Apr 2024,SDN,47208125,Khartoum,Bahri,current,2024-04-01,2024-05-31,3+,521150,0.5
-Bara,60,29,Apr 2024,SDN,47208125,North Kordofan,Bara,current,2024-04-01,2024-05-31,3+,261498,0.45
-Barbar,0,4,Apr 2024,SDN,47208125,River Nile,Barbar,current,2024-04-01,2024-05-31,3+,37186,0.15
-Basundah,0,7,Apr 2024,SDN,47208125,Gedaref,Basundah,current,2024-04-01,2024-05-31,3+,42800,0.35
-Beida,50,10,Apr 2024,SDN,47208125,West Darfur,Beida,current,2024-04-01,2024-05-31,3+,16885,0.5
-Beliel,34,15,Apr 2024,SDN,47208125,South Darfur,Beliel,current,2024-04-01,2024-05-31,3+,453642,0.7
-Bendasi,12,5,Apr 2024,SDN,47208125,Central Darfur,Bendasi,current,2024-04-01,2024-05-31,3+,369837,0.65
-Buram,213,29,Apr 2024,SDN,47208125,South Darfur,Buram,current,2024-04-01,2024-05-31,3+,526939,0.55
-Delami,72,22,Apr 2024,SDN,47208125,South Kordofan,Delami,current,2024-04-01,2024-05-31,3+,22663,0.5
-Delgo,0,3,Apr 2024,SDN,47208125,Northern,Delgo,current,2024-04-01,2024-05-31,3+,25786,0.25
-Dilling,143,53,Apr 2024,SDN,47208125,South Kordofan,Dilling,current,2024-04-01,2024-05-31,3+,108770,0.5
-Dongola,1,22,Apr 2024,SDN,47208125,Northern,Dongola,current,2024-04-01,2024-05-31,3+,70031,0.25
-Geisan,14,2,Apr 2024,SDN,47208125,Blue Nile,Geisan,current,2024-04-01,2024-05-31,3+,58455,0.4
-Gereida,16,4,Apr 2024,SDN,47208125,South Darfur,Gereida,current,2024-04-01,2024-05-31,3+,526939,0.55
-Ghadeer,116,12,Apr 2024,SDN,47208125,South Kordofan,Ghadeer,current,2024-04-01,2024-05-31,3+,38972,0.4
-Ghubaish,20,9,Apr 2024,SDN,47208125,West Kordofan,Ghubaish,current,2024-04-01,2024-05-31,3+,174900,0.4
-Halfa,0,5,Apr 2024,SDN,47208125,Northern,Halfa,current,2024-04-01,2024-05-31,3+,28620,0.3
-Haya,0,3,Apr 2024,SDN,47208125,Red Sea,Haya,current,2024-04-01,2024-05-31,3+,99110,0.3
-Heiban,3,6,Apr 2024,SDN,47208125,South Kordofan,Heiban,current,2024-04-01,2024-05-31,3+,124651,0.5
-Kadugli,137,64,Apr 2024,SDN,47208125,South Kordofan,Kadugli,current,2024-04-01,2024-05-31,3+,47301,0.6
-Karrari,1028,332,Apr 2024,SDN,47208125,Khartoum,Karrari,current,2024-04-01,2024-05-31,3+,936591,0.4
-Kas,55,9,Apr 2024,SDN,47208125,South Darfur,Kas,current,2024-04-01,2024-05-31,3+,198328,0.65
-Kateila,2,1,Apr 2024,SDN,47208125,South Darfur,Kateila,current,2024-04-01,2024-05-31,3+,310838,0.45
-Kebkabiya,37,30,Apr 2024,SDN,47208125,North Darfur,Kebkabiya,current,2024-04-01,2024-05-31,3+,256748,0.55
-Keilak,0,2,Apr 2024,SDN,47208125,West Kordofan,Keilak,current,2024-04-01,2024-05-31,3+,36365,0.45
-Kelemando,5,1,Apr 2024,SDN,47208125,North Darfur,Kelemando,current,2024-04-01,2024-05-31,3+,128909,0.55
-Kereneik,94,21,Apr 2024,SDN,47208125,West Darfur,Kereneik,current,2024-04-01,2024-05-31,3+,203436,0.6
-Khartoum,1775,1602,Apr 2024,SDN,47208125,Khartoum,Khartoum,current,2024-04-01,2024-05-31,3+,1083799,0.6
-Kosti,29,28,Apr 2024,SDN,47208125,White Nile,Kosti,current,2024-04-01,2024-05-31,3+,68633,0.35
-Kubum,240,22,Apr 2024,SDN,47208125,South Darfur,Kubum,current,2024-04-01,2024-05-31,3+,310838,0.45
-Kulbus,0,2,Apr 2024,SDN,47208125,West Darfur,Kulbus,current,2024-04-01,2024-05-31,3+,37011,0.45
-Kutum,190,47,Apr 2024,SDN,47208125,North Darfur,Kutum,current,2024-04-01,2024-05-31,3+,154935,0.6
-Melit,33,41,Apr 2024,SDN,47208125,North Darfur,Melit,current,2024-04-01,2024-05-31,3+,261912,0.55
-Mershing,38,21,Apr 2024,SDN,47208125,South Darfur,Mershing,current,2024-04-01,2024-05-31,3+,242549,0.65
-Mukjar,28,14,Apr 2024,SDN,47208125,Central Darfur,Mukjar,current,2024-04-01,2024-05-31,3+,169248,0.6
-Nitega,0,1,Apr 2024,SDN,47208125,South Darfur,Nitega,current,2024-04-01,2024-05-31,3+,242549,0.65
-Nyala Janoub,914,263,Apr 2024,SDN,47208125,South Darfur,Nyala Janoub,current,2024-04-01,2024-05-31,3+,453642,0.7
-Nyala Shimal,6,7,Apr 2024,SDN,47208125,South Darfur,Nyala Shimal,current,2024-04-01,2024-05-31,3+,453642,0.7
-Rabak,1,13,Apr 2024,SDN,47208125,White Nile,Rabak,current,2024-04-01,2024-05-31,3+,188600,0.4
-Saraf Omra,4,5,Apr 2024,SDN,47208125,North Darfur,Saraf Omra,current,2024-04-01,2024-05-31,3+,256748,0.55
-Sawakin,0,7,Apr 2024,SDN,47208125,Red Sea,Sawakin,current,2024-04-01,2024-05-31,3+,15004,0.15
-Sennar,123,57,Apr 2024,SDN,47208125,Sennar,Sennar,current,2024-04-01,2024-05-31,3+,367729,0.6
-Sheikan,747,185,Apr 2024,SDN,47208125,North Kordofan,Sheikan,current,2024-04-01,2024-05-31,3+,282220,0.5
-Shendi,40,22,Apr 2024,SDN,47208125,River Nile,Shendi,current,2024-04-01,2024-05-31,3+,175313,0.3
-Shiaria,5,1,Apr 2024,SDN,47208125,East Darfur,Shiaria,current,2024-04-01,2024-05-31,3+,78097,0.3
-Sinja,2,7,Apr 2024,SDN,47208125,Sennar,Sinja,current,2024-04-01,2024-05-31,3+,147167,0.45
-Sirba,272,28,Apr 2024,SDN,47208125,West Darfur,Sirba,current,2024-04-01,2024-05-31,3+,91961,0.65
-Soudari,21,16,Apr 2024,SDN,47208125,North Kordofan,Soudari,current,2024-04-01,2024-05-31,3+,192976,0.35
-Talawdi,4,2,Apr 2024,SDN,47208125,South Kordofan,Talawdi,current,2024-04-01,2024-05-31,3+,38972,0.4
-Tawila,51,22,Apr 2024,SDN,47208125,North Darfur,Tawila,current,2024-04-01,2024-05-31,3+,154935,0.6
-Tendalti,0,4,Apr 2024,SDN,47208125,White Nile,Tendalti,current,2024-04-01,2024-05-31,3+,87112,0.35
-Um Bada,617,220,Apr 2024,SDN,47208125,Khartoum,Um Bada,current,2024-04-01,2024-05-31,3+,1083799,0.6
-Um Dafoug,0,3,Apr 2024,SDN,47208125,South Darfur,Um Dafoug,current,2024-04-01,2024-05-31,3+,308970,0.45
-Um Dam Haj Ahmed,39,9,Apr 2024,SDN,47208125,North Kordofan,Um Dam Haj Ahmed,current,2024-04-01,2024-05-31,3+,261498,0.45
-Um Dukhun,1,5,Apr 2024,SDN,47208125,Central Darfur,Um Dukhun,current,2024-04-01,2024-05-31,3+,169248,0.6
-Um Rawaba,173,65,Apr 2024,SDN,47208125,North Kordofan,Um Rawaba,current,2024-04-01,2024-05-31,3+,236766,0.4
-Um Rimta,9,6,Apr 2024,SDN,47208125,White Nile,Um Rimta,current,2024-04-01,2024-05-31,3+,231568,0.3
-Wad Bandah,16,2,Apr 2024,SDN,47208125,West Kordofan,Wad Bandah,current,2024-04-01,2024-05-31,3+,174900,0.4
-Wadi Salih,4,8,Apr 2024,SDN,47208125,Central Darfur,Wadi Salih,current,2024-04-01,2024-05-31,3+,369837,0.65
-Yassin,18,5,Apr 2024,SDN,47208125,East Darfur,Yassin,current,2024-04-01,2024-05-31,3+,53018,0.35
-Zalingi,379,153,Apr 2024,SDN,47208125,Central Darfur,Zalingi,current,2024-04-01,2024-05-31,3+,369837,0.65
+admin2,fatalities,event_id_cnty,admin2_IPC,admin2Name_IPC,Date of analysis,Country,Total country population,Level 1,Area,Validity period,From,To,Phase,Number,Percentage
+Abassiya,108,13,Abassiya,,Apr 2024,SDN,47208125,South Kordofan,Abassiya,current,2024-04-01,2024-05-31,3+,54287,0.4
+Abu Hamad,0,4,Abu hamad,,Apr 2024,SDN,47208125,River Nile,Abu hamad,current,2024-04-01,2024-05-31,3+,25357,0.15
+Abu Hujar,0,2,Abu hujar,,Apr 2024,SDN,47208125,Sennar,Abu hujar,current,2024-04-01,2024-05-31,3+,95295,0.35
+Abu Jubayhah,0,2,Abu Jubayhah,,Apr 2024,SDN,47208125,South Kordofan,Abu Jubayhah,current,2024-04-01,2024-05-31,3+,91277,0.4
+Abu Karinka,4,7,Abu karinka,,Apr 2024,SDN,47208125,East Darfur,Abu karinka,current,2024-04-01,2024-05-31,3+,77012,0.35
+Abu Kershola,31,16,Abu kershola,,Apr 2024,SDN,47208125,South Kordofan,Abu kershola,current,2024-04-01,2024-05-31,3+,51991,0.5
+Abu Zabad,12,10,Abu Zabad,,Apr 2024,SDN,47208125,West Kordofan,Abu Zabad,current,2024-04-01,2024-05-31,3+,151440,0.5
+Ad Dabbah,0,4,Ad dabbah,,Apr 2024,SDN,47208125,Northern,Ad dabbah,current,2024-04-01,2024-05-31,3+,85100,0.3
+Ad Damar,11,19,Ad damar,,Apr 2024,SDN,47208125,River Nile,Ad damar,current,2024-04-01,2024-05-31,3+,171650,0.3
+Ad Diwaim,0,9,Ad diwaim,,Apr 2024,SDN,47208125,White Nile,Ad diwaim,current,2024-04-01,2024-05-31,3+,231568,0.3
+Adila,0,9,Adila,,Apr 2024,SDN,47208125,East Darfur,Adila,current,2024-04-01,2024-05-31,3+,85845,0.45
+Aj Jabalain,0,5,Aj jabalain,,Apr 2024,SDN,47208125,White Nile,Aj jabalain,current,2024-04-01,2024-05-31,3+,133123,0.4
+Al Buhaira,0,2,Al buhaira,,Apr 2024,SDN,47208125,River Nile,Al buhaira,current,2024-04-01,2024-05-31,3+,19455,0.2
+Al Buram,7,3,Buram,,Apr 2024,SDN,47208125,South Darfur,Buram,current,2024-04-01,2024-05-31,3+,526939,0.55
+Buram,213,29,Buram,,Apr 2024,SDN,47208125,South Darfur,Buram,current,2024-04-01,2024-05-31,3+,526939,0.55
+Al Burgaig,0,3,Al burgaig,,Apr 2024,SDN,47208125,Northern,Al burgaig,current,2024-04-01,2024-05-31,3+,45728,0.25
+Al Butanah,1,5,Al butanah,,Apr 2024,SDN,47208125,Gedaref,Al butanah,current,2024-04-01,2024-05-31,3+,45537,0.3
+Al Dibab,0,2,Al Dibab,,Apr 2024,SDN,47208125,West Kordofan,Al Dibab,current,2024-04-01,2024-05-31,3+,146748,0.5
+Al Fao,26,18,Al fao,,Apr 2024,SDN,47208125,Gedaref,Al fao,current,2024-04-01,2024-05-31,3+,109223,0.25
+Al Fashaga,0,6,Al fashaga,,Apr 2024,SDN,47208125,Gedaref,Al fashaga,current,2024-04-01,2024-05-31,3+,50626,0.35
+Al Fasher,866,382,Al fasher,,Apr 2024,SDN,47208125,North Darfur,Al fasher,current,2024-04-01,2024-05-31,3+,236745,0.75
+Al Galabat Al Gharbyah-Kassab,2,2,Al galabat al gharbyah - kassab,,Apr 2024,SDN,47208125,Gedaref,Al galabat al gharbyah - kassab,current,2024-04-01,2024-05-31,3+,73354,0.35
+Kas,55,9,Al galabat al gharbyah - kassab,,Apr 2024,SDN,47208125,Gedaref,Al galabat al gharbyah - kassab,current,2024-04-01,2024-05-31,3+,73354,0.35
+Al Gitaina,35,45,Al gitaina,,Apr 2024,SDN,47208125,White Nile,Al gitaina,current,2024-04-01,2024-05-31,3+,221350,0.55
+Al Golid,0,3,Al golid,,Apr 2024,SDN,47208125,Northern,Al golid,current,2024-04-01,2024-05-31,3+,53825,0.3
+Al Hasahisa,320,303,Al hasahisa,,Apr 2024,SDN,47208125,Aj Jazirah,Al hasahisa,current,2024-04-01,2024-05-31,3+,2005856,0.55
+Al Idia,15,14,Al Idia,,Apr 2024,SDN,47208125,West Kordofan,Al Idia,current,2024-04-01,2024-05-31,3+,151440,0.5
+Al Kamlin,207,98,Kamlin Janub Al Jazirah,,Apr 2024,SDN,47208125,Aj Jazirah,Kamlin Janub Al Jazirah,current,2024-04-01,2024-05-31,3+,2005856,0.55
+Janub Al Jazirah,187,158,Kamlin Janub Al Jazirah,,Apr 2024,SDN,47208125,Aj Jazirah,Kamlin Janub Al Jazirah,current,2024-04-01,2024-05-31,3+,2005856,0.55
+Al Khiwai,58,6,Al Khiwai,,Apr 2024,SDN,47208125,West Kordofan,Al Khiwai,current,2024-04-01,2024-05-31,3+,174900,0.4
+Al Kurmuk,40,12,Al kurmuk,,Apr 2024,SDN,47208125,Blue Nile,Al kurmuk,current,2024-04-01,2024-05-31,3+,47509,0.55
+Al Lagowa,35,14,Al lagowa,,Apr 2024,SDN,47208125,West Kordofan,Al lagowa,current,2024-04-01,2024-05-31,3+,60657,0.55
+Al Lait,0,2,Melit,,Apr 2024,SDN,47208125,North Darfur,Melit,current,2024-04-01,2024-05-31,3+,261912,0.55
+Melit,33,41,Melit,,Apr 2024,SDN,47208125,North Darfur,Melit,current,2024-04-01,2024-05-31,3+,261912,0.55
+Al Mafaza,0,3,Al mafaza,,Apr 2024,SDN,47208125,Gedaref,Al mafaza,current,2024-04-01,2024-05-31,3+,34158,0.25
+Al Malha,3,3,Al malha,,Apr 2024,SDN,47208125,North Darfur,Al malha,current,2024-04-01,2024-05-31,3+,261912,0.55
+Reifi Shamal Ad Delta,0,1,Al malha,,Apr 2024,SDN,47208125,North Darfur,Al malha,current,2024-04-01,2024-05-31,3+,261912,0.55
+Al Manaqil,51,31,Al manaqil,,Apr 2024,SDN,47208125,Aj Jazirah,Al manaqil,current,2024-04-01,2024-05-31,3+,681606,0.45
+Al Matama,0,5,Al matama,,Apr 2024,SDN,47208125,River Nile,Al matama,current,2024-04-01,2024-05-31,3+,84038,0.25
+Al Meiram,0,2,Al Meiram,,Apr 2024,SDN,47208125,West Kordofan,Al Meiram,current,2024-04-01,2024-05-31,3+,146748,0.5
+Al Quoz,49,26,Al quoz,,Apr 2024,SDN,47208125,South Kordofan,Al quoz,current,2024-04-01,2024-05-31,3+,74778,0.55
+Al Qurashi,17,9,Al Qurashi,,Apr 2024,SDN,47208125,Aj Jazirah,Al Qurashi,current,2024-04-01,2024-05-31,3+,681606,0.45
+Al Radoum,33,6,Al radoum,,Apr 2024,SDN,47208125,South Darfur,Al radoum,current,2024-04-01,2024-05-31,3+,308970,0.45
+Al Tadamon,12,6,At tadamon - sk,,Apr 2024,SDN,47208125,South Kordofan,At tadamon - sk,current,2024-04-01,2024-05-31,3+,22230,0.25
+Al Wihda,1,2,Al Wihda,,Apr 2024,SDN,47208125,South Darfur,Al Wihda,current,2024-04-01,2024-05-31,3+,242549,0.65
+An Nuhud,6,24,An Nuhud,,Apr 2024,SDN,47208125,West Kordofan,An Nuhud,current,2024-04-01,2024-05-31,3+,134355,0.45
+Ar Rahad,100,45,Ar rahad,,Apr 2024,SDN,47208125,Gedaref,Ar rahad,current,2024-04-01,2024-05-31,3+,65640,0.2
+Ar Rahad,100,45,Ar rahad,,Apr 2024,SDN,47208125,North Kordofan,Ar rahad,current,2024-04-01,2024-05-31,3+,236766,0.4
+Ar Reif Ash Shargi,70,15,Ar reif ash shargi,,Apr 2024,SDN,47208125,South Kordofan,Ar reif ash shargi,current,2024-04-01,2024-05-31,3+,38549,0.5
+As Salam/Ar Rawat,0,2,As salam / ar rawat,,Apr 2024,SDN,47208125,White Nile,As salam / ar rawat,current,2024-04-01,2024-05-31,3+,51413,0.3
+As Suki,9,2,As suki,,Apr 2024,SDN,47208125,Sennar,As suki,current,2024-04-01,2024-05-31,3+,200669,0.45
+As Sunut,0,1,As sunut,,Apr 2024,SDN,47208125,West Kordofan,As sunut,current,2024-04-01,2024-05-31,3+,52761,0.35
+At Tina,0,3,At Tina,,Apr 2024,SDN,47208125,North Darfur,At Tina,current,2024-04-01,2024-05-31,3+,121328,0.45
+Atbara,5,19,Rural River Atbara,,Apr 2024,SDN,47208125,Kassala,Rural River Atbara,current,2024-04-01,2024-05-31,3+,66385,0.3
+Bara,60,29,Rural River Atbara,,Apr 2024,SDN,47208125,Kassala,Rural River Atbara,current,2024-04-01,2024-05-31,3+,66385,0.3
+Azum,9,10,Azum,,Apr 2024,SDN,47208125,Central Darfur,Azum,current,2024-04-01,2024-05-31,3+,369837,0.65
+Babanusa,307,77,Babanusa,,Apr 2024,SDN,47208125,West Kordofan,Babanusa,current,2024-04-01,2024-05-31,3+,10020,0.6
+Bahri,1181,744,Bahri,,Apr 2024,SDN,47208125,Khartoum,Bahri,current,2024-04-01,2024-05-31,3+,521150,0.5
+Barbar,0,4,Barbar,,Apr 2024,SDN,47208125,River Nile,Barbar,current,2024-04-01,2024-05-31,3+,37186,0.15
+Basundah,0,7,Basundah,,Apr 2024,SDN,47208125,Gedaref,Basundah,current,2024-04-01,2024-05-31,3+,42800,0.35
+Beida,50,10,Beida,,Apr 2024,SDN,47208125,West Darfur,Beida,current,2024-04-01,2024-05-31,3+,16885,0.5
+Beliel,34,15,Beliel,,Apr 2024,SDN,47208125,South Darfur,Beliel,current,2024-04-01,2024-05-31,3+,453642,0.7
+Bendasi,12,5,Bendasi,,Apr 2024,SDN,47208125,Central Darfur,Bendasi,current,2024-04-01,2024-05-31,3+,369837,0.65
+Dar As Salam,15,18,Dar as salam,,Apr 2024,SDN,47208125,North Darfur,Dar as salam,current,2024-04-01,2024-05-31,3+,128909,0.55
+Delami,72,22,Delami,,Apr 2024,SDN,47208125,South Kordofan,Delami,current,2024-04-01,2024-05-31,3+,22663,0.5
+Delgo,0,3,Delgo,,Apr 2024,SDN,47208125,Northern,Delgo,current,2024-04-01,2024-05-31,3+,25786,0.25
+Dilling,143,53,Dilling,,Apr 2024,SDN,47208125,South Kordofan,Dilling,current,2024-04-01,2024-05-31,3+,108770,0.5
+Dinder,0,5,Ad dinder,,Apr 2024,SDN,47208125,Sennar,Ad dinder,current,2024-04-01,2024-05-31,3+,195838,0.5
+Dongola,1,22,Dongola,,Apr 2024,SDN,47208125,Northern,Dongola,current,2024-04-01,2024-05-31,3+,70031,0.25
+Ed Al Fursan,0,1,Ed al fursan,,Apr 2024,SDN,47208125,South Darfur,Ed al fursan,current,2024-04-01,2024-05-31,3+,310838,0.45
+Ed Damazine,0,30,Ed damazine,,Apr 2024,SDN,47208125,Blue Nile,Ed damazine,current,2024-04-01,2024-05-31,3+,175916,0.5
+El Geneina,4460,242,Ag geneina,,Apr 2024,SDN,47208125,West Darfur,Ag geneina,current,2024-04-01,2024-05-31,3+,140966,0.6
+El Salam,76,36,As salam - sd,,Apr 2024,SDN,47208125,South Darfur,As salam - sd,current,2024-04-01,2024-05-31,3+,453642,0.7
+El Taweisha,0,1,At tawisha,,Apr 2024,SDN,47208125,North Darfur,At tawisha,current,2024-04-01,2024-05-31,3+,124956,0.5
+Foro Baranga,49,11,Bara,,Apr 2024,SDN,47208125,North Kordofan,Bara,current,2024-04-01,2024-05-31,3+,261498,0.45
+Galaa Al Nahal,1,3,Gala'a al nahal,,Apr 2024,SDN,47208125,Gedaref,Gala'a al nahal,current,2024-04-01,2024-05-31,3+,44963,0.3
+Gebrat Al Sheikh,43,9,Gebrat al sheikh,,Apr 2024,SDN,47208125,North Kordofan,Gebrat al sheikh,current,2024-04-01,2024-05-31,3+,192976,0.35
+Geisan,14,2,Geisan,,Apr 2024,SDN,47208125,Blue Nile,Geisan,current,2024-04-01,2024-05-31,3+,58455,0.4
+Gereida,16,4,Gereida,,Apr 2024,SDN,47208125,South Darfur,Gereida,current,2024-04-01,2024-05-31,3+,526939,0.55
+Ghadeer,116,12,Ghadeer,,Apr 2024,SDN,47208125,South Kordofan,Ghadeer,current,2024-04-01,2024-05-31,3+,38972,0.4
+Gharb Jabal Marrah,24,18,Greater Jabal marrah,,Apr 2024,SDN,47208125,Central Darfur,Greater Jabal marrah,current,2024-04-01,2024-05-31,3+,390895,0.5
+Wasat Jabal Marrah,1,2,Greater Jabal marrah,,Apr 2024,SDN,47208125,Central Darfur,Greater Jabal marrah,current,2024-04-01,2024-05-31,3+,390895,0.5
+Ghubaish,20,9,Ghubaish,,Apr 2024,SDN,47208125,West Kordofan,Ghubaish,current,2024-04-01,2024-05-31,3+,174900,0.4
+Habila,134,34,Habila - sk,,Apr 2024,SDN,47208125,South Kordofan,Habila - sk,current,2024-04-01,2024-05-31,3+,41882,0.5
+Halfa,0,5,New Halfa,,Apr 2024,SDN,47208125,Kassala,New Halfa,current,2024-04-01,2024-05-31,3+,135311,0.35
+Halfa Aj Jadeedah,0,3,Halfa,,Apr 2024,SDN,47208125,Northern,Halfa,current,2024-04-01,2024-05-31,3+,28620,0.3
+Haya,0,3,Haya,,Apr 2024,SDN,47208125,Red Sea,Haya,current,2024-04-01,2024-05-31,3+,99110,0.3
+Heiban,3,6,Heiban,,Apr 2024,SDN,47208125,South Kordofan,Heiban,current,2024-04-01,2024-05-31,3+,124651,0.5
+Jebel Awlia,740,354,Jebel awlia,,Apr 2024,SDN,47208125,Khartoum,Jebel awlia,current,2024-04-01,2024-05-31,3+,936591,0.4
+Jebel Moon,4,2,Jebel moon,,Apr 2024,SDN,47208125,West Darfur,Jebel moon,current,2024-04-01,2024-05-31,3+,43720,0.5
+Kadugli,137,64,Kadugli,,Apr 2024,SDN,47208125,South Kordofan,Kadugli,current,2024-04-01,2024-05-31,3+,47301,0.6
+Karrari,1028,332,Karrari,,Apr 2024,SDN,47208125,Khartoum,Karrari,current,2024-04-01,2024-05-31,3+,936591,0.4
+Kateila,2,1,Kateila,,Apr 2024,SDN,47208125,South Darfur,Kateila,current,2024-04-01,2024-05-31,3+,310838,0.45
+Kebkabiya,37,30,Kebkabiya,,Apr 2024,SDN,47208125,North Darfur,Kebkabiya,current,2024-04-01,2024-05-31,3+,256748,0.55
+Keilak,0,2,Keilak,,Apr 2024,SDN,47208125,West Kordofan,Keilak,current,2024-04-01,2024-05-31,3+,36365,0.45
+Kelemando,5,1,Kelemando,,Apr 2024,SDN,47208125,North Darfur,Kelemando,current,2024-04-01,2024-05-31,3+,128909,0.55
+Kereneik,94,21,Kereneik,,Apr 2024,SDN,47208125,West Darfur,Kereneik,current,2024-04-01,2024-05-31,3+,203436,0.6
+Khartoum,1775,1602,Khartoum,,Apr 2024,SDN,47208125,Khartoum,Khartoum,current,2024-04-01,2024-05-31,3+,1083799,0.6
+Kosti,29,28,Kosti,,Apr 2024,SDN,47208125,White Nile,Kosti,current,2024-04-01,2024-05-31,3+,68633,0.35
+Kubum,240,22,Kubum,,Apr 2024,SDN,47208125,South Darfur,Kubum,current,2024-04-01,2024-05-31,3+,310838,0.45
+Kulbus,0,2,Kulbus,,Apr 2024,SDN,47208125,West Darfur,Kulbus,current,2024-04-01,2024-05-31,3+,37011,0.45
+Kutum,190,47,Kutum,,Apr 2024,SDN,47208125,North Darfur,Kutum,current,2024-04-01,2024-05-31,3+,154935,0.6
+Madeinat Al Gedaref,6,53,Madeinat al gedaref,,Apr 2024,SDN,47208125,Gedaref,Madeinat al gedaref,current,2024-04-01,2024-05-31,3+,241232,0.35
+Madeinat Kassala,0,46,Kassala,,Apr 2024,SDN,47208125,Kassala,Kassala,current,2024-04-01,2024-05-31,3+,205212,0.35
+Reifi Gharb Kassala,2,2,Kassala,,Apr 2024,SDN,47208125,Kassala,Kassala,current,2024-04-01,2024-05-31,3+,205212,0.35
+Medani Al Kubra,217,180,Medani al kubra,,Apr 2024,SDN,47208125,Aj Jazirah,Medani al kubra,current,2024-04-01,2024-05-31,3+,166470,0.6
+Merowe,44,26,Merwoe,,Apr 2024,SDN,47208125,Northern,Merwoe,current,2024-04-01,2024-05-31,3+,107151,0.35
+Mershing,38,21,Mershing,,Apr 2024,SDN,47208125,South Darfur,Mershing,current,2024-04-01,2024-05-31,3+,242549,0.65
+Mukjar,28,14,Mukjar,,Apr 2024,SDN,47208125,Central Darfur,Mukjar,current,2024-04-01,2024-05-31,3+,169248,0.6
+Nitega,0,1,Nitega,,Apr 2024,SDN,47208125,South Darfur,Nitega,current,2024-04-01,2024-05-31,3+,242549,0.65
+Nyala Janoub,914,263,Nyala Janoub,,Apr 2024,SDN,47208125,South Darfur,Nyala Janoub,current,2024-04-01,2024-05-31,3+,453642,0.7
+Nyala Shimal,6,7,Nyala Shimal,,Apr 2024,SDN,47208125,South Darfur,Nyala Shimal,current,2024-04-01,2024-05-31,3+,453642,0.7
+Omdurman,1363,901,UmDurman,,Apr 2024,SDN,47208125,Khartoum,UmDurman,current,2024-04-01,2024-05-31,3+,1083799,0.6
+Port Sudan,1,69,Port sudan,,Apr 2024,SDN,47208125,Red Sea,Port sudan,current,2024-04-01,2024-05-31,3+,82759,0.15
+Rabak,1,13,Rabak,,Apr 2024,SDN,47208125,White Nile,Rabak,current,2024-04-01,2024-05-31,3+,188600,0.4
+Rashad,0,3,Ar Rashad,,Apr 2024,SDN,47208125,South Kordofan,Ar Rashad,current,2024-04-01,2024-05-31,3+,91277,0.4
+Rehaid Albirdi,14,4,Rehaid al Birdi,,Apr 2024,SDN,47208125,South Darfur,Rehaid al Birdi,current,2024-04-01,2024-05-31,3+,308970,0.45
+Reifi Kassla,0,1,Kas,,Apr 2024,SDN,47208125,South Darfur,Kas,current,2024-04-01,2024-05-31,3+,198328,0.65
+Reifi Khashm Elgirba,0,3,Baw,,Apr 2024,SDN,47208125,Blue Nile,Baw,current,2024-04-01,2024-05-31,3+,110231,0.55
+Saraf Omra,4,5,Saraf Omra,,Apr 2024,SDN,47208125,North Darfur,Saraf Omra,current,2024-04-01,2024-05-31,3+,256748,0.55
+Sawakin,0,7,Sawakin,,Apr 2024,SDN,47208125,Red Sea,Sawakin,current,2024-04-01,2024-05-31,3+,15004,0.15
+Sennar,123,57,Sennar,,Apr 2024,SDN,47208125,Sennar,Sennar,current,2024-04-01,2024-05-31,3+,367729,0.6
+Sharg Sennar,8,7,Sennar,,Apr 2024,SDN,47208125,Sennar,Sennar,current,2024-04-01,2024-05-31,3+,367729,0.6
+Sharg Aj Jabal,33,10,Sharg aj Jabal,,Apr 2024,SDN,47208125,South Darfur,Sharg aj Jabal,current,2024-04-01,2024-05-31,3+,198328,0.65
+Sharg An Neel,625,272,Sharg an neel,,Apr 2024,SDN,47208125,Khartoum,Sharg an neel,current,2024-04-01,2024-05-31,3+,521150,0.5
+Sheikan,747,185,Sheikan,,Apr 2024,SDN,47208125,North Kordofan,Sheikan,current,2024-04-01,2024-05-31,3+,282220,0.5
+Shendi,40,22,Shendi,,Apr 2024,SDN,47208125,River Nile,Shendi,current,2024-04-01,2024-05-31,3+,175313,0.3
+Shiaria,5,1,Shiaria,,Apr 2024,SDN,47208125,East Darfur,Shiaria,current,2024-04-01,2024-05-31,3+,78097,0.3
+Sinja,2,7,Sinja,,Apr 2024,SDN,47208125,Sennar,Sinja,current,2024-04-01,2024-05-31,3+,147167,0.45
+Sirba,272,28,Sirba,,Apr 2024,SDN,47208125,West Darfur,Sirba,current,2024-04-01,2024-05-31,3+,91961,0.65
+Soudari,21,16,Soudari,,Apr 2024,SDN,47208125,North Kordofan,Soudari,current,2024-04-01,2024-05-31,3+,192976,0.35
+Sunta,51,1,As sunta,,Apr 2024,SDN,47208125,South Darfur,As sunta,current,2024-04-01,2024-05-31,3+,526939,0.55
+Talawdi,4,2,Talawdi,,Apr 2024,SDN,47208125,South Kordofan,Talawdi,current,2024-04-01,2024-05-31,3+,38972,0.4
+Tawila,51,22,Tawila,,Apr 2024,SDN,47208125,North Darfur,Tawila,current,2024-04-01,2024-05-31,3+,154935,0.6
+Tendalti,0,4,Tendalti,,Apr 2024,SDN,47208125,White Nile,Tendalti,current,2024-04-01,2024-05-31,3+,87112,0.35
+Um Algura,46,40,Algura,,Apr 2024,SDN,47208125,Aj Jazirah,Algura,current,2024-04-01,2024-05-31,3+,2005856,0.55
+Um Bada,617,220,Um Bada,,Apr 2024,SDN,47208125,Khartoum,Um Bada,current,2024-04-01,2024-05-31,3+,1083799,0.6
+Um Dafoug,0,3,Um Dafoug,,Apr 2024,SDN,47208125,South Darfur,Um Dafoug,current,2024-04-01,2024-05-31,3+,308970,0.45
+Um Dam Haj Ahmed,39,9,Um Dam Haj Ahmed,,Apr 2024,SDN,47208125,North Kordofan,Um Dam Haj Ahmed,current,2024-04-01,2024-05-31,3+,261498,0.45
+Um Dukhun,1,5,Um Dukhun,,Apr 2024,SDN,47208125,Central Darfur,Um Dukhun,current,2024-04-01,2024-05-31,3+,169248,0.6
+Um Durein,5,3,Um durein,,Apr 2024,SDN,47208125,South Kordofan,Um durein,current,2024-04-01,2024-05-31,3+,65044,0.5
+Um Kadadah,38,23,Um kadadah,,Apr 2024,SDN,47208125,North Darfur,Um kadadah,current,2024-04-01,2024-05-31,3+,261912,0.55
+Um Rawaba,173,65,Um Rawaba,,Apr 2024,SDN,47208125,North Kordofan,Um Rawaba,current,2024-04-01,2024-05-31,3+,236766,0.4
+Um Rimta,9,6,Um Rimta,,Apr 2024,SDN,47208125,White Nile,Um Rimta,current,2024-04-01,2024-05-31,3+,231568,0.3
+Wad Bandah,16,2,Wad Bandah,,Apr 2024,SDN,47208125,West Kordofan,Wad Bandah,current,2024-04-01,2024-05-31,3+,174900,0.4
+Wadi Salih,4,8,Wadi Salih,,Apr 2024,SDN,47208125,Central Darfur,Wadi Salih,current,2024-04-01,2024-05-31,3+,369837,0.65
+Wasat Al Gedaref,1,3,Wasat al gedaref,,Apr 2024,SDN,47208125,Gedaref,Wasat al gedaref,current,2024-04-01,2024-05-31,3+,75026,0.3
+Yassin,18,5,Yassin,,Apr 2024,SDN,47208125,East Darfur,Yassin,current,2024-04-01,2024-05-31,3+,53018,0.35
+Zalingi,379,153,Zalingi,,Apr 2024,SDN,47208125,Central Darfur,Zalingi,current,2024-04-01,2024-05-31,3+,369837,0.65

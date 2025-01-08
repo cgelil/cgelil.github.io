@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
 
     // Process the data
-    d3.csv("https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/project/data/acled.csv").then(function(data) {
+    d3.csv("https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/project/data/acled_monthly.csv").then(function(data) {
         const eventTypes = Array.from(new Set(data.map(d => d.event_type)));
         
         // Parse dates and numbers
