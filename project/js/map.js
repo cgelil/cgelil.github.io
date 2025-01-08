@@ -207,7 +207,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .attr("y", 50)
             .attr("text-anchor", "left")
             .attr("class", "map-subtitle")
-            .attr("font-size", "16px")
+            .attr("font-size", "14px")
             .attr("fill", "#666")
             .text("Current and projected food insecurity phases, 2021 - 2024 | Source: IPC");
         

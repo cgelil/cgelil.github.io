@@ -59,11 +59,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
         svg.append("text")
             .attr("x", -75)
-            .attr("y", -margin.top/4)
+            .attr("y", -margin.top/4.2)
             .attr("text-anchor", "left")
             .style("font-size", containerWidth < 600 ? "12px" : "14px")
             .style("fill", "#666")
-            .text("Correlation Between Violence, Displacement, and Food Insecurity at Admin 2 Level, April 2023 - May 2024 | Source: IPC, ACLED, IOM, HDX");
+            .text("Correlation between violence, displacement, and food insecurity at admin 2 level, April 2023 - May 2024 | Source: HDX, ACLED");
 
         // Load and process data
         d3.csv("https://raw.githubusercontent.com/cgelil/cgelil.github.io/refs/heads/main/project/data/acled_idp_ipc_adm2.csv")

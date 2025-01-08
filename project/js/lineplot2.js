@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .attr("x", -75)
             .attr("y", -margin.top/7.5)
             .attr("text-anchor", "left")
-            .style("font-size", containerWidth < 600 ? "12px" : "146x")
+            .style("font-size", containerWidth < 600 ? "12px" : "14x")
             .style("fill", "#666")
             .text("Number of IDPs in the top 10 countries with the highest number of IDPs, 2014 - 2024 | Source: IOM");
 

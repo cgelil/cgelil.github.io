@@ -104,9 +104,9 @@
                   However, the correlation with the number of internally displaced persons (IDPs) is notably weaker. 
                 This weaker relationship is largely influenced by Khartoum, the epicenter of the conflict, 
                 which has a relatively low number of IDPs. Paradoxically, while Khartoum has fewer displaced individuals,
-                 it remains the primary area of displacement for many IDPs across the country. <br>
+                 it remains the primary area of displacement for many IDPs across the country.
                  Further analysis could look into the relationship based on the area of origin of IDPs, although as of now
-                 the IOM has this data available on an Admin1 level
+                 the IOM has this data available on an Admin1 level.
             </p>
 
         </div>
@@ -114,40 +114,81 @@
 
 
         <div class="writeup">
-            <p> <strong>Data:</strong> <br>
-                <li>HDX data</li> I used the HDX Humanitarian API (HAPI) to download datasets provided from the IOM and IPC
-                <li> <strong>IPC Food Security data:</strong></li> 
-                Using a Python script I first request a list of IPC analyses using the IPCs API, filtering for current data. 
+            <h2><strong>Data sources:</strong></h2>
+            
+            <p> <strong>Humanitarian Data Exchange (HDX): </strong>
+                My starting point was the HDX since it provides direct access to a wide variety of sources from different international organizations.
+                I set up a loop to download all the Bi-Weekly updates from the IOM on displacement, and all the IPC data for Admin levels 1 and 2.
+                I then reshaped and cleaned the data, adjusting data to get it in a useable format for analysis.
+            </p>
+
+            <p><strong>Integrated Food Security Phase Classification (IPC):</strong>
+                Using another loop and the IPCs API, I first request a list of IPC analyses using, filtering for current data. 
                 For each analysis, the script downloads the associated geographic data in GeoJSON format using a second API. If the analysis
-                does not contain current data, the script requests projection data using a third API. The data includes the IPC color scale.
-                <li> <strong> ACLED Events data:</strong></li> Since HDX does not include all event types in their data, I reverted to ACLED.
+                does not contain current data, the script requests projection data using a third API.
+            </p>
+
+            <p> <strong> Armed Conflict Location and Event Data (ACLED):</strong>
+                Since HDX does not include all event types in their data, I reverted to ACLED.
                 ACLED's API has a bandwidth limit that prevents users from retrieving larger 
-                amounts of data in a single call. Instead, ACLED data export tool allows a simple and fast option to download the data in one call.
+                amounts of data in a single call. Instead, ACLED data export tool allows a simple and fast option to download the data in one API call.
                 The dataset contained 17.035 single event observations, which I grouped by month and removed irrelevant event types in order
                 to create a cleaner dataset. 
-                <li>IOMD Internal Displacemnet data</li> 
-
-                <br>
-                
             </p>
-            <p> <strong>Challenges:</strong> <br>
-                I wanted to achieve more interactive animation and customization for the plots, so I used d3.js to create the plots. 
-                The level of customization, especially in relation to the sizes was quite challenging, so I utilized AI tools (Claude, ChatGPT)
-                to aid with the generation of the plots.<br>
-                For the map, I was able to include controls for animating the map updates with a slider and play/pause button, 
-                allowing users to view changes over time. I also was able to render more easily both the polygons and the point geometries
-                to show areas and IDPs/Refugee areas.<br>
 
+            <p> <strong> IOM Internal Displacemnet Matrix:</strong>
+                I used the IOM's API to download all their country data, and then filtered it to include the top 10 countries.
+            </p>
+
+                
+
+            <h2> <strong>Challenges:</strong> <br></h2>
+            <p> 
+                I wanted to create more interactive animation and customization for the plots, so I used d3.js to create the plots. 
+                The level of customization, especially in relation to sizing ,
+                was quite challenging, so I utilized AI tools (Claude, ChatGPT)
+                to aid with the generation of the plots.<br>
+            </p>
+                For the map, I was able to include controls for animating the map updates, allowing users to view changes over time. I also was able to render more easily both the polygons and the point geometries
+                to show areas and IDPs/Refugee areas.<br>
+            <p>
                 Secondly, when I was creating the scatterplots, I faced challenges matching the list of over 100 admin2 area names which
                 were not equivalent across sources. For that, I used the python package fuzzywords to create a mapping dictionary based on 
                 word similarity. 
-
             </p>
 
-            <p> <strong>Python code and javascript for figures:</strong> <br>
-                <li> <strong>Python code including API scripts and preprocessing of data</strong></li> 
-
+            <h2> <strong>Code and javascript for figures:</strong> <br></h2>
+            <p> 
+                <li>Python code including API scripts and preprocessing of all data: 
+                    <a href="https://github.com/cgelil/cgelil.github.io/blob/main/project/sudan.ipynb">Link</a>.
+                </li>
             </p>
+
+            <p> 
+                <li> Map of food insecurity: 
+                    <a href="https://github.com/cgelil/cgelil.github.io/blob/main/project/js/map.js">Map.js</a>.
+                </li>
+            </p>
+
+            <p> 
+                <li> Lineplot of conflict incidents: 
+                    <a href="https://github.com/cgelil/cgelil.github.io/blob/main/project/js/lineplot.js">Lineplot_ACLED.js</a>.
+                </li>
+            </p>
+
+            <p> 
+                <li> Lineplot of IDPs: 
+                    <a href="https://github.com/cgelil/cgelil.github.io/blob/main/project/js/lineplot2.js">Lineplot_IDP.js</a>.
+                </li>
+            </p>
+
+
+            <p> 
+                <li> Scatterplot: 
+                    <a href="https://github.com/cgelil/cgelil.github.io/blob/main/project/js/scatter.js">Scatterplot.js</a>.
+                </li>
+            </p>
+
         </div>
 
     </section>
