@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', function () {
     // Color scheme
     const colors = {
         eventColors: {
-            'Battles': '#001524',
-            'Explosions': '#15616D',
-            'Protests': '#FFECD1',
-            'Violence against civilians': '#FF7D00'
+            'Battles': '#005F73',
+            'Explosions': '#94D2BD',
+            'Protests': '#EE9B00',
+            'Violence against civilians': '#BB3E03'
         }
     };
 
@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 .attr("y", d => y(d[1]))
                 .attr("height", d => y(d[0]) - y(d[1]))
                 .attr("width", barWidth)
-                .style("opacity", 0.7)
+                .style("opacity", 0.9)
                 .on("mouseover", function(event, d) {
                     tooltip.transition()
                         .duration(200)
