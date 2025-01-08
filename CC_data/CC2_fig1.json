@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Electricity",
+    "text": "Egypt: Electricity",
     "anchor": "start",
     "subtitle": "Output, GWh, | IEA via ECO-API",
     "fontSize": 14,

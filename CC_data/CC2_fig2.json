@@ -5,7 +5,7 @@
   "padding": 5,
   "height": 250,
   "title": {
-    "text": "GDP per capita",
+    "text": "Egypt: GDP per capita",
     "anchor": "start",
     "subtitle": "2015 USD | Source: CAPMAS (WB) through ECO API",
     "fontSize": 14,

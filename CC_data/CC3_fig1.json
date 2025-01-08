@@ -257,8 +257,8 @@
     "type": "line"
   },
   "title": {
-    "subtitle": "% of children living below absolute/relative median income, 2002-2023. Source: FRS",
-    "text": "Percentage of children living in poverty after housing costs"
+    "subtitle": "Estimated childred living below absolute/relative median income, 2002-2023. Source: FRS",
+    "text": "Percentage of children living in poverty"
   },
-  "width": 600
+  "width": "container"
 }

@@ -1,9 +1,9 @@
 /* Body and general styling */
 body {
-  font-family:  Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 20;
   margin: 0;
-  font-size: 28px; 
+  font-size: 20px; /* Adjusted font size */
   color: #001d3d;
   scroll-behavior: smooth;
 }
@@ -24,11 +24,12 @@ body {
 }
 
 .header-name {
-  font-size: 2rem; /* Adjusted font size */
+  font-size: 1.5rem; /* Adjusted font size */
   color: #000814;
   font-family: Helvetica, sans-serif;
 }
 
+/* Header styling */
 .dropdown {
   position: relative;
   margin-right: 5px; 
@@ -47,10 +48,10 @@ body {
 }
 
 .bar {
-  width: 40px; /* Adjusted size */
-  height: 4px; /* Adjusted size */
+  width: 40px; 
+  height: 4px; 
   background-color: white;
-  margin: 3px 0; /* Adjusted margin */
+  margin: 3px 0; 
   border-radius: 2px;
 }
 
@@ -72,7 +73,7 @@ body {
 
 .dropdown-content a {
   color: #000814;
-  padding: 10px 12px; /* Adjusted padding */
+  padding: 10px 12px; 
   text-decoration: none;
   display: block;
   transition: background-color 0.3s ease;
@@ -84,14 +85,35 @@ body {
   transform: scale(1.05);
 }
 
+/* Introduction section */
+.introduction {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  background-color: #81a4cd;
+  padding-left: 200px; 
+  padding-right: 200px;
+}
+
+.introduction main {
+  font-size: 2rem; 
+  font-weight: normal;
+  color: #000814;
+}
+
+.introduction sub {
+  font-size: 1.5rem; 
+  font-weight: normal;
+  color: #000814;
+  margin-top: 5px;
+}
+
 /* Container to hold content */
 .container {
-  max-width: 1200px; /* Adjusted width */
+  max-width: 1200px; 
   margin: 0 auto;
   padding: 10px;
-  width: 100%;
-  padding-top: 20px; /* Adjusted padding */
-
+  width: 80%;
+  padding-top: 20px; 
 }
 
 /* Layout for charts grid */
@@ -100,30 +122,9 @@ body {
   flex-wrap: wrap;
   align-items: center;
   gap: 30px;
-  justify-content: center; /* Center the charts */
+  justify-content: center; 
 }
 
-/* Introduction section */
-.introduction {
-  text-align: center;
-  font-family: Helvetica, sans-serif;
-  background-color: #81a4cd;
-  padding-left: 500px; /* Added padding */
-  padding-right: 500px; /* Added padding */
-}
-
-.introduction main {
-  font-size: 3rem; /* Adjusted font size */
-  font-weight: normal;
-  color: #000814;
-}
-
-.introduction sub {
-  font-size: 1.5rem; /* Adjusted font size */
-  font-weight: normal;
-  color: #000814;
-  margin-top: 5px;
-}
 
 /* Section Styles */
 section {
@@ -139,7 +140,7 @@ h1, h3 {
 
 h2 {
   margin: 0 0 10px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 a {

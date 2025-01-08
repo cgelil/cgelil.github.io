@@ -372,8 +372,8 @@
     "type": "line"
   },
   "title": {
-    "subtitle": "Estimates for reception year and year 6, 2014 - 2023. Source: NHS",
+    "subtitle": "Estimates for reception year and year 6, 2014 - 2023. | Source: NHS",
     "text": "Percentage of children who are overweight"
   },
-  "width": 600
+  "width": "container"
 }

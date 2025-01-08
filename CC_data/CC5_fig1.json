@@ -986,8 +986,8 @@
             "size": 100,
             "type": "circle"
           },
-          "name": "view_39",
-          "title": "ATP Tennis Rankings Distribution"
+          "name": "view_5",
+          "title": "ATP"
         },
         {
           "data": {
@@ -1080,8 +1080,8 @@
             "size": 100,
             "type": "circle"
           },
-          "name": "view_40",
-          "title": "WTA Tennis Rankings Distribution"
+          "name": "view_6",
+          "title": "WTA"
         },
         {
           "data": {
@@ -1119,7 +1119,7 @@
   "params": [
     {
       "bind": "scales",
-      "name": "param_39",
+      "name": "param_5",
       "select": {
         "encodings": [
           "x",
@@ -1128,12 +1128,12 @@
         "type": "interval"
       },
       "views": [
-        "view_39"
+        "view_5"
       ]
     },
     {
       "bind": "scales",
-      "name": "param_40",
+      "name": "param_6",
       "select": {
         "encodings": [
           "x",
@@ -1142,7 +1142,7 @@
         "type": "interval"
       },
       "views": [
-        "view_40"
+        "view_6"
       ]
     }
   ],
@@ -1150,5 +1150,9 @@
     "scale": {
       "color": "independent"
     }
+  },
+  "title": {
+    "subtitle": "Difference in year-end ranking points obtained by top 10 players in the past 5 years, by tour | Source: Eurosport",
+    "text": "Distribution of Tennis Ranking Points"
   }
 }
